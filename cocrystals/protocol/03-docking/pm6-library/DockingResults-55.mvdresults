@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:10:28)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-5.64511	0	-4.99443	1	2	2	-38.2074	0	0	-38.2074	0	0	-6.0359	0	0.592495	0.42059	-5.02281	-0.261831	0	0	-43.2302	0	0	-43.2302	[00]L-serine.mvdml	0	7	-6.17575	-3.22012	L-serine	105.093	1	[00]L-serine	0	0	1	0	0	-42.7003	0	-22.5408	0	0	0	2	0	0	0	OCC(N)C(=O)O
+1	0	-6.31708	0	-5	1	2	2	-37.9537	0	0	-37.9537	0	0	-5.72555	0	0.565389	0.169228	-4.99093	-0.290477	0	0	-42.9446	0	0	-42.9446	[01]L-serine.mvdml	0	7	-6.13495	-3.23322	L-serine	105.093	1	[01]L-serine	0	0	1	0	0	-42.2188	0	-22.6325	0	0	0	2	0	0	0	OCC(N)C(=O)O
+1	0	-7.28609	0	-4.99885	1	2	2	-37.4943	0	0	-37.4943	0	0	-8.52916	0	3.12112	0.421633	-4.98641	1.04519	0	0	-42.4807	0	0	-42.4807	[02]L-serine.mvdml	0	7	-6.06867	-3.07057	L-serine	105.093	1	[02]L-serine	0	0	1	0	0	-42.1283	0	-21.494	0	0	0	2	0	0	0	OCC(N)C(=O)O
+1	0	-6.97171	0	-5	1	2	2	-36.8087	0	0	-36.8087	0	0	-6.21931	0	0.84546	0.132355	-5.24149	-0.0534909	0	0	-42.0502	0	0	-42.0502	[03]L-serine.mvdml	0	7	-6.00718	-3.1281	L-serine	105.093	1	[03]L-serine	0	0	1	0	0	-41.4531	0	-21.8967	0	0	0	2	0	0	0	OCC(N)C(=O)O
+1	0	-7.45673	0	-4.99848	1	2	2	-37.3719	0	0	-37.3719	0	0	-5.73127	0	0.570474	0.139624	-5.02118	-0.272681	0	0	-42.3931	0	0	-42.3931	[04]L-serine.mvdml	0	7	-6.05615	-3.18667	L-serine	105.093	1	[04]L-serine	0	0	1	0	0	-40.7703	0	-22.3067	0	0	0	2	0	0	0	OCC(N)C(=O)O

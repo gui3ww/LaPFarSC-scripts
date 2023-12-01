@@ -1,0 +1,54 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:04:54" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-33.4494" OriginalLigandName="benzoic_acid" Rank="-1" name="[00]benzoic_acid" NumberOfRotatableBonds="1" RMSD="-1" rootAtom="1" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/benzoic_acid.out.mol2" >
+<AtomList count="15" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="32.5758,22.7172,-15.8917" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="1" vol="10.8" hyb="2" pos="32.2417,21.6358,-14.9512" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="2" vol="10.8" hyb="2" pos="32.9968,21.3911,-13.7926" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="3" vol="10.8" hyb="2" pos="32.6285,20.3495,-12.9375" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="4" vol="10.8" hyb="2" pos="31.5126,19.5576,-13.2321" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="5" vol="10.8" hyb="2" pos="30.7599,19.8001,-14.3875" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="6" vol="10.8" hyb="2" pos="31.1191,20.8387,-15.2453" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="7" vol="10" hyb="2" pos="31.9758,23.0357,-16.909" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="8" vol="10" pos="33.6943,23.4211,-15.5481" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="33.8679,22.0134,-13.5645" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="33.2111,20.1525,-12.0336" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="31.2278,18.7422,-12.5622" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="29.8893,19.1809,-14.6172" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="30.5382,21.0396,-16.1522" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="33.5937,23.8796,-14.6485" elem="1" />
+</AtomList>
+<BondList count="15" basetype="MVD.Model.Bond" >
+<Bond rot="t" a1="0" a2="8" />
+<Bond rot="t" chosen="t" a1="0" a2="1" />
+<Bond a1="1" inRing="t" a2="2" type="5" />
+<Bond a1="2" a2="9" />
+<Bond a1="2" inRing="t" a2="3" type="5" />
+<Bond a1="3" a2="10" />
+<Bond a1="4" inRing="t" a2="3" type="5" />
+<Bond a1="4" a2="11" />
+<Bond a1="5" inRing="t" a2="4" type="5" />
+<Bond a1="6" inRing="t" a2="1" type="5" />
+<Bond a1="6" inRing="t" a2="5" type="5" />
+<Bond a1="7" a2="0" type="1" />
+<Bond a1="12" a2="5" />
+<Bond a1="13" a2="6" />
+<Bond a1="14" a2="8" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-8.37721;Cofactor (elec)=0;Cofactor (hbond)=-2.5;Csp2=7;Csp3=0;DOF=1;E-Inter (cofactor - ligand)=-44.2902;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-44.2902;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0.00433132;E-Intra (steric)=10.8365;E-Intra (tors)=0.00433132;E-Intra (tors, ligand atoms)=10.8408;E-Intra (vdw)=27.7816;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-33.4494;Electro=0;ElectroLong=0;Energy=-33.4494;HBond=0;HeavyAtoms=9;LE1=-3.7166;LE3=-2.3256;Ligand=benzoic_acid;MW=122.121;N=0;Name=benzoic_acid;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-33.1675;RMSD=0;RerankScore=-20.9304;Run=0;SimilarityScore=0;Steric=0;Torsions=1;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

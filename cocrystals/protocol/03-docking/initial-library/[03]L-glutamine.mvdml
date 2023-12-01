@@ -1,0 +1,63 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:01:12" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-55.7983" OriginalLigandName="L-glutamine" Rank="-1" name="[03]L-glutamine" NumberOfRotatableBonds="4" RMSD="-1" rootAtom="3" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/L-glutamine.mol2" >
+<AtomList count="20" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="33.2691,20.354,-11.6308" elem="6" />
+<Atom pdbid="1" triposAtomType="8" pdb="81" sol="-17.4" type="1" genericType="-1" id="1" vol="10" pos="31.1971,21.3179,-12.4807" elem="7" ih="2" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="32.4631,20.6766,-12.8731" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="33.2249,21.5774,-13.8591" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="32.4023,21.9154,-15.1123" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" hyb="2" pos="33.1554,22.8238,-16.0683" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="6" vol="10" hyb="2" pos="33.4594,22.5243,-17.1962" elem="8" />
+<Atom pdbid="1" triposAtomType="10" pdb="81" sol="-17.4" type="1" genericType="-1" id="7" vol="10" hyb="2" pos="33.4891,24.0407,-15.5589" elem="7" ih="2" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="8" vol="10" hyb="2" pos="33.7435,21.1422,-10.8488" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="9" vol="10" pos="33.4132,19.0258,-11.4686" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="30.6294,21.5465,-13.3147" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="31.3795,22.2252,-12.0167" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="32.2103,19.7112,-13.3741" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="33.4997,22.5288,-13.3426" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="34.1788,21.0795,-14.1528" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="32.121,20.9872,-15.6619" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="31.4556,22.4232,-14.8122" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="33.9961,24.6773,-16.1572" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="33.241,24.2975,-14.6138" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="19" vol="10" pos="33.9559,18.8797,-10.6769" elem="1" />
+</AtomList>
+<BondList count="19" basetype="MVD.Model.Bond" >
+<Bond rot="t" chosen="t" a1="0" a2="2" />
+<Bond a1="0" a2="8" type="1" />
+<Bond rot="t" a1="0" a2="9" />
+<Bond rot="t" a1="1" a2="2" />
+<Bond a1="1" a2="10" />
+<Bond a1="1" a2="11" />
+<Bond rot="t" chosen="t" a1="2" a2="3" />
+<Bond a1="2" a2="12" />
+<Bond rot="t" chosen="t" a1="3" a2="4" />
+<Bond a1="3" a2="13" />
+<Bond a1="3" a2="14" />
+<Bond rot="t" chosen="t" a1="4" a2="5" />
+<Bond a1="4" a2="15" />
+<Bond a1="4" a2="16" />
+<Bond a1="5" a2="6" type="1" />
+<Bond a1="5" a2="7" type="3" />
+<Bond a1="7" a2="17" />
+<Bond a1="7" a2="18" />
+<Bond a1="9" a2="19" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-9.50844;Cofactor (elec)=0;Cofactor (hbond)=-6.08343;Csp2=1;Csp3=3;DOF=4;E-Inter (cofactor - ligand)=-53.3376;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-53.3376;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-3.77476;E-Intra (sp2-sp2)=0;E-Intra (steric)=1.13812;E-Intra (tors)=0.175989;E-Intra (tors, ligand atoms)=-2.46065;E-Intra (vdw)=1.2333;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-55.7983;Electro=0;ElectroLong=0;Energy=-55.7983;HBond=0;HeavyAtoms=10;LE1=-5.57983;LE3=-3.1577;Ligand=L-glutamine;MW=146.144;N=2;Name=L-glutamine;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-52.7197;RMSD=0;RerankScore=-31.577;Run=0;SimilarityScore=0;Steric=0;Torsions=4;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

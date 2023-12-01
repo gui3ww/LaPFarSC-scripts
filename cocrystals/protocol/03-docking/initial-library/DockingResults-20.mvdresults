@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:09:11)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-18.1585	0	-4.44056	8	9	9	-92.3816	0	0	-92.3816	0	0	-2.5	0	2.05068	6.44276	5.99344	48.3191	0	0	-86.3881	0	0	-86.3881	[00]capsaicin.mvdml	0	22	-3.92673	-1.93188	capsaicin	305.412	1	[00]capsaicin	0	0	1	0	1	-77.4295	0	-42.5013	0	0	0	9	0	1	0	O[c]([c](OC)[cH]1)[cH][cH][c]1Cnc(=O)CCCCC=CC(C)C
+1	0	-18.566	0	-2.5	8	9	9	-89.7468	0	0	-89.7468	0	0	-2.5	0	3.86657	7.04221	8.40879	52.5168	0	0	-81.3381	0	0	-81.3381	[01]capsaicin.mvdml	0	22	-3.69718	-1.7935	capsaicin	305.412	1	[01]capsaicin	0	0	1	0	1	-73.1228	0	-39.4571	0	0	0	9	0	1	0	O[c]([c](OC)[cH]1)[cH][cH][c]1Cnc(=O)CCCCC=CC(C)C
+1	0	-21.14	0	-2.5	8	9	9	-88.3094	0	0	-88.3094	0	0	-2.5	0	2.95362	9.56322	10.0168	49.0315	0	0	-78.2926	0	0	-78.2926	[02]capsaicin.mvdml	0	22	-3.55875	-1.67584	capsaicin	305.412	1	[02]capsaicin	0	0	1	0	1	-72.3016	0	-36.8686	0	0	0	9	0	1	0	O[c]([c](OC)[cH]1)[cH][cH][c]1Cnc(=O)CCCCC=CC(C)C
+1	0	-18.0584	0	-4.13598	8	9	9	-91.4531	0	0	-91.4531	0	0	-2.5	0	1.78812	5.68418	4.9723	47.3915	0	0	-86.4808	0	0	-86.4808	[03]capsaicin.mvdml	0	22	-3.93094	-1.94673	capsaicin	305.412	1	[03]capsaicin	0	0	1	0	1	-72.0421	0	-42.828	0	0	0	9	0	1	0	O[c]([c](OC)[cH]1)[cH][cH][c]1Cnc(=O)CCCCC=CC(C)C
+1	0	-19.6936	0	0	8	9	9	-87.3947	0	0	-87.3947	0	0	-2.5	0	3.1427	5.25604	5.89874	47.7139	0	0	-81.4959	0	0	-81.4959	[04]capsaicin.mvdml	0	22	-3.70436	-1.8413	capsaicin	305.412	1	[04]capsaicin	0	0	1	0	1	-72.0348	0	-40.5087	0	0	0	9	0	1	0	O[c]([c](OC)[cH]1)[cH][cH][c]1Cnc(=O)CCCCC=CC(C)C

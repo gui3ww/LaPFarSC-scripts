@@ -1,0 +1,62 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:09:11" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-31.7199" OriginalLigandName="caprolactam" Rank="-1" name="[02]caprolactam" RMSD="-1" rootAtom="3" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/caprolactam.mol2" >
+<AtomList count="19" basetype="MVD.Model.Atom" >
+<Atom triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="0" vol="10" hyb="2" pos="32.8073,20.8788,-11.9215" elem="8" />
+<Atom cc="3" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="32.2048,21.1215,-12.9508" elem="6" />
+<Atom cc="3" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="32.9045,21.29,-14.2862" elem="6" ih="2" />
+<Atom cc="3" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="32.8046,22.6915,-14.9149" elem="6" ih="2" />
+<Atom cc="3" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="31.4723,23.0021,-15.6039" elem="6" ih="2" />
+<Atom cc="3" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" pos="30.2364,22.9144,-14.6997" elem="6" ih="2" />
+<Atom cc="3" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="6" vol="12.77" pos="30.0083,21.5183,-14.1041" elem="6" ih="2" />
+<Atom cc="3" triposAtomType="10" pdb="81" sol="-17.4" type="1" genericType="-1" id="7" vol="10" hyb="2" pos="30.8632,21.1463,-12.99" elem="7" ih="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="33.949,21.0822,-14.0144" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="32.6057,20.5075,-15.0042" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="33.0209,23.4543,-14.1459" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="33.613,22.7738,-15.6645" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="31.3406,22.3055,-16.4518" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="31.5273,24.0129,-16.0472" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="29.343,23.165,-15.2992" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="30.2966,23.6653,-13.8932" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="28.9725,21.4615,-13.7249" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="30.0767,20.7571,-14.9026" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="30.4232,21.0415,-12.0903" elem="1" />
+</AtomList>
+<BondList count="19" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="1" type="1" />
+<Bond a1="1" inRing="t" a2="2" />
+<Bond a1="2" inRing="t" a2="3" />
+<Bond a1="2" a2="8" />
+<Bond a1="2" a2="9" />
+<Bond a1="3" inRing="t" a2="4" />
+<Bond a1="3" a2="10" />
+<Bond a1="3" a2="11" />
+<Bond a1="4" inRing="t" a2="5" />
+<Bond a1="4" a2="12" />
+<Bond a1="4" a2="13" />
+<Bond a1="5" inRing="t" a2="6" />
+<Bond a1="5" a2="14" />
+<Bond a1="5" a2="15" />
+<Bond a1="6" inRing="t" a2="7" />
+<Bond a1="6" a2="16" />
+<Bond a1="6" a2="17" />
+<Bond a1="7" inRing="t" a2="1" type="3" />
+<Bond a1="7" a2="18" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-5.86937;Cofactor (elec)=0;Cofactor (hbond)=-2.36846;Csp2=0;Csp3=5;DOF=0;E-Inter (cofactor - ligand)=-36.3325;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-36.3325;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0;E-Intra (steric)=4.61257;E-Intra (tors)=0;E-Intra (tors, ligand atoms)=4.61257;E-Intra (vdw)=9.71743;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-31.7199;Electro=0;ElectroLong=0;Energy=-31.7199;HBond=0;HeavyAtoms=8;LE1=-3.96499;LE3=-2.46601;Ligand=caprolactam;MW=113.158;N=1;Name=caprolactam;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-31.2024;RMSD=0;RerankScore=-19.7281;Run=0;SimilarityScore=0;Steric=0;Torsions=0;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

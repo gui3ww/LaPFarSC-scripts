@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 21:52:53)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-9.89402	0	-5	2	1	0	-40.662	0	0	-40.662	0	0	0	0	0.258206	0	0.258206	3.55684	0	0	-40.4038	0	0	-40.4038	[00]acesulfame.mvdml	0	10	-4.04038	-2.39397	acesulfame	163.152	1	[00]acesulfame	0	0	0	0	1	-39.9111	0	-23.9397	0	0	0	0	0	1	0	O=c1nS([O])([O])OC(C)=C1
+1	0	-8.58235	0	-7.31599	2	1	0	-40.0031	0	0	-40.0031	0	0	0	0	0.258537	0	0.258537	3.55735	0	0	-39.7446	0	0	-39.7446	[01]acesulfame.mvdml	0	10	-3.97446	-2.35429	acesulfame	163.152	1	[01]acesulfame	0	0	0	0	1	-39.3001	0	-23.5429	0	0	0	0	0	1	0	O=c1nS([O])([O])OC(C)=C1
+1	0	-9.23597	0	-6.11567	2	1	0	-38.7413	0	0	-38.7413	0	0	0	0	0.258275	0	0.258275	3.55695	0	0	-38.4831	0	0	-38.4831	[02]acesulfame.mvdml	0	10	-3.84831	-2.27834	acesulfame	163.152	1	[02]acesulfame	0	0	0	0	1	-37.7498	0	-22.7834	0	0	0	0	0	1	0	O=c1nS([O])([O])OC(C)=C1
+1	0	-8.36519	0	-6.13251	2	1	0	-39.3185	0	0	-39.3185	0	0	0	0	0.258575	0	0.258575	3.55742	0	0	-39.06	0	0	-39.06	[03]acesulfame.mvdml	0	10	-3.906	-2.31308	acesulfame	163.152	1	[03]acesulfame	0	0	0	0	1	-37.6184	0	-23.1308	0	0	0	0	0	1	0	O=c1nS([O])([O])OC(C)=C1
+1	0	-10.0467	0	-2.5	2	1	0	-37.6867	0	0	-37.6867	0	0	0	0	0.258478	0	0.258478	3.55726	0	0	-37.4283	0	0	-37.4283	[04]acesulfame.mvdml	0	10	-3.74283	-2.21485	acesulfame	163.152	1	[04]acesulfame	0	0	0	0	1	-37.1398	0	-22.1485	0	0	0	0	0	1	0	O=c1nS([O])([O])OC(C)=C1

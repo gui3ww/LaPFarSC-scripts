@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:13:24)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-8.37245	0	-9.17092	2	2	3	-43.6705	0	0	-43.6705	0	0	-6.51236	0	4.04917	1.03307	-1.43013	2.49833	0	0	-45.1006	0	0	-45.1006	[00]malic_acid.mvdml	0	9	-5.01118	-2.69743	malic_acid	134.087	0	[00]malic_acid	0	0	1	0	0	-44.4268	0	-24.2769	0	0	0	3	0	0	0	OC(=O)CC(O)C(=O)O
+1	0	-8.39486	0	-9.64498	2	2	3	-43.3396	0	0	-43.3396	0	0	-5.9824	0	4.11145	1.39323	-0.477724	3.44963	0	0	-43.8173	0	0	-43.8173	[01]malic_acid.mvdml	0	9	-4.86859	-2.62188	malic_acid	134.087	0	[01]malic_acid	0	0	1	0	0	-43.0858	0	-23.5969	0	0	0	3	0	0	0	OC(=O)CC(O)C(=O)O
+1	0	-7.48864	0	-8.51347	2	2	3	-43.3651	0	0	-43.3651	0	0	-6.6235	0	5.30417	0.777423	-0.541908	4.12096	0	0	-43.907	0	0	-43.907	[02]malic_acid.mvdml	0	9	-4.87855	-2.6546	malic_acid	134.087	0	[02]malic_acid	0	0	1	0	0	-42.6446	0	-23.8914	0	0	0	3	0	0	0	OC(=O)CC(O)C(=O)O
+1	0	-7.98342	0	-7.49731	2	2	3	-41.1699	0	0	-41.1699	0	0	-5.11918	0	2.84354	0.602107	-1.67353	1.82535	0	0	-42.8435	0	0	-42.8435	[03]malic_acid.mvdml	0	9	-4.76039	-2.60852	malic_acid	134.087	0	[03]malic_acid	0	0	1	0	0	-42.3025	0	-23.4767	0	0	0	3	0	0	0	OC(=O)CC(O)C(=O)O
+1	0	-9.03093	0	-7.5	2	2	3	-42.3977	0	0	-42.3977	0	0	-5.09876	0	3.41675	0.99836	-0.683649	2.91021	0	0	-43.0814	0	0	-43.0814	[04]malic_acid.mvdml	0	9	-4.78682	-2.62164	malic_acid	134.087	0	[04]malic_acid	0	0	1	0	0	-42.2221	0	-23.5948	0	0	0	3	0	0	0	OC(=O)CC(O)C(=O)O

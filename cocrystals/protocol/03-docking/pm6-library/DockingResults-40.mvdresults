@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:45:35)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-15.7873	0	-7.49939	1	11	8	-72.3204	0	0	-72.3204	0	0	-41.7086	0	-4.92353	11.542	-35.0901	14.3968	0	0	-107.411	0	0	-107.411	[00]lactobionic_acid.mvdml	0	24	-4.47544	-1.31484	lactobionic_acid	358.296	0	[00]lactobionic_acid	0	0	8	0	2	-106.425	0	-31.5562	0	0	0	8	0	0	0	OCC(O)C(C(O)C(C(=O)O)O)OC1OC(CO)C(O)C(O)C1O
+1	0	-5.03224	0	-12.2657	1	11	8	-68.1457	0	0	-68.1457	0	0	-38.2425	0	-2.60692	5.54966	-35.2998	12.4922	0	0	-103.445	0	0	-103.445	[01]lactobionic_acid.mvdml	0	24	-4.31023	-1.43875	lactobionic_acid	358.296	0	[01]lactobionic_acid	0	0	8	0	2	-102.623	0	-34.5301	0	0	0	8	0	0	0	OCC(O)C(C(O)C(C(=O)O)O)OC1OC(CO)C(O)C(O)C1O
+1	0	-14.1437	0	-9.95848	1	11	8	-65.6369	0	0	-65.6369	0	0	-39.7157	0	-8.41974	11.8265	-36.3089	9.84111	0	0	-101.946	0	0	-101.946	[02]lactobionic_acid.mvdml	0	24	-4.24774	-1.18752	lactobionic_acid	358.296	0	[02]lactobionic_acid	0	0	8	0	2	-101.062	0	-28.5004	0	0	0	8	0	0	0	OCC(O)C(C(O)C(C(=O)O)O)OC1OC(CO)C(O)C(O)C1O
+1	0	-9.07355	0	-8.20714	1	11	8	-65.2648	0	0	-65.2648	0	0	-41.501	0	-5.83189	9.74388	-37.589	9.60118	0	0	-102.854	0	0	-102.854	[03]lactobionic_acid.mvdml	0	24	-4.28557	-1.24242	lactobionic_acid	358.296	0	[03]lactobionic_acid	0	0	8	0	2	-100.853	0	-29.8182	0	0	0	8	0	0	0	OCC(O)C(C(O)C(C(=O)O)O)OC1OC(CO)C(O)C(O)C1O
+1	0	-14.6659	0	-7.48507	1	11	8	-65.7935	0	0	-65.7935	0	0	-41.3381	0	-4.0541	10.1721	-35.2201	15.1109	0	0	-101.014	0	0	-101.014	[04]lactobionic_acid.mvdml	0	24	-4.2089	-1.1943	lactobionic_acid	358.296	0	[04]lactobionic_acid	0	0	8	0	2	-100.126	0	-28.6631	0	0	0	8	0	0	0	OCC(O)C(C(O)C(C(=O)O)O)OC1OC(CO)C(O)C(O)C1O

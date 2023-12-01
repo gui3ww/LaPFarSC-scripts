@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:37:38)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-8.05917	0	-2.5	5	1	2	-44.0402	0	0	-44.0402	0	0	0	0.0136714	1.27732	0.0136714	1.29099	5.07026	0	0	-42.7492	0	0	-42.7492	[00]sorbic_acid.mvdml	0	8	-5.34365	-3.19578	sorbic_acid	112.127	0	[00]sorbic_acid	0	0	0	0	0	-42.471	0	-25.5662	0	0	0	2	0	0	0	O=C(O)C=CC=CC
+1	0	-7.28707	0	-2.5	5	1	2	-40.1713	0	0	-40.1713	0	0	0	0.54373	-1.03331	0.54373	-0.489576	-0.0888296	0	0	-40.6609	0	0	-40.6609	[01]sorbic_acid.mvdml	0	8	-5.08261	-2.93967	sorbic_acid	112.127	0	[01]sorbic_acid	0	0	0	0	0	-40.4753	0	-23.5174	0	0	0	2	0	0	0	O=C(O)C=CC=CC
+1	0	-9.1128	0	-2.49942	5	1	2	-39.9509	0	0	-39.9509	0	0	0	0.180457	-1.02904	0.180457	-0.848582	-0.0989167	0	0	-40.7994	0	0	-40.7994	[02]sorbic_acid.mvdml	0	8	-5.09993	-2.99464	sorbic_acid	112.127	0	[02]sorbic_acid	0	0	0	0	0	-40.3713	0	-23.9571	0	0	0	2	0	0	0	O=C(O)C=CC=CC
+1	0	-8.97799	0	0	5	1	2	-39.5127	0	0	-39.5127	0	0	0	0.375169	-1.03503	0.375169	-0.659865	-0.0987956	0	0	-40.1726	0	0	-40.1726	[03]sorbic_acid.mvdml	0	8	-5.02158	-2.92349	sorbic_acid	112.127	0	[03]sorbic_acid	0	0	0	0	0	-39.8993	0	-23.3879	0	0	0	2	0	0	0	O=C(O)C=CC=CC
+1	0	-8.17863	0	-2.49898	5	1	2	-39.7108	0	0	-39.7108	0	0	0	0.583794	-1.08162	0.583794	-0.497829	-0.149632	0	0	-40.2086	0	0	-40.2086	[04]sorbic_acid.mvdml	0	8	-5.02607	-2.89923	sorbic_acid	112.127	0	[04]sorbic_acid	0	0	0	0	0	-39.6856	0	-23.1938	0	0	0	2	0	0	0	O=C(O)C=CC=CC

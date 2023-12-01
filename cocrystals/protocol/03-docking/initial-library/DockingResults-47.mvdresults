@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:59:58)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-10.3148	0	-5	1	3	4	-52.9751	0	0	-52.9751	0	0	-3.69106	0	0.633872	0.275824	-2.78136	0.717611	0	0	-55.7565	0	0	-55.7565	[00]L-glutamine.mvdml	0	10	-5.57565	-3.14235	L-glutamine	146.144	2	[00]L-glutamine	0	0	0	0	0	-55.3782	0	-31.4235	0	0	0	4	0	1	0	O=c(n)CCC(N)C(=O)O
+1	0	-10.6228	0	-3.47244	1	3	4	-51.1613	0	0	-51.1613	0	0	-3.52615	0	-0.264515	0.994741	-2.79593	-0.310643	0	0	-53.9573	0	0	-53.9573	[01]L-glutamine.mvdml	0	10	-5.39573	-2.99547	L-glutamine	146.144	2	[01]L-glutamine	0	0	0	0	0	-53.2278	0	-29.9547	0	0	0	4	0	1	0	O=c(n)CCC(N)C(=O)O
+1	0	-8.98514	0	-4.67659	1	3	4	-51.1966	0	0	-51.1966	0	0	-3.84347	0	0.791389	0.266665	-2.78542	0.422772	0	0	-53.982	0	0	-53.982	[02]L-glutamine.mvdml	0	10	-5.3982	-3.03753	L-glutamine	146.144	2	[02]L-glutamine	0	0	0	0	0	-53.0553	0	-30.3753	0	0	0	4	0	1	0	O=c(n)CCC(N)C(=O)O
+1	0	-9.50844	0	-6.08343	1	3	4	-53.3376	0	0	-53.3376	0	0	-3.77476	0	1.13812	0.175989	-2.46065	1.2333	0	0	-55.7983	0	0	-55.7983	[03]L-glutamine.mvdml	0	10	-5.57983	-3.1577	L-glutamine	146.144	2	[03]L-glutamine	0	0	0	0	0	-52.7197	0	-31.577	0	0	0	4	0	1	0	O=c(n)CCC(N)C(=O)O
+1	0	-9.54561	0	-4.74188	1	3	4	-50.2158	0	0	-50.2158	0	0	-3.37319	0	-0.170429	0.406853	-3.13676	1.38913	0	0	-53.3526	0	0	-53.3526	[04]L-glutamine.mvdml	0	10	-5.33526	-2.96845	L-glutamine	146.144	2	[04]L-glutamine	0	0	0	0	0	-52.7065	0	-29.6845	0	0	0	4	0	1	0	O=c(n)CCC(N)C(=O)O

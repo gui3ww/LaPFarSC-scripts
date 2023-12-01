@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:06:58)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-8.86674	0	-4.98536	1	4	4	-39.7387	0	0	-39.7387	0	0	-3.78843	0	-0.580751	0.686284	-3.6829	-0.160687	0	0	-43.4216	0	0	-43.4216	[00]L-methionine.mvdml	0	9	-4.82462	-2.60013	L-methionine	149.211	1	[00]L-methionine	0	0	0	0	1	-42.7692	0	-23.4012	0	0	0	4	0	0	0	O=C(O)C(N)CCSC
+1	0	-8.31998	0	-7.48795	1	4	4	-41.7474	0	0	-41.7474	0	0	-2.5	0	0.671074	0.200477	-1.62845	2.31757	0	0	-43.3758	0	0	-43.3758	[01]L-methionine.mvdml	0	9	-4.81954	-2.72292	L-methionine	149.211	1	[01]L-methionine	0	0	0	0	1	-42.5517	0	-24.5063	0	0	0	4	0	0	0	O=C(O)C(N)CCSC
+1	0	-6.80189	0	-7.26947	1	4	4	-41.0634	0	0	-41.0634	0	0	-4.0042	0	0.518137	1.46539	-2.02067	1.0099	0	0	-43.0841	0	0	-43.0841	[02]L-methionine.mvdml	0	9	-4.78712	-2.56846	L-methionine	149.211	1	[02]L-methionine	0	0	0	0	1	-42.4169	0	-23.1161	0	0	0	4	0	0	0	O=C(O)C(N)CCSC
+1	0	-9.88927	0	-5	1	4	4	-39.4678	0	0	-39.4678	0	0	-3.63267	0	-0.932156	1.20852	-3.3563	0.647983	0	0	-42.8242	0	0	-42.8242	[03]L-methionine.mvdml	0	9	-4.75824	-2.52181	L-methionine	149.211	1	[03]L-methionine	0	0	0	0	1	-42.3131	0	-22.6963	0	0	0	4	0	0	0	O=C(O)C(N)CCSC
+1	0	-7.60806	0	-5.37334	1	4	4	-40.4518	0	0	-40.4518	0	0	-3.97431	0	0.985145	0.767541	-2.22163	2.13808	0	0	-42.6735	0	0	-42.6735	[04]L-methionine.mvdml	0	9	-4.7415	-2.57393	L-methionine	149.211	1	[04]L-methionine	0	0	0	0	1	-42.0375	0	-23.1654	0	0	0	4	0	0	0	O=C(O)C(N)CCSC

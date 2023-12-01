@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:47:41)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-5.30642	0	-2.5	1	1	0	-25.0147	0	0	-25.0147	0	0	0	0	0	0	0	0	0	0	-25.0147	0	0	-25.0147	[00]acetic_acid.mvdml	0	4	-6.25368	-3.76471	acetic_acid	60.052	0	[00]acetic_acid	0	0	0	0	0	-24.8189	0	-15.0588	0	0	0	0	0	0	0	O=C(C)O
+1	0	-5.70038	0	-2.49699	1	1	0	-24.5449	0	0	-24.5449	0	0	0	0	0	0	0	0	0	0	-24.5449	0	0	-24.5449	[01]acetic_acid.mvdml	0	4	-6.13623	-3.69401	acetic_acid	60.052	0	[01]acetic_acid	0	0	0	0	0	-24.4703	0	-14.776	0	0	0	0	0	0	0	O=C(C)O
+1	0	-6.47753	0	-2.49985	1	1	0	-24.4501	0	0	-24.4501	0	0	0	0	0	0	0	0	0	0	-24.4501	0	0	-24.4501	[02]acetic_acid.mvdml	0	4	-6.11252	-3.67974	acetic_acid	60.052	0	[02]acetic_acid	0	0	0	0	0	-24.2609	0	-14.719	0	0	0	0	0	0	0	O=C(C)O
+1	0	-5.39062	0	-2.5	1	1	0	-24.3416	0	0	-24.3416	0	0	0	0	0	0	0	0	0	0	-24.3416	0	0	-24.3416	[03]acetic_acid.mvdml	0	4	-6.08541	-3.66341	acetic_acid	60.052	0	[03]acetic_acid	0	0	0	0	0	-24.0498	0	-14.6536	0	0	0	0	0	0	0	O=C(C)O
+1	0	-5.72926	0	-2.5	1	1	0	-24.959	0	0	-24.959	0	0	0	0	0	0	0	0	0	0	-24.959	0	0	-24.959	[04]acetic_acid.mvdml	0	4	-6.23976	-3.75633	acetic_acid	60.052	0	[04]acetic_acid	0	0	0	0	0	-23.5236	0	-15.0253	0	0	0	0	0	0	0	O=C(C)O

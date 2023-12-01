@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:38:04)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-11.5662	0	-7.48146	2	6	7	-60.6378	0	0	-60.6378	0	0	0	0	-0.345207	0.555449	0.210241	3.54726	0	0	-60.4276	0	0	-60.4276	[00]suberic_acid.mvdml	0	12	-5.03563	-2.96244	suberic_acid	174.194	0	[00]suberic_acid	0	0	0	0	0	-59.1656	0	-35.5493	0	0	0	7	0	0	0	O=C(O)CCCCCCC(=O)O
+1	0	-12.0157	0	-5	2	6	7	-57.7312	0	0	-57.7312	0	0	0	0	-1.27548	0.475945	-0.799533	3.01127	0	0	-58.5308	0	0	-58.5308	[01]suberic_acid.mvdml	0	12	-4.87756	-2.84238	suberic_acid	174.194	0	[01]suberic_acid	0	0	0	0	0	-57.7809	0	-34.1086	0	0	0	7	0	0	0	O=C(O)CCCCCCC(=O)O
+1	0	-11.5215	0	-5	2	6	7	-57.2805	0	0	-57.2805	0	0	0	0	-1.33117	0.486233	-0.844936	1.68187	0	0	-58.1254	0	0	-58.1254	[02]suberic_acid.mvdml	0	12	-4.84378	-2.83516	suberic_acid	174.194	0	[02]suberic_acid	0	0	0	0	0	-57.7545	0	-34.022	0	0	0	7	0	0	0	O=C(O)CCCCCCC(=O)O
+1	0	-11.4204	0	-5	2	6	7	-57.4655	0	0	-57.4655	0	0	0	0	-1.06528	0.771104	-0.294175	3.75594	0	0	-57.7597	0	0	-57.7597	[03]suberic_acid.mvdml	0	12	-4.81331	-2.79434	suberic_acid	174.194	0	[03]suberic_acid	0	0	0	0	0	-56.9153	0	-33.5321	0	0	0	7	0	0	0	O=C(O)CCCCCCC(=O)O
+1	0	-5.23185	0	-4.99676	2	6	7	-56.8836	0	0	-56.8836	0	0	0	0	-1.11511	0.554429	-0.560676	1.47717	0	0	-57.4442	0	0	-57.4442	[04]suberic_acid.mvdml	0	12	-4.78702	-2.8092	suberic_acid	174.194	0	[04]suberic_acid	0	0	0	0	0	-56.7837	0	-33.7103	0	0	0	7	0	0	0	O=C(O)CCCCCCC(=O)O

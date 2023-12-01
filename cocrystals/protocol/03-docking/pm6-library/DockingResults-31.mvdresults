@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:39:15)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-10.716	0	-5	2	3	4	-46.7416	0	0	-46.7416	0	0	0	0	-1.2111	0.398166	-0.812934	-0.724709	0	0	-47.5545	0	0	-47.5545	[00]glutaric_acid.mvdml	0	9	-5.28384	-3.11933	glutaric_acid	132.115	0	[00]glutaric_acid	0	0	0	0	0	-47.1255	0	-28.074	0	0	0	4	0	0	0	OC(=O)CCCC(O)=O
+1	0	-10.2971	0	-2.5	2	3	4	-47.2896	0	0	-47.2896	0	0	0	0	-0.690611	0.434208	-0.256403	-0.503695	0	0	-47.546	0	0	-47.546	[01]glutaric_acid.mvdml	0	9	-5.28289	-3.13887	glutaric_acid	132.115	0	[01]glutaric_acid	0	0	0	0	0	-47.1223	0	-28.2499	0	0	0	4	0	0	0	OC(=O)CCCC(O)=O
+1	0	-9.99107	0	-5	2	3	4	-46.7028	0	0	-46.7028	0	0	0	0	0.113815	0.358074	0.47189	0.124783	0	0	-46.2309	0	0	-46.2309	[02]glutaric_acid.mvdml	0	9	-5.13676	-3.08248	glutaric_acid	132.115	0	[02]glutaric_acid	0	0	0	0	0	-45.8245	0	-27.7423	0	0	0	4	0	0	0	OC(=O)CCCC(O)=O
+1	0	-9.63965	0	-4.99831	2	3	4	-45.7336	0	0	-45.7336	0	0	0	0	-0.57092	0.213025	-0.357895	-0.430464	0	0	-46.0915	0	0	-46.0915	[03]glutaric_acid.mvdml	0	9	-5.12128	-3.05443	glutaric_acid	132.115	0	[03]glutaric_acid	0	0	0	0	0	-45.6575	0	-27.4898	0	0	0	4	0	0	0	OC(=O)CCCC(O)=O
+1	0	-9.71922	0	-2.5	2	3	4	-45.3967	0	0	-45.3967	0	0	0	0	-1.21707	0.369074	-0.847992	-0.72679	0	0	-46.2447	0	0	-46.2447	[04]glutaric_acid.mvdml	0	9	-5.1383	-3.03255	glutaric_acid	132.115	0	[04]glutaric_acid	0	0	0	0	0	-45.2576	0	-27.293	0	0	0	4	0	0	0	OC(=O)CCCC(O)=O

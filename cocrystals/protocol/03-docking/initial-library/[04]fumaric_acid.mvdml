@@ -1,0 +1,47 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:38:47" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-38.5703" OriginalLigandName="fumaric_acid" Rank="-1" name="[04]fumaric_acid" NumberOfRotatableBonds="2" RMSD="-1" rootAtom="3" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/fumaric_acid.mol2" >
+<AtomList count="12" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="0" vol="10" pos="32.4854,19.3945,-11.5497" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="32.913,20.5414,-12.13" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="2" vol="10" hyb="2" pos="33.6239,21.2521,-11.4532" elem="8" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" hyb="2" pos="32.5558,20.8638,-13.4034" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" hyb="2" pos="33.1192,21.8539,-14.1197" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" hyb="2" pos="32.7703,22.1853,-15.3938" elem="6" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="6" vol="10" pos="33.4945,23.1233,-16.0571" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="7" vol="10" hyb="2" pos="31.825,21.66,-15.9502" elem="8" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="32.8482,19.3537,-10.6501" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="31.749,20.2488,-13.8373" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="33.9257,22.4643,-13.6783" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="34.2114,23.4486,-15.4895" elem="1" />
+</AtomList>
+<BondList count="11" basetype="MVD.Model.Bond" >
+<Bond rot="t" a1="0" a2="1" />
+<Bond a1="0" a2="8" />
+<Bond a1="1" a2="2" type="1" />
+<Bond rot="t" chosen="t" a1="1" a2="3" />
+<Bond a1="3" a2="4" type="1" />
+<Bond a1="3" a2="9" />
+<Bond rot="t" chosen="t" a1="4" a2="5" />
+<Bond a1="4" a2="10" />
+<Bond rot="t" a1="5" a2="6" />
+<Bond a1="5" a2="7" type="1" />
+<Bond a1="6" a2="11" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-8.04338;Cofactor (elec)=0;Cofactor (hbond)=-2.13745;Csp2=4;Csp3=0;DOF=2;E-Inter (cofactor - ligand)=-42.31;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-42.31;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0.325584;E-Intra (steric)=3.41409;E-Intra (tors)=0.325584;E-Intra (tors, ligand atoms)=3.73967;E-Intra (vdw)=3.79268;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-38.5703;Electro=0;ElectroLong=0;Energy=-38.5703;HBond=0;HeavyAtoms=8;LE1=-4.82129;LE3=-2.98047;Ligand=fumaric_acid;MW=116.072;N=0;Name=fumaric_acid;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-38.2909;RMSD=0;RerankScore=-23.8437;Run=0;SimilarityScore=0;Steric=0;Torsions=2;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

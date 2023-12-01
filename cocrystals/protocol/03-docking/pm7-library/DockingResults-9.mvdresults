@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 21:53:06)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-8.06309	0	-5	7	1	1	-42.4422	0	0	-42.4422	0	0	0	0.170001	16.9335	0.170001	17.1035	47.9838	0	0	-25.3387	0	0	-25.3387	[00]acetophenone_oxime.mvdml	0	10	-2.53387	-1.57003	acetophenone_oxime	135.163	1	[00]acetophenone_oxime	0	0	1	0	0	-24.5016	0	-15.7003	0	0	0	1	0	0	0	ON=C(C)[c]1[cH][cH][cH][cH][cH]1
+1	0	-9.75798	0	-5	7	1	1	-41.8253	0	0	-41.8253	0	0	0	0.245669	16.8499	0.245669	17.0955	47.4027	0	0	-24.7298	0	0	-24.7298	[01]acetophenone_oxime.mvdml	0	10	-2.47298	-1.5305	acetophenone_oxime	135.163	1	[01]acetophenone_oxime	0	0	1	0	0	-24.1785	0	-15.305	0	0	0	1	0	0	0	ON=C(C)[c]1[cH][cH][cH][cH][cH]1
+1	0	-8.44873	0	-5	7	1	1	-38.1645	0	0	-38.1645	0	0	0	5.86595	7.81151	5.86595	13.6775	29.5993	0	0	-24.4871	0	0	-24.4871	[02]acetophenone_oxime.mvdml	0	10	-2.44871	-0.828414	acetophenone_oxime	135.163	1	[02]acetophenone_oxime	0	0	1	0	0	-23.9945	0	-8.28414	0	0	0	1	0	0	0	ON=C(C)[c]1[cH][cH][cH][cH][cH]1
+1	0	-8.318	0	-4.98214	7	1	1	-41.0715	0	0	-41.0715	0	0	0	1.69736	15.2174	1.69736	16.9148	39.2188	0	0	-24.1567	0	0	-24.1567	[03]acetophenone_oxime.mvdml	0	10	-2.41567	-1.39846	acetophenone_oxime	135.163	1	[03]acetophenone_oxime	0	0	1	0	0	-23.631	0	-13.9846	0	0	0	1	0	0	0	ON=C(C)[c]1[cH][cH][cH][cH][cH]1
+1	0	-2.27155	0	-4.97208	7	1	1	-37.5157	0	0	-37.5157	0	0	0	5.93171	7.63367	5.93171	13.5654	29.5201	0	0	-23.9504	0	0	-23.9504	[04]acetophenone_oxime.mvdml	0	10	-2.39504	-0.783165	acetophenone_oxime	135.163	1	[04]acetophenone_oxime	0	0	1	0	0	-23.4021	0	-7.83165	0	0	0	1	0	0	0	ON=C(C)[c]1[cH][cH][cH][cH][cH]1

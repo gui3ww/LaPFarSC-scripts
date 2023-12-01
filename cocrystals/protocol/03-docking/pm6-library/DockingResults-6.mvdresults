@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 21:51:52)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-8.8433	0	-2.5	7	0	1	-46.3014	0	0	-46.3014	0	0	0	0.362116	9.12802	0.362116	9.49013	25.7455	0	0	-36.8113	0	0	-36.8113	[00]4-aminobenzoic_acid.mvdml	0	10	-3.68113	-2.21548	4-aminobenzoic_acid	137.136	1	[00]4-aminobenzoic_acid	0	0	0	0	0	-36.4762	0	-22.1548	0	0	0	1	0	0	0	OC(=O)[c]1[cH][cH][c](N)[cH][cH]1
+1	0	-6.31736	0	-2.5	7	0	1	-45.6858	0	0	-45.6858	0	0	0	0.458646	9.07848	0.458646	9.53712	25.6566	0	0	-36.1487	0	0	-36.1487	[01]4-aminobenzoic_acid.mvdml	0	10	-3.61487	-2.16532	4-aminobenzoic_acid	137.136	1	[01]4-aminobenzoic_acid	0	0	0	0	0	-35.5403	0	-21.6532	0	0	0	1	0	0	0	OC(=O)[c]1[cH][cH][c](N)[cH][cH]1
+1	0	-8.7259	0	0	7	0	1	-44.7541	0	0	-44.7541	0	0	0	1.8473	8.33104	1.8473	10.1783	24.5276	0	0	-34.5757	0	0	-34.5757	[02]4-aminobenzoic_acid.mvdml	0	10	-3.45757	-1.9192	4-aminobenzoic_acid	137.136	1	[02]4-aminobenzoic_acid	0	0	0	0	0	-34.2903	0	-19.192	0	0	0	1	0	0	0	OC(=O)[c]1[cH][cH][c](N)[cH][cH]1
+1	0	-8.56056	0	-4.10005	7	0	1	-45.5165	0	0	-45.5165	0	0	0	0.890346	8.86685	0.890346	9.7572	25.8445	0	0	-35.7593	0	0	-35.7593	[03]4-aminobenzoic_acid.mvdml	0	10	-3.57593	-2.0882	4-aminobenzoic_acid	137.136	1	[03]4-aminobenzoic_acid	0	0	0	0	0	-34.2769	0	-20.882	0	0	0	1	0	0	0	OC(=O)[c]1[cH][cH][c](N)[cH][cH]1
+1	0	-5.80413	0	-2.5	7	0	1	-43.6399	0	0	-43.6399	0	0	0	0.0316914	9.31261	0.0316914	9.3443	26.8154	0	0	-34.2956	0	0	-34.2956	[04]4-aminobenzoic_acid.mvdml	0	10	-3.42956	-2.08922	4-aminobenzoic_acid	137.136	1	[04]4-aminobenzoic_acid	0	0	0	0	0	-33.9928	0	-20.8922	0	0	0	1	0	0	0	OC(=O)[c]1[cH][cH][c](N)[cH][cH]1

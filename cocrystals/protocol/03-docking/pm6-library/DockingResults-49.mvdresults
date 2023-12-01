@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:05:45)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-7.04544	0	-2.5	1	2	1	-32.7958	0	0	-32.7958	0	0	-3.58031	0	1.82848	0.13256	-1.61928	0.516739	0	0	-34.4151	0	0	-34.4151	[00]L-lactic_acid.mvdml	0	6	-5.73585	-3.2054	L-lactic_acid	90.0779	0	[00]L-lactic_acid	0	0	1	0	0	-34.1364	0	-19.2324	0	0	0	1	0	0	0	OC(C)C(O)=O
+1	0	-6.79132	0	-5	1	2	1	-32.8236	0	0	-32.8236	0	0	-3.67836	0	1.98534	0.0572066	-1.63581	0.60173	0	0	-34.4594	0	0	-34.4594	[01]L-lactic_acid.mvdml	0	6	-5.74324	-3.2135	L-lactic_acid	90.0779	0	[01]L-lactic_acid	0	0	1	0	0	-34.0307	0	-19.281	0	0	0	1	0	0	0	OC(C)C(O)=O
+1	0	-7.87712	0	-4.58177	1	2	1	-32.376	0	0	-32.376	0	0	-3.65468	0	1.94847	0.0584104	-1.6478	0.578321	0	0	-34.0238	0	0	-34.0238	[02]L-lactic_acid.mvdml	0	6	-5.67063	-3.17001	L-lactic_acid	90.0779	0	[02]L-lactic_acid	0	0	1	0	0	-33.7274	0	-19.02	0	0	0	1	0	0	0	OC(C)C(O)=O
+1	0	-7.02306	0	-2.27257	1	2	1	-32.255	0	0	-32.255	0	0	-3.3238	0	1.06431	0.342157	-1.91734	-0.132538	0	0	-34.1724	0	0	-34.1724	[03]L-lactic_acid.mvdml	0	6	-5.69539	-3.15532	L-lactic_acid	90.0779	0	[03]L-lactic_acid	0	0	1	0	0	-33.6843	0	-18.9319	0	0	0	1	0	0	0	OC(C)C(O)=O
+1	0	-6.46871	0	-5	1	2	1	-33.7833	0	0	-33.7833	0	0	-3.81159	0	3.57097	0.0938603	-0.146769	4.31489	0	0	-33.93	0	0	-33.93	[04]L-lactic_acid.mvdml	0	6	-5.655	-3.17259	L-lactic_acid	90.0779	0	[04]L-lactic_acid	0	0	1	0	0	-33.6157	0	-19.0355	0	0	0	1	0	0	0	OC(C)C(O)=O

@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:01:23)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-13.2981	0	-6.8568	2	7	8	-55.3134	0	0	-55.3134	0	0	0	0	-2.05551	1.63613	-0.419383	1.32037	0	0	-55.7328	0	0	-55.7328	[00]azelaic_acid.mvdml	0	13	-4.28713	-2.45646	azelaic_acid	188.221	0	[00]azelaic_acid	0	0	0	0	0	-55.1702	0	-31.934	0	0	0	8	0	0	0	O=C(O)CCCCCCCC(O)=O
+1	0	-11.7953	0	-7.5	2	7	8	-55.9093	0	0	-55.9093	0	0	0	0	-0.594714	1.45282	0.858107	2.90582	0	0	-55.0512	0	0	-55.0512	[01]azelaic_acid.mvdml	0	13	-4.23471	-2.461	azelaic_acid	188.221	0	[01]azelaic_acid	0	0	0	0	0	-54.4762	0	-31.993	0	0	0	8	0	0	0	O=C(O)CCCCCCCC(O)=O
+1	0	-12.0721	0	-7.5	2	7	8	-53.4485	0	0	-53.4485	0	0	0	0	-1.97327	0.738778	-1.23449	-0.268686	0	0	-54.683	0	0	-54.683	[02]azelaic_acid.mvdml	0	13	-4.20638	-2.45075	azelaic_acid	188.221	0	[02]azelaic_acid	0	0	0	0	0	-54.2666	0	-31.8598	0	0	0	8	0	0	0	O=C(O)CCCCCCCC(O)=O
+1	0	-12.4158	0	-5	2	7	8	-53.8881	0	0	-53.8881	0	0	0	0	-1.82799	0.940309	-0.887682	0.112104	0	0	-54.7757	0	0	-54.7757	[03]azelaic_acid.mvdml	0	13	-4.21352	-2.45057	azelaic_acid	188.221	0	[03]azelaic_acid	0	0	0	0	0	-54.2369	0	-31.8575	0	0	0	8	0	0	0	O=C(O)CCCCCCCC(O)=O
+1	0	-11.2871	0	-7.4966	2	7	8	-55.9525	0	0	-55.9525	0	0	0	0	-1.882	2.99358	1.11158	0.0440363	0	0	-54.8409	0	0	-54.8409	[04]azelaic_acid.mvdml	0	13	-4.21853	-2.39946	azelaic_acid	188.221	0	[04]azelaic_acid	0	0	0	0	0	-53.7893	0	-31.193	0	0	0	8	0	0	0	O=C(O)CCCCCCCC(O)=O

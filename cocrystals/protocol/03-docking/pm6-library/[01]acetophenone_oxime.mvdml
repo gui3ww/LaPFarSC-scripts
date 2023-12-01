@@ -1,0 +1,62 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 21:53:16" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-33.208" OriginalLigandName="acetophenone_oxime" Rank="-1" name="[01]acetophenone_oxime" NumberOfRotatableBonds="1" RMSD="-1" rootAtom="2" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/acetophenone_oxime.out.mol2" >
+<AtomList count="19" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="31.9366,21.6495,-14.5805" elem="6" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" pos="33.0906,22.1762,-15.3751" elem="6" ih="3" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="2" vol="10.8" hyb="2" pos="32.2145,20.5353,-13.6368" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="3" vol="10.8" hyb="2" pos="32.8166,20.8007,-12.3981" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="4" vol="10.8" hyb="2" pos="33.0791,19.7505,-11.5154" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="5" vol="10.8" hyb="2" pos="32.7521,18.437,-11.8685" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="6" vol="10.8" hyb="2" pos="32.1553,18.1731,-13.1056" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="7" vol="10.8" hyb="2" pos="31.8806,19.2191,-13.9898" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="7" pdb="81" sol="-17.4" type="2" genericType="-1" id="8" vol="10" hyb="2" pos="30.7795,22.2198,-14.789" elem="7" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="3" genericType="-1" id="9" vol="10" hyb="2" pos="29.7345,21.7025,-14.0251" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="33.952,21.4906,-15.3584" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="33.4438,23.1444,-14.9805" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="32.8329,22.3386,-16.4339" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="33.0774,21.8239,-12.1232" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="33.5424,19.9573,-10.549" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="32.9633,17.6187,-11.1785" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="31.9009,17.148,-13.3804" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="31.404,19.016,-14.9504" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="28.9355,22.2732,-14.3157" elem="1" />
+</AtomList>
+<BondList count="19" basetype="MVD.Model.Bond" >
+<Bond rot="t" chosen="t" a1="0" a2="2" />
+<Bond a1="0" a2="8" type="1" />
+<Bond a1="1" a2="11" />
+<Bond rot="t" a1="1" a2="0" />
+<Bond a1="2" inRing="t" a2="7" type="5" />
+<Bond a1="3" inRing="t" a2="2" type="5" />
+<Bond a1="3" inRing="t" a2="4" type="5" />
+<Bond a1="4" inRing="t" a2="5" type="5" />
+<Bond a1="5" a2="15" />
+<Bond a1="5" inRing="t" a2="6" type="5" />
+<Bond a1="6" a2="16" />
+<Bond a1="7" a2="17" />
+<Bond a1="7" inRing="t" a2="6" type="5" />
+<Bond a1="8" a2="9" />
+<Bond a1="9" a2="18" />
+<Bond a1="10" a2="1" />
+<Bond a1="12" a2="1" />
+<Bond a1="13" a2="3" />
+<Bond a1="14" a2="4" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-8.55692;Cofactor (elec)=0;Cofactor (hbond)=-2.5;Csp2=7;Csp3=1;DOF=1;E-Inter (cofactor - ligand)=-46.0985;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-46.0985;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=5.75882;E-Intra (steric)=7.13162;E-Intra (tors)=5.75882;E-Intra (tors, ligand atoms)=12.8904;E-Intra (vdw)=27.4357;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-33.208;Electro=0;ElectroLong=0;Energy=-33.208;HBond=0;HeavyAtoms=10;LE1=-3.3208;LE3=-1.36467;Ligand=acetophenone_oxime;MW=135.163;N=1;Name=acetophenone_oxime;NoHBond90=0;Nplus=0;OH=1;OPO32minus=0;OS=0;PoseEnergy=-32.8524;RMSD=0;RerankScore=-13.6467;Run=0;SimilarityScore=0;Steric=0;Torsions=1;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

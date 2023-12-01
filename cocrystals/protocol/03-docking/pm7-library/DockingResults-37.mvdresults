@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:43:50)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-5.07006	0	-5	3	0	0	-26.1722	0	0	-26.1722	0	0	0	0	0	0	0	0	0	0	-26.1722	0	0	-26.1722	[00]imidazole.mvdml	0	5	-5.23444	-3.15113	imidazole	68.0773	2	[00]imidazole	0	0	0	0	0	-25.9802	0	-15.7557	0	0	0	0	0	0	0	[cH]1n[cH][cH][n]1
+1	0	-5.51514	0	-2.5	3	0	0	-26.1946	0	0	-26.1946	0	0	0	0	0	0	0	0	0	0	-26.1946	0	0	-26.1946	[01]imidazole.mvdml	0	5	-5.23891	-3.15383	imidazole	68.0773	2	[01]imidazole	0	0	0	0	0	-25.9669	0	-15.7691	0	0	0	0	0	0	0	[cH]1n[cH][cH][n]1
+1	0	-5.36622	0	-4.98489	3	0	0	-26.1729	0	0	-26.1729	0	0	0	0	0	0	0	0	0	0	-26.1729	0	0	-26.1729	[02]imidazole.mvdml	0	5	-5.23458	-3.15122	imidazole	68.0773	2	[02]imidazole	0	0	0	0	0	-25.8869	0	-15.7561	0	0	0	0	0	0	0	[cH]1n[cH][cH][n]1
+1	0	-6.2419	0	-2.5	3	0	0	-26.0483	0	0	-26.0483	0	0	0	0	0	0	0	0	0	0	-26.0483	0	0	-26.0483	[03]imidazole.mvdml	0	5	-5.20966	-3.13622	imidazole	68.0773	2	[03]imidazole	0	0	0	0	0	-25.8685	0	-15.6811	0	0	0	0	0	0	0	[cH]1n[cH][cH][n]1
+1	0	-5.5303	0	-2.5	3	0	0	-25.8704	0	0	-25.8704	0	0	0	0	0	0	0	0	0	0	-25.8704	0	0	-25.8704	[04]imidazole.mvdml	0	5	-5.17408	-3.1148	imidazole	68.0773	2	[04]imidazole	0	0	0	0	0	-25.7505	0	-15.574	0	0	0	0	0	0	0	[cH]1n[cH][cH][n]1

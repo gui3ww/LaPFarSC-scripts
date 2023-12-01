@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:14:56)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-16.6168	0	-1.38433	1	23	4	-80.3076	0	0	-80.3076	0	0	0	0	33.6877	3.87045	37.5581	227.684	0	0	-42.7495	0	0	-42.7495	[00]cholic_acid.mvdml	0	29	-1.47412	-0.25077	cholic_acid	408.571	0	[00]cholic_acid	0	0	3	0	0	-42.0271	0	-7.27233	0	0	0	4	0	0	0	OC(C1)CCC2(C)C1CC(O)C3C2CC(O)C4(C)C3CCC4C(C)CCC(=O)O
+1	0	-16.4094	0	-2.5	1	23	4	-78.3907	0	0	-78.3907	0	0	0	0	33.8821	1.99118	35.8733	218.298	0	0	-42.5174	0	0	-42.5174	[01]cholic_acid.mvdml	0	29	-1.46612	-0.315598	cholic_acid	408.571	0	[01]cholic_acid	0	0	3	0	0	-41.8518	0	-9.15233	0	0	0	4	0	0	0	OC(C1)CCC2(C)C1CC(O)C3C2CC(O)C4(C)C3CCC4C(C)CCC(=O)O
+1	0	-15.2954	0	-3.33724	1	23	4	-77.1593	0	0	-77.1593	0	0	0	0	31.6131	5.62481	37.2379	204.946	0	0	-39.9213	0	0	-39.9213	[02]cholic_acid.mvdml	0	29	-1.3766	-0.249961	cholic_acid	408.571	0	[02]cholic_acid	0	0	3	0	0	-37.796	0	-7.24888	0	0	0	4	0	0	0	OC(C1)CCC2(C)C1CC(O)C3C2CC(O)C4(C)C3CCC4C(C)CCC(=O)O
+1	0	-5.01524	0	-3.89721	1	23	4	-78.3877	0	0	-78.3877	0	0	0	0	33.4709	3.01364	36.4846	220.506	0	0	-41.9031	0	0	-41.9031	[03]cholic_acid.mvdml	0	29	-1.44494	-0.27432	cholic_acid	408.571	0	[03]cholic_acid	0	0	3	0	0	-37.6698	0	-7.95527	0	0	0	4	0	0	0	OC(C1)CCC2(C)C1CC(O)C3C2CC(O)C4(C)C3CCC4C(C)CCC(=O)O
+1	0	-11.5682	0	-4.74896	1	23	4	-79.3896	0	0	-79.3896	0	0	0	0	34.6295	3.24031	37.8698	244.323	0	0	-41.5198	0	0	-41.5198	[04]cholic_acid.mvdml	0	29	-1.43172	-0.166757	cholic_acid	408.571	0	[04]cholic_acid	0	0	3	0	0	-37.4748	0	-4.83596	0	0	0	4	0	0	0	OC(C1)CCC2(C)C1CC(O)C3C2CC(O)C4(C)C3CCC4C(C)CCC(=O)O

@@ -1,0 +1,772 @@
+*********************************************************
+*                                                       *
+  _|    _|     _|_|_|   _|_|_|     _|_|_|_|   _|      _| 
+  _|    _|   _|         _|    _|   _|           _|  _|   
+  _|    _|     _|_|     _|_|_|     _|_|_|         _|     
+  _|    _|         _|   _|         _|           _|  _|   
+    _|_|     _|_|_|     _|         _|_|_|_|   _|      _| 
+*                                                       *
+** USPEX v10.5.0                         Oganov's Lab! **
+*********************************************************
+  
+Please see the calculated Zmatrix in OUTPUT.txt
+Please see the calculated Zmatrix in OUTPUT.txt
+Default Volume for MOLs : 
+     Volume of MOL_1 : 411.485  A^3
+     Volume of MOL_2 : 418.815  A^3
+ 
+Default IonDistances for Atoms :     C    O    H    N
+    Minimum distances:        C: 1.70  1.74  1.49  1.72  
+    Minimum distances:        O: 1.74  1.78  1.53  1.76  
+    Minimum distances:        H: 1.49  1.53  1.28  1.51  
+    Minimum distances:        N: 1.72  1.76  1.51  1.74  
+ 
+===============================================================================================
+=   When you cannot generate structures for a long time, for the INPUT.txt                    =
+=    (1) check your "IonDistances" and "MolCenters" parameters, or reduce them;               =
+=    (2) increase the above default volume and set "Latticevalues" parameter.                 =
+===============================================================================================
+Long time to generate structure: 1.002145e+02 seconds
+Increasing Molcenter by 1.0011 times
+Increasing volume by 1.0032 times
+Long time to generate structure: 1.011943e+02 seconds
+Increasing Molcenter by 1.0049 times
+Increasing volume by 1.0147 times
+Long time to generate structure: 1.020606e+02 seconds
+Increasing Molcenter by 1.0043 times
+Increasing volume by 1.0129 times
+Long time to generate structure: 1.028521e+02 seconds
+Increasing Molcenter by 1.0039 times
+Increasing volume by 1.0117 times
+Long time to generate structure: 1.036672e+02 seconds
+Increasing Molcenter by 1.004 times
+Increasing volume by 1.0119 times
+Long time to generate structure: 1.044447e+02 seconds
+Increasing Molcenter by 1.0037 times
+Increasing volume by 1.0113 times
+Long time to generate structure: 1.053660e+02 seconds
+Increasing Molcenter by 1.0044 times
+Increasing volume by 1.0133 times
+Long time to generate structure: 1.061470e+02 seconds
+Increasing Molcenter by 1.0037 times
+Increasing volume by 1.0111 times
+Long time to generate structure: 1.070657e+02 seconds
+Increasing Molcenter by 1.0043 times
+Increasing volume by 1.013 times
+Long time to generate structure: 1.080734e+02 seconds
+Increasing Molcenter by 1.0047 times
+Increasing volume by 1.0142 times
+Long time to generate structure: 1.089190e+02 seconds
+Increasing Molcenter by 1.0039 times
+Increasing volume by 1.0118 times
+Long time to generate structure: 1.098524e+02 seconds
+Increasing Molcenter by 1.0043 times
+Increasing volume by 1.0129 times
+Long time to generate structure: 1.108283e+02 seconds
+Increasing Molcenter by 1.0044 times
+Increasing volume by 1.0134 times
+Long time to generate structure: 1.116680e+02 seconds
+Increasing Molcenter by 1.0038 times
+Increasing volume by 1.0114 times
+Long time to generate structure: 1.125278e+02 seconds
+Increasing Molcenter by 1.0038 times
+Increasing volume by 1.0116 times
+Long time to generate structure: 1.133641e+02 seconds
+Increasing Molcenter by 1.0037 times
+Increasing volume by 1.0112 times
+Long time to generate structure: 1.141498e+02 seconds
+Increasing Molcenter by 1.0035 times
+Increasing volume by 1.0104 times
+Long time to generate structure: 1.151302e+02 seconds
+Increasing Molcenter by 1.0043 times
+Increasing volume by 1.0129 times
+Long time to generate structure: 1.159418e+02 seconds
+Increasing Molcenter by 1.0035 times
+Increasing volume by 1.0106 times
+Long time to generate structure: 1.168898e+02 seconds
+Increasing Molcenter by 1.0041 times
+Increasing volume by 1.0123 times
+Long time to generate structure: 1.177765e+02 seconds
+Increasing Molcenter by 1.0038 times
+Increasing volume by 1.0114 times
+Long time to generate structure: 1.186413e+02 seconds
+Increasing Molcenter by 1.0037 times
+Increasing volume by 1.011 times
+Long time to generate structure: 1.195086e+02 seconds
+Increasing Molcenter by 1.0036 times
+Increasing volume by 1.011 times
+Long time to generate structure: 1.203843e+02 seconds
+Increasing Molcenter by 1.0037 times
+Increasing volume by 1.011 times
+Long time to generate structure: 1.214742e+02 seconds
+Increasing Molcenter by 1.0045 times
+Increasing volume by 1.0136 times
+Long time to generate structure: 1.223879e+02 seconds
+Increasing Molcenter by 1.0038 times
+Increasing volume by 1.0113 times
+Long time to generate structure: 1.233490e+02 seconds
+Increasing Molcenter by 1.0039 times
+Increasing volume by 1.0118 times
+Long time to generate structure: 1.243426e+02 seconds
+Increasing Molcenter by 1.004 times
+Increasing volume by 1.0121 times
+Long time to generate structure: 1.255717e+02 seconds
+Increasing Molcenter by 1.0049 times
+Increasing volume by 1.0149 times
+Long time to generate structure: 1.263785e+02 seconds
+Increasing Molcenter by 1.0032 times
+Increasing volume by 1.0097 times
+Long time to generate structure: 1.272849e+02 seconds
+Increasing Molcenter by 1.0036 times
+Increasing volume by 1.0108 times
+Long time to generate structure: 1.283966e+02 seconds
+Increasing Molcenter by 1.0044 times
+Increasing volume by 1.0131 times
+Long time to generate structure: 1.294078e+02 seconds
+Increasing Molcenter by 1.0039 times
+Increasing volume by 1.0118 times
+Long time to generate structure: 1.304452e+02 seconds
+Increasing Molcenter by 1.004 times
+Increasing volume by 1.012 times
+Long time to generate structure: 1.313712e+02 seconds
+Increasing Molcenter by 1.0035 times
+Increasing volume by 1.0107 times
+Long time to generate structure: 1.322403e+02 seconds
+Increasing Molcenter by 1.0033 times
+Increasing volume by 1.0099 times
+Long time to generate structure: 1.335645e+02 seconds
+Increasing Molcenter by 1.005 times
+Increasing volume by 1.0151 times
+Long time to generate structure: 1.345686e+02 seconds
+Increasing Molcenter by 1.0038 times
+Increasing volume by 1.0113 times
+Long time to generate structure: 1.354254e+02 seconds
+Increasing Molcenter by 1.0032 times
+Increasing volume by 1.0096 times
+Long time to generate structure: 1.364865e+02 seconds
+Increasing Molcenter by 1.0039 times
+Increasing volume by 1.0118 times
+Long time to generate structure: 1.372554e+02 seconds
+Increasing Molcenter by 1.0028 times
+Increasing volume by 1.0085 times
+Long time to generate structure: 1.382780e+02 seconds
+Increasing Molcenter by 1.0037 times
+Increasing volume by 1.0112 times
+Long time to generate structure: 1.393744e+02 seconds
+Increasing Molcenter by 1.004 times
+Increasing volume by 1.0119 times
+Long time to generate structure: 1.402795e+02 seconds
+Increasing Molcenter by 1.0032 times
+Increasing volume by 1.0098 times
+Long time to generate structure: 1.412916e+02 seconds
+Increasing Molcenter by 1.0036 times
+Increasing volume by 1.0108 times
+Long time to generate structure: 1.422649e+02 seconds
+Increasing Molcenter by 1.0034 times
+Increasing volume by 1.0104 times
+Long time to generate structure: 1.433409e+02 seconds
+Increasing Molcenter by 1.0038 times
+Increasing volume by 1.0114 times
+Long time to generate structure: 1.443558e+02 seconds
+Increasing Molcenter by 1.0035 times
+Increasing volume by 1.0106 times
+Long time to generate structure: 1.453866e+02 seconds
+Increasing Molcenter by 1.0036 times
+Increasing volume by 1.0107 times
+Long time to generate structure: 1.464414e+02 seconds
+Increasing Molcenter by 1.0036 times
+Increasing volume by 1.0109 times
+Long time to generate structure: 1.476697e+02 seconds
+Increasing Molcenter by 1.0042 times
+Increasing volume by 1.0126 times
+Long time to generate structure: 1.486954e+02 seconds
+Increasing Molcenter by 1.0035 times
+Increasing volume by 1.0104 times
+Long time to generate structure: 1.499173e+02 seconds
+Increasing Molcenter by 1.0041 times
+Increasing volume by 1.0124 times
+Long time to generate structure: 1.510161e+02 seconds
+Increasing Molcenter by 1.0037 times
+Increasing volume by 1.011 times
+Long time to generate structure: 1.521628e+02 seconds
+Increasing Molcenter by 1.0038 times
+Increasing volume by 1.0114 times
+Long time to generate structure: 1.533177e+02 seconds
+Increasing Molcenter by 1.0038 times
+Increasing volume by 1.0114 times
+Long time to generate structure: 1.544611e+02 seconds
+Increasing Molcenter by 1.0037 times
+Increasing volume by 1.0112 times
+Long time to generate structure: 1.555241e+02 seconds
+Increasing Molcenter by 1.0034 times
+Increasing volume by 1.0103 times
+Long time to generate structure: 1.566005e+02 seconds
+Increasing Molcenter by 1.0035 times
+Increasing volume by 1.0104 times
+Long time to generate structure: 1.576468e+02 seconds
+Increasing Molcenter by 1.0033 times
+Increasing volume by 1.01 times
+Long time to generate structure: 1.587775e+02 seconds
+Increasing Molcenter by 1.0036 times
+Increasing volume by 1.0108 times
+Long time to generate structure: 1.597847e+02 seconds
+Increasing Molcenter by 1.0032 times
+Increasing volume by 1.0095 times
+Long time to generate structure: 1.610956e+02 seconds
+Increasing Molcenter by 1.0041 times
+Increasing volume by 1.0123 times
+Long time to generate structure: 1.621916e+02 seconds
+Increasing Molcenter by 1.0034 times
+Increasing volume by 1.0102 times
+Long time to generate structure: 1.633749e+02 seconds
+Increasing Molcenter by 1.0036 times
+Increasing volume by 1.011 times
+Long time to generate structure: 1.644064e+02 seconds
+Increasing Molcenter by 1.0032 times
+Increasing volume by 1.0095 times
+Long time to generate structure: 1.658407e+02 seconds
+Increasing Molcenter by 1.0044 times
+Increasing volume by 1.0131 times
+Long time to generate structure: 1.670955e+02 seconds
+Increasing Molcenter by 1.0038 times
+Increasing volume by 1.0114 times
+Long time to generate structure: 1.683310e+02 seconds
+Increasing Molcenter by 1.0037 times
+Increasing volume by 1.0111 times
+Long time to generate structure: 1.694459e+02 seconds
+Increasing Molcenter by 1.0033 times
+Increasing volume by 1.01 times
+Long time to generate structure: 1.708471e+02 seconds
+Increasing Molcenter by 1.0041 times
+Increasing volume by 1.0124 times
+Long time to generate structure: 1.720919e+02 seconds
+Increasing Molcenter by 1.0036 times
+Increasing volume by 1.0109 times
+Long time to generate structure: 1.733888e+02 seconds
+Increasing Molcenter by 1.0038 times
+Increasing volume by 1.0113 times
+Long time to generate structure: 1.745637e+02 seconds
+Increasing Molcenter by 1.0034 times
+Increasing volume by 1.0102 times
+Long time to generate structure: 1.761208e+02 seconds
+Increasing Molcenter by 1.0045 times
+Increasing volume by 1.0134 times
+Long time to generate structure: 1.775215e+02 seconds
+Increasing Molcenter by 1.004 times
+Increasing volume by 1.012 times
+Long time to generate structure: 1.789126e+02 seconds
+Increasing Molcenter by 1.0039 times
+Increasing volume by 1.0118 times
+Structure 1 built (Z = 3  0) with the symmetry 2 (P-1) 
+Structure 2 built (Z = 0  4) with the symmetry 12 (A2/m) 
+Structure 3 built (Z = 1  2) with the symmetry 12 (A2/m) 
+Structure 4 built (Z = 2  2) with the symmetry 12 (A2/m) 
+Structure 5 built (Z = 3  1) with the symmetry 12 (A2/m) 
+Structure 6 built (Z = 2  1) with the symmetry 2 (P-1) 
+Long time to generate structure: 1.005997e+02 seconds
+Increasing Molcenter by 1.003 times
+Increasing volume by 1.009 times
+Long time to generate structure: 1.026523e+02 seconds
+Increasing Molcenter by 1.0102 times
+Increasing volume by 1.0308 times
+Long time to generate structure: 1.044830e+02 seconds
+Increasing Molcenter by 1.0089 times
+Increasing volume by 1.0269 times
+Long time to generate structure: 1.078323e+02 seconds
+Increasing Molcenter by 1.0159 times
+Increasing volume by 1.0485 times
+Long time to generate structure: 1.101690e+02 seconds
+Increasing Molcenter by 1.0108 times
+Increasing volume by 1.0327 times
+Long time to generate structure: 1.127521e+02 seconds
+Increasing Molcenter by 1.0117 times
+Increasing volume by 1.0354 times
+Long time to generate structure: 1.161968e+02 seconds
+Increasing Molcenter by 1.0152 times
+Increasing volume by 1.0462 times
+Structure 7 built (Z = 1  3) with the symmetry 5 (A2) 
+Structure 8 built (Z = 4  0) with the symmetry 2 (P-1) 
+Structure 9 built (Z = 3  1) with the symmetry 2 (P-1) 
+Structure 10 built (Z = 3  0) with the symmetry 2 (P-1) 
+Structure 11 built (Z = 2  2) with the symmetry 5 (A2) 
+Structure 12 built (Z = 0  3) with the symmetry 5 (A2) 
+Structure 13 built (Z = 2  0) with the symmetry 2 (P-1) 
+Structure 14 built (Z = 0  3) with the symmetry 12 (A2/m) 
+Structure 15 built (Z = 1  2) with the symmetry 2 (P-1) 
+Structure 16 built (Z = 2  2) with the symmetry 12 (A2/m) 
+Structure 17 built (Z = 3  1) with the symmetry 5 (A2) 
+Structure 18 built (Z = 2  1) with the symmetry 12 (A2/m) 
+Structure 19 built (Z = 1  3) with the symmetry 2 (P-1) 
+Structure 20 built (Z = 2  0) with the symmetry 12 (A2/m) 
+Structure 21 built (Z = 3  1) with the symmetry 2 (P-1) 
+Structure 22 built (Z = 4  0) with the symmetry 12 (A2/m) 
+Structure 23 built (Z = 1  1) with the symmetry 12 (A2/m) 
+Structure 24 built (Z = 0  3) with the symmetry 5 (A2) 
+Structure 25 built (Z = 3  0) with the symmetry 2 (P-1) 
+Structure 26 built (Z = 0  3) with the symmetry 2 (P-1) 
+Structure 27 built (Z = 1  2) with the symmetry 12 (A2/m) 
+Structure 28 built (Z = 1  1) with the symmetry 5 (A2) 
+Structure 29 built (Z = 3  1) with the symmetry 2 (P-1) 
+Structure 30 built (Z = 2  1) with the symmetry 2 (P-1) 
+Structure 31 built (Z = 1  3) with the symmetry 2 (P-1) 
+Structure 32 built (Z = 4  0) with the symmetry 5 (A2) 
+Structure 33 built (Z = 3  1) with the symmetry 2 (P-1) 
+Structure 34 built (Z = 3  0) with the symmetry 12 (A2/m) 
+Structure 35 built (Z = 2  2) with the symmetry 12 (A2/m) 
+Structure 36 built (Z = 0  4) with the symmetry 5 (A2) 
+Structure 37 built (Z = 3  0) with the symmetry 2 (P-1) 
+Structure 38 built (Z = 0  4) with the symmetry 5 (A2) 
+Structure 39 built (Z = 1  2) with the symmetry 12 (A2/m) 
+Structure 40 built (Z = 2  2) with the symmetry 5 (A2) 
+Structure 41 built (Z = 3  1) with the symmetry 2 (P-1) 
+Structure 42 built (Z = 2  1) with the symmetry 12 (A2/m) 
+Structure 43 built (Z = 1  3) with the symmetry 5 (A2) 
+Structure 44 built (Z = 4  0) with the symmetry 12 (A2/m) 
+Structure 45 built (Z = 3  1) with the symmetry 2 (P-1) 
+Structure 46 built (Z = 3  0) with the symmetry 2 (P-1) 
+Structure 47 built (Z = 1  1) with the symmetry 2 (P-1) 
+Structure 48 built (Z = 0  3) with the symmetry 5 (A2) 
+Structure 49 built (Z = 4  0) with the symmetry 12 (A2/m) 
+Structure 50 built (Z = 0  3) with the symmetry 2 (P-1) 
+ 
+Read Seeds ... 
+ 
+mpirun -np 8 /usr/local/qe-7.0/bin/pw.x -npool 2 < qe.in > output: Terminated
+Structure1 step1 at CalcFold1
+Quantum Espresso 1st SCF is not done
+/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/05-symmetries/CONTROL-sacubitril-valsartan-PM6-50/CalcFold1
+mpirun -np 8 /usr/local/qe-7.0/bin/pw.x -npool 2 < qe.in > output: Terminated
+Structure1 step1 at CalcFold1
+Quantum Espresso 1st SCF is not done
+/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/05-symmetries/CONTROL-sacubitril-valsartan-PM6-50/CalcFold1
+mpirun -np 8 /usr/local/qe-7.0/bin/pw.x -npool 2 < qe.in > output: Terminated
+Structure1 step1 at CalcFold1
+Quantum Espresso 1st SCF is not done
+/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/05-symmetries/CONTROL-sacubitril-valsartan-PM6-50/CalcFold1
+mpirun -np 8 /usr/local/qe-7.0/bin/pw.x -npool 2 < qe.in > output: Terminated
+Structure2 step1 at CalcFold1
+Quantum Espresso 1st SCF is not done
+/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/05-symmetries/CONTROL-sacubitril-valsartan-PM6-50/CalcFold1
+mpirun -np 8 /usr/local/qe-7.0/bin/pw.x -npool 2 < qe.in > output: Terminated
+Structure2 step1 at CalcFold1
+Quantum Espresso 1st SCF is not done
+/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/05-symmetries/CONTROL-sacubitril-valsartan-PM6-50/CalcFold1
+mpirun -np 8 /usr/local/qe-7.0/bin/pw.x -npool 2 < qe.in > output: Terminated
+Structure2 step1 at CalcFold1
+Quantum Espresso 1st SCF is not done
+/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/05-symmetries/CONTROL-sacubitril-valsartan-PM6-50/CalcFold1
+mpirun -np 8 /usr/local/qe-7.0/bin/pw.x -npool 2 < qe.in > output: Terminated
+Structure3 step1 at CalcFold1
+Quantum Espresso 1st SCF is not done
+/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/05-symmetries/CONTROL-sacubitril-valsartan-PM6-50/CalcFold1
+mpirun -np 8 /usr/local/qe-7.0/bin/pw.x -npool 2 < qe.in > output: Terminated
+Structure3 step1 at CalcFold1
+Quantum Espresso 1st SCF is not done
+/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/05-symmetries/CONTROL-sacubitril-valsartan-PM6-50/CalcFold1
+mpirun -np 8 /usr/local/qe-7.0/bin/pw.x -npool 2 < qe.in > output: Terminated
+Structure3 step1 at CalcFold1
+Quantum Espresso 1st SCF is not done
+/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/05-symmetries/CONTROL-sacubitril-valsartan-PM6-50/CalcFold1
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[28899,1],4]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure4 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[38129,1],3]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure5 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[41659,1],2]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure6 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[47623,1],1]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure7 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[45868,1],6]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure8 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[51233,1],1]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure9 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[49452,1],0]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure10 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[55676,1],4]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure11 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[20024,1],1]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure12 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[56689,1],4]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure13 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[59467,1],2]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure14 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[64286,1],1]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure15 step1 at CalcFold1
+Relaxation is done.
+ 
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+STOP 3
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[62610,1],7]
+  Exit code:    3
+--------------------------------------------------------------------------
+
+Structure16 step1 at CalcFold1
+Relaxation is done.
+ 

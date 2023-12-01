@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:10:14)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-8.42713	0	-9.99576	2	2	3	-42.9194	0	0	-42.9194	0	0	-14.9395	0	4.91451	1.45317	-8.57177	1.63982	0	0	-51.4911	0	0	-51.4911	[00]L-tartaric_acid.mvdml	0	10	-5.14911	-2.34012	L-tartaric_acid	150.087	0	[00]L-tartaric_acid	0	0	2	0	0	-50.8115	0	-23.4012	0	0	0	3	0	0	0	OC(C(O)=O)C(O)C(=O)O
+1	0	-9.41701	0	-7.5	2	2	3	-43.1313	0	0	-43.1313	0	0	-14.7113	0	6.67447	0.598242	-7.4386	3.6105	0	0	-50.5699	0	0	-50.5699	[01]L-tartaric_acid.mvdml	0	10	-5.05699	-2.3754	L-tartaric_acid	150.087	0	[01]L-tartaric_acid	0	0	2	0	0	-50.1	0	-23.754	0	0	0	3	0	0	0	OC(C(O)=O)C(O)C(=O)O
+1	0	-9.07455	0	-9.99671	2	2	3	-42.0478	0	0	-42.0478	0	0	-15.1051	0	4.77577	1.44776	-8.88153	1.39079	0	0	-50.9293	0	0	-50.9293	[02]L-tartaric_acid.mvdml	0	10	-5.09293	-2.294	L-tartaric_acid	150.087	0	[02]L-tartaric_acid	0	0	2	0	0	-49.963	0	-22.94	0	0	0	3	0	0	0	OC(C(O)=O)C(O)C(=O)O
+1	0	-8.31398	0	-7.17442	2	2	3	-41.7977	0	0	-41.7977	0	0	-15.1405	0	5.33647	1.64904	-8.15499	2.25496	0	0	-49.9527	0	0	-49.9527	[03]L-tartaric_acid.mvdml	0	10	-4.99527	-2.23841	L-tartaric_acid	150.087	0	[03]L-tartaric_acid	0	0	2	0	0	-48.811	0	-22.3841	0	0	0	3	0	0	0	OC(C(O)=O)C(O)C(=O)O
+1	0	-8.49298	0	-7.5	2	2	3	-40.4341	0	0	-40.4341	0	0	-14.9127	0	4.82633	1.4736	-8.6128	1.55817	0	0	-49.0469	0	0	-49.0469	[04]L-tartaric_acid.mvdml	0	10	-4.90469	-2.19124	L-tartaric_acid	150.087	0	[04]L-tartaric_acid	0	0	2	0	0	-48.4889	0	-21.9124	0	0	0	3	0	0	0	OC(C(O)=O)C(O)C(=O)O

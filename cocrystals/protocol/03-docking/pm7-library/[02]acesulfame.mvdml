@@ -1,0 +1,54 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 21:53:06" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-38.4831" OriginalLigandName="acesulfame" Rank="-1" name="[02]acesulfame" RMSD="-1" rootAtom="1" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM7/acesulfame.out.mol2" >
+<AtomList count="15" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" pos="36.3732,17.5071,-10.0264" elem="6" ih="3" />
+<Atom cc="3" pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="35.4159,18.6257,-10.197" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" hyb="2" pos="35.5149,19.8686,-9.6871" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" hyb="2" pos="34.5881,20.9552,-9.95828" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="4" vol="10" hyb="2" pos="34.7527,22.1149,-9.65934" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="10" pdb="81" sol="-17.4" type="1" genericType="-1" id="5" vol="10" hyb="2" pos="33.4042,20.6322,-10.6665" elem="7" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="18" pdb="106" sol="-6.4" type="4" genericType="-1" id="6" vol="20" pos="32.917,19.0431,-11.1006" elem="16" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="2" genericType="-1" id="7" vol="10" pos="32.0951,18.4854,-10.0784" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="2" genericType="-1" id="8" vol="10" pos="32.5375,19.0251,-12.4745" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="9" vol="10" hyb="2" pos="34.4065,18.2437,-10.9932" elem="8" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="35.8931,16.6439,-9.53089" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="37.2535,17.7889,-9.43098" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="36.7323,17.1378,-11.0045" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="36.3528,20.152,-9.04673" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="32.7941,21.4239,-10.8891" elem="1" />
+</AtomList>
+<BondList count="15" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="12" />
+<Bond a1="0" a2="10" />
+<Bond rot="t" a1="1" a2="0" />
+<Bond a1="1" inRing="t" a2="9" />
+<Bond a1="2" inRing="t" a2="1" type="1" />
+<Bond a1="3" inRing="t" a2="2" />
+<Bond a1="3" inRing="t" a2="5" type="3" />
+<Bond a1="4" a2="3" type="1" />
+<Bond a1="5" inRing="t" a2="6" />
+<Bond a1="6" inRing="t" a2="9" />
+<Bond rot="t" a1="6" a2="7" />
+<Bond rot="t" a1="6" a2="8" />
+<Bond a1="11" a2="0" />
+<Bond a1="13" a2="2" />
+<Bond a1="14" a2="5" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-9.23597;Cofactor (elec)=0;Cofactor (hbond)=-6.11567;Csp2=2;Csp3=1;DOF=0;E-Inter (cofactor - ligand)=-38.7413;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-38.7413;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0;E-Intra (steric)=0.258275;E-Intra (tors)=0;E-Intra (tors, ligand atoms)=0.258275;E-Intra (vdw)=3.55695;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-38.4831;Electro=0;ElectroLong=0;Energy=-38.4831;HBond=0;HeavyAtoms=10;LE1=-3.84831;LE3=-2.27834;Ligand=acesulfame;MW=163.152;N=1;Name=acesulfame;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=1;PoseEnergy=-37.7498;RMSD=0;RerankScore=-22.7834;Run=0;SimilarityScore=0;Steric=0;Torsions=0;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

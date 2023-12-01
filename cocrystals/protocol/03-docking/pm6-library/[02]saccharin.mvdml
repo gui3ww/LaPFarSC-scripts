@@ -1,0 +1,59 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:37:38" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-46.0023" OriginalLigandName="saccharin" Rank="-1" name="[02]saccharin" RMSD="-1" rootAtom="5" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/saccharin.out.mol2" >
+<AtomList count="17" basetype="MVD.Model.Atom" >
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="0" vol="10.8" hyb="2" pos="32.0664,22.2356,-15.5584" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="1" vol="10.8" hyb="2" pos="31.2633,21.3547,-16.2666" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="2" vol="10.8" hyb="2" pos="30.9278,20.0899,-15.7264" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="3" vol="10.8" hyb="2" pos="32.5626,21.8933,-14.2749" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="4" vol="10.8" hyb="2" pos="32.2215,20.6654,-13.7487" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="5" vol="10.8" hyb="2" pos="31.405,19.7571,-14.4773" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="20" pdb="106" sol="-6.4" type="4" genericType="-1" id="6" vol="20" pos="31.1589,18.3047,-13.6065" elem="16" />
+<Atom cc="3" pdbid="1" triposAtomType="10" pdb="81" sol="-17.4" type="1" genericType="-1" id="7" vol="10" hyb="2" pos="32.1011,18.8435,-12.2455" elem="7" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="8" vol="12.77" hyb="2" pos="32.6253,20.1378,-12.3978" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="9" vol="10" hyb="2" pos="33.2838,20.7024,-11.5431" elem="8" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="10" vol="10" hyb="2" pos="31.8095,17.1648,-14.2275" elem="8" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="11" vol="10" hyb="2" pos="29.7928,18.1085,-13.157" elem="8" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="32.3213,23.2133,-15.9827" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="30.8762,21.6277,-17.2535" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="30.2977,19.4023,-16.301" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="33.1946,22.597,-13.7264" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="32.2426,18.3191,-11.3648" elem="1" />
+</AtomList>
+<BondList count="18" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="12" />
+<Bond a1="0" inRing="t" a2="1" type="5" />
+<Bond a1="1" a2="13" />
+<Bond a1="2" inRing="t" a2="1" type="5" />
+<Bond a1="2" a2="14" />
+<Bond a1="3" inRing="t" a2="0" type="5" />
+<Bond a1="4" inRing="t" a2="3" type="5" />
+<Bond a1="4" inRing="t" a2="5" type="5" />
+<Bond a1="5" inRing="t" a2="2" type="5" />
+<Bond a1="6" inRing="t" a2="5" />
+<Bond rot="t" a1="6" a2="11" type="1" />
+<Bond a1="7" inRing="t" a2="8" type="3" />
+<Bond a1="7" inRing="t" a2="6" />
+<Bond a1="8" inRing="t" a2="4" />
+<Bond a1="9" a2="8" type="1" />
+<Bond rot="t" a1="10" a2="6" type="1" />
+<Bond a1="15" a2="3" />
+<Bond a1="16" a2="7" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-10.7783;Cofactor (elec)=0;Cofactor (hbond)=0;Csp2=6;Csp3=0;DOF=0;E-Inter (cofactor - ligand)=-46.7438;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-46.7438;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0;E-Intra (steric)=0.741474;E-Intra (tors)=0;E-Intra (tors, ligand atoms)=0.741474;E-Intra (vdw)=22.8237;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-46.0023;Electro=0;ElectroLong=0;Energy=-46.0023;HBond=0;HeavyAtoms=12;LE1=-3.83353;LE3=-2.06998;Ligand=saccharin;MW=183.184;N=1;Name=saccharin;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-45.1063;RMSD=0;RerankScore=-24.8397;Run=0;SimilarityScore=0;Steric=0;Torsions=0;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

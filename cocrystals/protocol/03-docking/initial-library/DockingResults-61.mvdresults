@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:15:42)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-7.56902	0	-7.31237	2	1	2	-40.0917	0	0	-40.0917	0	0	-2.11319	0	-0.179048	0.179726	-2.11252	-0.74826	0	0	-42.2042	0	0	-42.2042	[00]malonic_acid.mvdml	0	7	-6.02917	-3.44306	malonic_acid	104.061	0	[00]malonic_acid	0	0	0	0	0	-41.4732	0	-24.1014	0	0	0	2	0	0	0	O=C(O)CC(=O)O
+1	0	-8.59055	0	-4.80658	2	1	2	-38.7957	0	0	-38.7957	0	0	-1.59441	0	-0.362925	0.0272283	-1.93011	-0.760742	0	0	-40.7258	0	0	-40.7258	[01]malonic_acid.mvdml	0	7	-5.81797	-3.35681	malonic_acid	104.061	0	[01]malonic_acid	0	0	0	0	0	-40.3018	0	-23.4976	0	0	0	2	0	0	0	O=C(O)CC(=O)O
+1	0	-7.8563	0	-5.73035	2	1	2	-38.0098	0	0	-38.0098	0	0	-1.50512	0	-0.449536	0.0219866	-1.93267	-0.781975	0	0	-39.9425	0	0	-39.9425	[02]malonic_acid.mvdml	0	7	-5.70607	-3.29247	malonic_acid	104.061	0	[02]malonic_acid	0	0	0	0	0	-39.2725	0	-23.0473	0	0	0	2	0	0	0	O=C(O)CC(=O)O
+1	0	-6.27204	0	-4.14877	2	1	2	-38.6806	0	0	-38.6806	0	0	-2.35332	0	1.24242	0.0734836	-1.03741	-0.000647488	0	0	-39.718	0	0	-39.718	[03]malonic_acid.mvdml	0	7	-5.674	-3.28617	malonic_acid	104.061	0	[03]malonic_acid	0	0	0	0	0	-39.232	0	-23.0032	0	0	0	2	0	0	0	O=C(O)CC(=O)O
+1	0	-7.58808	0	-5.80594	2	1	2	-39.1933	0	0	-39.1933	0	0	-2.46086	0	0.173108	0.0574989	-2.23025	-0.660657	0	0	-41.4235	0	0	-41.4235	[04]malonic_acid.mvdml	0	7	-5.91764	-3.37178	malonic_acid	104.061	0	[04]malonic_acid	0	0	0	0	0	-39.2261	0	-23.6025	0	0	0	2	0	0	0	O=C(O)CC(=O)O

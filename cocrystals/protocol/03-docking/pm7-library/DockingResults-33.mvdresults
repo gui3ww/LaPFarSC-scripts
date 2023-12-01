@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:40:33)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-6.00957	0	-7.49459	1	1	1	-28.1529	0	0	-28.1529	0	0	-3.5894	0	0	0.00635056	-3.58305	-0.0846834	0	0	-31.736	0	0	-31.736	[00]glycolic_acid.mvdml	0	5	-6.34719	-3.39077	glycolic_acid	76.0514	0	[00]glycolic_acid	0	0	1	0	0	-31.2258	0	-16.9539	0	0	0	1	0	0	0	OC(=O)CO
+1	0	-6.0395	0	-7.49663	1	1	1	-27.6241	0	0	-27.6241	0	0	-3.91059	0	0	0.0420599	-3.86853	-0.341915	0	0	-31.4927	0	0	-31.4927	[01]glycolic_acid.mvdml	0	5	-6.29853	-3.32756	glycolic_acid	76.0514	0	[01]glycolic_acid	0	0	1	0	0	-31.1654	0	-16.6378	0	0	0	1	0	0	0	OC(=O)CO
+1	0	-6.31171	0	-7.5	1	1	1	-27.735	0	0	-27.735	0	0	-3.70618	0	0	0.0429166	-3.66326	-0.110339	0	0	-31.3982	0	0	-31.3982	[02]glycolic_acid.mvdml	0	5	-6.27965	-3.33431	glycolic_acid	76.0514	0	[02]glycolic_acid	0	0	1	0	0	-30.9126	0	-16.6716	0	0	0	1	0	0	0	OC(=O)CO
+1	0	-6.12818	0	-6.50292	1	1	1	-27.412	0	0	-27.412	0	0	-3.62347	0	0	0.0096452	-3.61382	-0.110547	0	0	-31.0258	0	0	-31.0258	[03]glycolic_acid.mvdml	0	5	-6.20516	-3.30167	glycolic_acid	76.0514	0	[03]glycolic_acid	0	0	1	0	0	-30.8098	0	-16.5083	0	0	0	1	0	0	0	OC(=O)CO
+1	0	-5.98481	0	-7.5	1	1	1	-27.6015	0	0	-27.6015	0	0	-3.63941	0	0	0.0194536	-3.61996	-0.121979	0	0	-31.2214	0	0	-31.2214	[04]glycolic_acid.mvdml	0	5	-6.24428	-3.32296	glycolic_acid	76.0514	0	[04]glycolic_acid	0	0	1	0	0	-30.737	0	-16.6148	0	0	0	1	0	0	0	OC(=O)CO

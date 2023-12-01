@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 21:53:31)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-7.80121	0	-7.41212	4	0	2	-41.6389	0	0	-41.6389	0	0	0	0	-2.66282	0	-2.66282	-1.04462	0	0	-44.3017	0	0	-44.3017	[00]acetylenedicarboxylic_acid.mvdml	0	8	-5.53772	-3.20873	acetylenedicarboxylic_acid	114.056	0	[00]acetylenedicarboxylic_acid	0	0	0	0	0	-43.6308	0	-25.6698	0	0	0	2	0	0	0	O=C(O)C#CC(=O)O
+1	0	-6.96154	0	-9.12295	4	0	2	-41.5925	0	0	-41.5925	0	0	0	0	-2.61887	0	-2.61887	-1.04629	0	0	-44.2114	0	0	-44.2114	[01]acetylenedicarboxylic_acid.mvdml	0	8	-5.52643	-3.20432	acetylenedicarboxylic_acid	114.056	0	[01]acetylenedicarboxylic_acid	0	0	0	0	0	-43.5393	0	-25.6346	0	0	0	2	0	0	0	O=C(O)C#CC(=O)O
+1	0	-7.70066	0	-7.48921	4	0	2	-41.2636	0	0	-41.2636	0	0	0	0	-2.59554	0	-2.59554	-1.04652	0	0	-43.8591	0	0	-43.8591	[02]acetylenedicarboxylic_acid.mvdml	0	8	-5.48239	-3.17907	acetylenedicarboxylic_acid	114.056	0	[02]acetylenedicarboxylic_acid	0	0	0	0	0	-42.6467	0	-25.4326	0	0	0	2	0	0	0	O=C(O)C#CC(=O)O
+1	0	-7.93738	0	-7.47882	4	0	2	-40.1022	0	0	-40.1022	0	0	0	0	-2.676	0	-2.676	-1.04558	0	0	-42.7782	0	0	-42.7782	[03]acetylenedicarboxylic_acid.mvdml	0	8	-5.34728	-3.09339	acetylenedicarboxylic_acid	114.056	0	[03]acetylenedicarboxylic_acid	0	0	0	0	0	-41.6409	0	-24.7471	0	0	0	2	0	0	0	O=C(O)C#CC(=O)O
+1	0	-7.26898	0	-9.01048	4	0	2	-41.2216	0	0	-41.2216	0	0	0	0	-2.65119	0	-2.65119	-1.04367	0	0	-43.8728	0	0	-43.8728	[04]acetylenedicarboxylic_acid.mvdml	0	8	-5.4841	-3.17706	acetylenedicarboxylic_acid	114.056	0	[04]acetylenedicarboxylic_acid	0	0	0	0	0	-41.4135	0	-25.4165	0	0	0	2	0	0	0	O=C(O)C#CC(=O)O

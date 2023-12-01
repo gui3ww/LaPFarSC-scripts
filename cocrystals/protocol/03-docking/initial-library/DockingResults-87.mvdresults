@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:48:47)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-12.4078	0	-1.93189	3	0	0	-48.6739	0	0	-48.6739	0	0	-2.5	0	5.23689	0	2.73689	22.5909	0	0	-45.9371	0	0	-45.9371	[00]xanthine.mvdml	0	11	-4.1761	-2.29644	xanthine	152.111	4	[00]xanthine	0	0	0	0	0	-45.5735	0	-25.2608	0	0	0	0	0	2	0	O=c1nc(=O)C=2NC=NC=2n1
+1	0	-11.919	0	0	3	0	0	-48.5752	0	0	-48.5752	0	0	-2.5	0	5.23683	0	2.73683	22.5907	0	0	-45.8384	0	0	-45.8384	[01]xanthine.mvdml	0	11	-4.16712	-2.29104	xanthine	152.111	4	[01]xanthine	0	0	0	0	0	-45.3864	0	-25.2014	0	0	0	0	0	2	0	O=c1nc(=O)C=2NC=NC=2n1
+1	0	-9.23876	0	-2.19526	3	0	0	-48.3308	0	0	-48.3308	0	0	-2.5	0	5.23708	0	2.73708	22.5917	0	0	-45.5937	0	0	-45.5937	[02]xanthine.mvdml	0	11	-4.14488	-2.27765	xanthine	152.111	4	[02]xanthine	0	0	0	0	0	-45.2399	0	-25.0541	0	0	0	0	0	2	0	O=c1nc(=O)C=2NC=NC=2n1
+1	0	-10.9502	0	-3.89771	3	0	0	-48.1914	0	0	-48.1914	0	0	-2.5	0	5.23673	0	2.73673	22.5903	0	0	-45.4547	0	0	-45.4547	[03]xanthine.mvdml	0	11	-4.13224	-2.27004	xanthine	152.111	4	[03]xanthine	0	0	0	0	0	-45.0173	0	-24.9705	0	0	0	0	0	2	0	O=c1nc(=O)C=2NC=NC=2n1
+1	0	-11.3155	0	-1.49028	3	0	0	-47.6171	0	0	-47.6171	0	0	-2.5	0	5.23677	0	2.73677	22.5905	0	0	-44.8804	0	0	-44.8804	[04]xanthine.mvdml	0	11	-4.08003	-2.23861	xanthine	152.111	4	[04]xanthine	0	0	0	0	0	-44.403	0	-24.6247	0	0	0	0	0	2	0	O=c1nc(=O)C=2NC=NC=2n1

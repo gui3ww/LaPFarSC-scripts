@@ -1,0 +1,79 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:12:46" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-62.6215" OriginalLigandName="L-tryptophan" Rank="-1" name="[04]L-tryptophan" NumberOfRotatableBonds="3" RMSD="-1" rootAtom="3" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/L-tryptophan.out.mol2" >
+<AtomList count="27" basetype="MVD.Model.Atom" >
+<Atom triposAtomType="3" pdb="12" sol="4" type="4" genericType="-1" id="0" vol="12.77" pos="32.2547,20.0354,-13.3359" elem="6" ih="1" />
+<Atom triposAtomType="8" pdb="81" sol="-17.4" type="1" genericType="-1" id="1" vol="10" pos="31.8251,20.8245,-12.1533" elem="7" ih="2" />
+<Atom triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" hyb="2" pos="31.9093,18.5852,-12.9979" elem="6" />
+<Atom cc="3" triposAtomType="4" pdb="22" aro="t" sol="0.6" type="4" genericType="-1" id="3" vol="10.8" hyb="2" pos="31.9372,21.801,-15.0759" elem="6" />
+<Atom cc="3" triposAtomType="4" pdb="17" aro="t" sol="0.6" type="4" genericType="-1" id="4" vol="10.8" hyb="2" pos="31.0419,22.9143,-15.2606" elem="6" />
+<Atom cc="3" triposAtomType="4" pdb="21" aro="t" sol="0.6" type="4" genericType="-1" id="5" vol="10.8" hyb="2" pos="29.6486,23.0896,-15.1355" elem="6" ih="1" />
+<Atom cc="3" triposAtomType="4" pdb="31" aro="t" sol="0.6" type="4" genericType="-1" id="6" vol="10.8" hyb="2" pos="29.1077,24.3341,-15.3979" elem="6" ih="1" />
+<Atom triposAtomType="13" pdb="105" sol="-17.4" type="2" genericType="-1" id="7" vol="10" hyb="2" pos="30.8233,18.0729,-12.806" elem="8" />
+<Atom cc="3" triposAtomType="4" pdb="30" aro="t" sol="0.6" type="4" genericType="-1" id="8" vol="10.8" hyb="2" pos="31.2917,25.3035,-15.9226" elem="6" ih="1" />
+<Atom triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="9" vol="10" pos="33.0422,17.8349,-12.9148" elem="8" ih="1" />
+<Atom triposAtomType="3" pdb="14" sol="4" type="4" genericType="-1" id="10" vol="12.77" pos="31.5702,20.4259,-14.664" elem="6" ih="2" />
+<Atom cc="3" triposAtomType="4" pdb="25" aro="t" sol="0.6" type="4" genericType="-1" id="11" vol="10.8" hyb="2" pos="29.9241,25.4318,-15.789" elem="6" ih="1" />
+<Atom cc="3" triposAtomType="4" pdb="20" aro="t" sol="0.6" type="4" genericType="-1" id="12" vol="10.8" hyb="2" pos="31.8519,24.0345,-15.6585" elem="6" />
+<Atom cc="3" triposAtomType="11" pdb="87" aro="t" sol="-17.4" type="1" genericType="-1" id="13" vol="10" hyb="2" pos="33.1834,23.6037,-15.7197" elem="7" ih="1" />
+<Atom cc="3" triposAtomType="4" pdb="16" aro="t" sol="0.6" type="4" genericType="-1" id="14" vol="10.8" hyb="2" pos="33.2251,22.249,-15.3594" elem="6" ih="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="33.3739,20.1289,-13.447" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="30.8166,21.0003,-12.1781" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="32.274,21.7453,-12.1693" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="29.0218,22.2492,-14.8382" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="19" vol="10" pos="28.0333,24.4959,-15.3082" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="20" vol="10" pos="31.9239,26.1386,-16.2172" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="21" vol="10" pos="32.8743,16.867,-12.6813" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="22" vol="10" pos="31.8189,19.6941,-15.4643" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="23" vol="10" pos="30.4654,20.3438,-14.5412" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="24" vol="10" pos="29.4464,26.393,-15.9865" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="25" vol="10" pos="33.9839,24.1814,-15.9395" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="26" vol="10" pos="34.1544,21.6992,-15.3327" elem="1" />
+</AtomList>
+<BondList count="28" basetype="MVD.Model.Bond" >
+<Bond rot="t" chosen="t" a1="0" a2="10" />
+<Bond rot="t" a1="1" a2="0" />
+<Bond a1="1" a2="17" />
+<Bond a1="1" a2="16" />
+<Bond a1="2" a2="7" type="1" />
+<Bond rot="t" chosen="t" a1="2" a2="0" />
+<Bond a1="3" inRing="t" a2="14" type="5" />
+<Bond a1="4" inRing="t" a2="3" type="5" />
+<Bond a1="4" inRing="t" a2="12" type="5" />
+<Bond a1="5" inRing="t" a2="4" type="5" />
+<Bond a1="6" inRing="t" a2="5" type="5" />
+<Bond a1="6" inRing="t" a2="11" type="5" />
+<Bond a1="8" inRing="t" a2="12" type="5" />
+<Bond a1="8" a2="20" />
+<Bond rot="t" a1="9" a2="2" />
+<Bond rot="t" chosen="t" a1="10" a2="3" />
+<Bond a1="10" a2="22" />
+<Bond a1="10" a2="23" />
+<Bond a1="11" inRing="t" a2="8" type="5" />
+<Bond a1="12" inRing="t" a2="13" type="5" />
+<Bond a1="13" a2="25" />
+<Bond a1="14" inRing="t" a2="13" type="5" />
+<Bond a1="14" a2="26" />
+<Bond a1="15" a2="0" />
+<Bond a1="18" a2="5" />
+<Bond a1="19" a2="6" />
+<Bond a1="21" a2="9" />
+<Bond a1="24" a2="11" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-13.2133;Cofactor (elec)=0;Cofactor (hbond)=-5;Csp2=9;Csp3=2;DOF=3;E-Inter (cofactor - ligand)=-59.0631;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-59.0631;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-3.91765;E-Intra (sp2-sp2)=0;E-Intra (steric)=0.207462;E-Intra (tors)=0.151775;E-Intra (tors, ligand atoms)=-3.55841;E-Intra (vdw)=23.5712;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-62.6215;Electro=0;ElectroLong=0;Energy=-62.6215;HBond=0;HeavyAtoms=15;LE1=-4.17477;LE3=-2.1401;Ligand=L-tryptophan;MW=204.225;N=2;Name=L-tryptophan;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-62.2726;RMSD=0;RerankScore=-32.1015;Run=0;SimilarityScore=0;Steric=0;Torsions=3;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

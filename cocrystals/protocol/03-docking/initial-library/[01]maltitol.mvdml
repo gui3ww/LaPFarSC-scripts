@@ -1,0 +1,118 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:21:21" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-95.5126" OriginalLigandName="maltitol" Rank="-1" name="[01]maltitol" NumberOfRotatableBonds="8" RMSD="-1" rootAtom="5" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/maltitol.mol2" >
+<AtomList count="47" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="0" vol="10" pos="32.1314,20.0361,-10.2551" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" pos="32.8413,20.1355,-12.5894" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="2" vol="10" pos="34.7369,20.7734,-9.41027" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="34.1482,21.1981,-10.6237" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="33.2431,20.0779,-11.1102" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="2" genericType="-1" id="5" vol="10" pos="32.3449,18.8736,-12.9575" elem="8" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="6" vol="12.77" pos="35.5665,16.8837,-11.1018" elem="6" ih="2" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="7" vol="12.77" pos="33.261,17.8091,-12.7716" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="2" genericType="-1" id="8" vol="10" pos="33.2757,17.6172,-11.3724" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="9" vol="12.77" pos="34.0862,16.5579,-10.9483" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="10" vol="10" pos="35.8802,18.0462,-10.3594" elem="8" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="11" vol="12.77" pos="33.6289,15.2481,-11.578" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="12" vol="10" pos="32.3795,14.897,-11.022" elem="8" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="13" vol="12.77" pos="33.4652,15.3299,-13.0859" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="14" vol="12.77" pos="31.9153,21.2648,-13.0736" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="15" vol="10" pos="34.7277,15.3475,-13.7086" elem="8" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="16" vol="12.77" pos="32.7059,16.587,-13.4671" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="17" vol="10" pos="31.354,16.4615,-13.0949" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="18" vol="12.77" pos="33.2151,22.3482,-15.0311" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="19" vol="10" pos="30.5814,20.9662,-12.7293" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="20" vol="12.77" pos="31.9219,21.7412,-14.528" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="21" vol="10" pos="30.8577,22.6224,-14.794" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="22" vol="10" pos="33.087,22.5926,-16.4178" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="23" vol="10" pos="31.8843,19.112,-10.1532" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="24" vol="10" pos="33.8266,20.2864,-13.0979" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="25" vol="10" pos="35.1505,19.9166,-9.5282" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="26" vol="10" pos="33.6093,22.1429,-10.4045" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="27" vol="10" pos="34.9698,21.4115,-11.3428" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="28" vol="10" pos="33.8006,19.1264,-10.9216" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="29" vol="10" pos="35.8219,17.1006,-12.1639" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="30" vol="10" pos="36.2392,16.0791,-10.7416" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="31" vol="10" pos="34.2645,18.0836,-13.1578" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="32" vol="10" pos="33.9101,16.4816,-9.84429" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="33" vol="10" pos="35.0987,18.5981,-10.2833" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="34" vol="10" pos="34.325,14.4199,-11.3081" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="35" vol="10" pos="31.9017,15.6973,-10.7911" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="36" vol="10" pos="32.9486,14.4214,-13.4743" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="37" vol="10" pos="32.1734,22.1751,-12.4741" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="38" vol="10" pos="35.2251,16.1141,-13.4163" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="39" vol="10" pos="32.7153,16.7176,-14.5734" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="40" vol="10" pos="31.0356,17.3348,-12.8476" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="41" vol="10" pos="33.4166,23.3255,-14.5365" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="42" vol="10" pos="34.0885,21.6864,-14.8584" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="43" vol="10" pos="30.2053,21.6727,-12.1978" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="44" vol="10" pos="31.711,20.8501,-15.1722" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="45" vol="10" pos="31.0622,23.1446,-15.5734" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="46" vol="10" pos="33.2209,21.7689,-16.891" elem="1" />
+</AtomList>
+<BondList count="47" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="23" />
+<Bond rot="t" chosen="t" a1="1" a2="5" />
+<Bond rot="t" chosen="t" a1="1" a2="14" />
+<Bond a1="1" a2="24" />
+<Bond rot="t" a1="2" a2="3" />
+<Bond a1="2" a2="25" />
+<Bond rot="t" chosen="t" a1="3" a2="4" />
+<Bond a1="3" a2="26" />
+<Bond a1="3" a2="27" />
+<Bond rot="t" a1="4" a2="0" />
+<Bond rot="t" chosen="t" a1="4" a2="1" />
+<Bond a1="4" a2="28" />
+<Bond rot="t" a1="6" a2="10" />
+<Bond a1="6" a2="29" />
+<Bond a1="6" a2="30" />
+<Bond rot="t" chosen="t" a1="7" a2="5" />
+<Bond a1="7" inRing="t" a2="8" />
+<Bond a1="7" inRing="t" a2="16" />
+<Bond a1="7" a2="31" />
+<Bond a1="8" inRing="t" a2="9" />
+<Bond rot="t" chosen="t" a1="9" a2="6" />
+<Bond a1="9" inRing="t" a2="11" />
+<Bond a1="9" a2="32" />
+<Bond a1="10" a2="33" />
+<Bond rot="t" a1="11" a2="12" />
+<Bond a1="11" inRing="t" a2="13" />
+<Bond a1="11" a2="34" />
+<Bond a1="12" a2="35" />
+<Bond rot="t" a1="13" a2="15" />
+<Bond a1="13" inRing="t" a2="16" />
+<Bond a1="13" a2="36" />
+<Bond rot="t" a1="14" a2="19" />
+<Bond rot="t" chosen="t" a1="14" a2="20" />
+<Bond a1="14" a2="37" />
+<Bond a1="15" a2="38" />
+<Bond rot="t" a1="16" a2="17" />
+<Bond a1="16" a2="39" />
+<Bond a1="17" a2="40" />
+<Bond rot="t" a1="18" a2="22" />
+<Bond a1="18" a2="41" />
+<Bond a1="18" a2="42" />
+<Bond a1="19" a2="43" />
+<Bond rot="t" chosen="t" a1="20" a2="18" />
+<Bond rot="t" a1="20" a2="21" />
+<Bond a1="20" a2="44" />
+<Bond a1="21" a2="45" />
+<Bond a1="22" a2="46" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-14.9904;Cofactor (elec)=0;Cofactor (hbond)=-2.48321;Csp2=0;Csp3=12;DOF=8;E-Inter (cofactor - ligand)=-72.7543;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-72.7543;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-32.658;E-Intra (sp2-sp2)=0;E-Intra (steric)=5.5867;E-Intra (tors)=4.31288;E-Intra (tors, ligand atoms)=-22.7584;E-Intra (vdw)=35.9428;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-95.5126;Electro=0;ElectroLong=0;Energy=-95.5126;HBond=0;HeavyAtoms=23;LE1=-4.15272;LE3=-1.46938;Ligand=maltitol;MW=344.312;N=0;Name=maltitol;NoHBond90=0;Nplus=0;OH=9;OPO32minus=0;OS=2;PoseEnergy=-94.5249;RMSD=0;RerankScore=-33.7956;Run=0;SimilarityScore=0;Steric=0;Torsions=8;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

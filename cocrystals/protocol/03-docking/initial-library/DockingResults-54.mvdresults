@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:10:29)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-6.54834	0	-4.02501	1	4	1	-42.0655	0	0	-42.0655	0	0	-1.8882	0	-1.46353	0.0319603	-3.31977	2.90837	0	0	-45.3853	0	0	-45.3853	[00]L-proline.mvdml	0	8	-5.67316	-3.14261	L-proline	115.13	1	[00]L-proline	0	0	0	0	0	-44.9188	0	-25.1409	0	0	0	1	0	0	0	O=C(O)C1CCCN1
+1	0	-3.73698	0	-4.84738	1	4	1	-39.1949	0	0	-39.1949	0	0	-3.58322	0	-1.17841	0.070731	-4.6909	-0.383632	0	0	-43.8858	0	0	-43.8858	[01]L-proline.mvdml	0	8	-5.48572	-2.97312	L-proline	115.13	1	[01]L-proline	0	0	0	0	0	-43.3106	0	-23.785	0	0	0	1	0	0	0	O=C(O)C1CCCN1
+1	0	-10.4117	0	-2.48735	1	4	1	-40.0614	0	0	-40.0614	0	0	-3.48733	0	-0.118611	0.0338517	-3.57209	0.770908	0	0	-43.6335	0	0	-43.6335	[02]L-proline.mvdml	0	8	-5.45418	-2.99981	L-proline	115.13	1	[02]L-proline	0	0	0	0	0	-43.2364	0	-23.9985	0	0	0	1	0	0	0	O=C(O)C1CCCN1
+1	0	-6.50492	0	-4.07754	1	4	1	-42.1042	0	0	-42.1042	0	0	-1.8907	0	-1.48758	0.0583593	-3.31992	2.89565	0	0	-45.4241	0	0	-45.4241	[03]L-proline.mvdml	0	8	-5.67802	-3.14317	L-proline	115.13	1	[03]L-proline	0	0	0	0	0	-42.9815	0	-25.1454	0	0	0	1	0	0	0	O=C(O)C1CCCN1
+1	0	-8.98633	0	-4.09102	1	4	1	-38.7404	0	0	-38.7404	0	0	-3.28387	0	-1.41977	0.239589	-4.46405	-0.40605	0	0	-43.2044	0	0	-43.2044	[04]L-proline.mvdml	0	8	-5.40055	-2.9247	L-proline	115.13	1	[04]L-proline	0	0	0	0	0	-42.7853	0	-23.3976	0	0	0	1	0	0	0	O=C(O)C1CCCN1

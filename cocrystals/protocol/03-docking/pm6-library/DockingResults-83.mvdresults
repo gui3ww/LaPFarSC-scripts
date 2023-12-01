@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:42:59)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-12.2818	0	-2.5	3	2	0	-50.6686	0	0	-50.6686	0	0	-2.55072	0	8.88852	0	6.3378	17.887	0	0	-44.3307	0	0	-44.3307	[00]theophylline.mvdml	0	13	-3.41006	-2.03749	theophylline	180.164	4	[00]theophylline	0	0	0	0	0	-43.9476	0	-26.4874	0	0	0	0	0	2	0	O=c1n(C)c(=O)[c]2n[cH][n][c]2n1C
+1	0	-12.041	0	-2.45918	3	2	0	-49.7354	0	0	-49.7354	0	0	-2.55073	0	8.88855	0	6.33783	17.8872	0	0	-43.3976	0	0	-43.3976	[01]theophylline.mvdml	0	13	-3.33828	-1.99427	theophylline	180.164	4	[01]theophylline	0	0	0	0	0	-42.9242	0	-25.9256	0	0	0	0	0	2	0	O=c1n(C)c(=O)[c]2n[cH][n][c]2n1C
+1	0	-11.9543	0	-2.5	3	2	0	-49.6452	0	0	-49.6452	0	0	-2.55072	0	8.88843	0	6.33771	17.8868	0	0	-43.3075	0	0	-43.3075	[02]theophylline.mvdml	0	13	-3.33134	-1.9901	theophylline	180.164	4	[02]theophylline	0	0	0	0	0	-42.5366	0	-25.8713	0	0	0	0	0	2	0	O=c1n(C)c(=O)[c]2n[cH][n][c]2n1C
+1	0	-12.4782	0	-2.5	3	2	0	-50.6942	0	0	-50.6942	0	0	-2.55071	0	8.88848	0	6.33777	17.8869	0	0	-44.3564	0	0	-44.3564	[03]theophylline.mvdml	0	13	-3.41203	-2.03868	theophylline	180.164	4	[03]theophylline	0	0	0	0	0	-41.2382	0	-26.5028	0	0	0	0	0	2	0	O=c1n(C)c(=O)[c]2n[cH][n][c]2n1C
+1	0	-11.7198	0	-2.5	3	2	0	-50.6861	0	0	-50.6861	0	0	-2.55073	0	8.88847	0	6.33774	17.8869	0	0	-44.3483	0	0	-44.3483	[04]theophylline.mvdml	0	13	-3.41141	-2.0383	theophylline	180.164	4	[04]theophylline	0	0	0	0	0	-41.1326	0	-26.4979	0	0	0	0	0	2	0	O=c1n(C)c(=O)[c]2n[cH][n][c]2n1C

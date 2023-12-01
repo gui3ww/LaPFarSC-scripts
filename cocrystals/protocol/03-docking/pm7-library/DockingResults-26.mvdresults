@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:25:12)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-13.6803	0	-13.4407	4	6	11	-69.0362	0	0	-69.0362	0	0	-12.5	0	-9.63402	7.66914	-14.4649	25.5012	0	0	-83.501	0	0	-83.501	[00]EDTA.mvdml	0	20	-4.17505	-1.62393	EDTA	292.243	2	[00]EDTA	0	0	0	0	0	-82.4444	0	-32.4785	0	0	0	11	0	0	0	OC(=O)CN(CC(O)=O)CCN(CC(=O)O)CC(=O)O
+1	0	-8.2367	0	-10.8383	4	6	11	-48.9181	0	0	-48.9181	0	0	-18.0456	0	-16.1778	8.31368	-25.9097	17.3701	0	0	-74.8278	0	0	-74.8278	[01]EDTA.mvdml	0	20	-3.74139	-1.10093	EDTA	292.243	2	[01]EDTA	0	0	0	0	0	-70.8617	0	-22.0186	0	0	0	11	0	0	0	OC(=O)CN(CC(O)=O)CCN(CC(=O)O)CC(=O)O
+1	0	-12.752	0	-7.73168	4	6	11	-62.6175	0	0	-62.6175	0	0	-14.9778	0	-12.0449	12.5714	-14.4514	23.2251	0	0	-77.0688	0	0	-77.0688	[02]EDTA.mvdml	0	20	-3.85344	-1.23736	EDTA	292.243	2	[02]EDTA	0	0	0	0	0	-70.5121	0	-24.7472	0	0	0	11	0	0	0	OC(=O)CN(CC(O)=O)CCN(CC(=O)O)CC(=O)O
+1	0	-9.97674	0	-14.2832	4	6	11	-45.5942	0	0	-45.5942	0	0	-19.6689	0	-19.387	9.53059	-29.5253	14.8556	0	0	-75.1195	0	0	-75.1195	[03]EDTA.mvdml	0	20	-3.75597	-0.988883	EDTA	292.243	2	[03]EDTA	0	0	0	0	0	-69.7778	0	-19.7777	0	0	0	11	0	0	0	OC(=O)CN(CC(O)=O)CCN(CC(=O)O)CC(=O)O
+1	0	-11.5036	0	-10	4	6	11	-45.1994	0	0	-45.1994	0	0	-27.6121	0	-18.8205	14.6906	-31.742	14.9836	0	0	-76.9414	0	0	-76.9414	[04]EDTA.mvdml	0	20	-3.84707	-0.729233	EDTA	292.243	2	[04]EDTA	0	0	0	0	0	-69.6955	0	-14.5847	0	0	0	11	0	0	0	OC(=O)CN(CC(O)=O)CCN(CC(=O)O)CC(=O)O

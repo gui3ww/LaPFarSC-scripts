@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:33:56)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-5.5058	0	0	4	0	0	-30.8093	0	0	-30.8093	0	0	0	0	9.94924	0	9.94924	26.4241	0	0	-20.8601	0	0	-20.8601	[00]pyrazine.mvdml	0	6	-3.47668	-2.19383	pyrazine	80.088	2	[00]pyrazine	0	0	0	0	0	-20.4503	0	-13.163	0	0	0	0	0	0	0	[n]1[cH][cH][n][cH][cH]1
+1	0	-5.968	0	0	4	0	0	-30.3504	0	0	-30.3504	0	0	0	0	9.94921	0	9.94921	26.4239	0	0	-20.4012	0	0	-20.4012	[01]pyrazine.mvdml	0	6	-3.4002	-2.14779	pyrazine	80.088	2	[01]pyrazine	0	0	0	0	0	-19.9431	0	-12.8868	0	0	0	0	0	0	0	[n]1[cH][cH][n][cH][cH]1
+1	0	-7.51246	0	0	4	0	0	-30.1517	0	0	-30.1517	0	0	0	0	9.94929	0	9.94929	26.4246	0	0	-20.2024	0	0	-20.2024	[02]pyrazine.mvdml	0	6	-3.36707	-2.12784	pyrazine	80.088	2	[02]pyrazine	0	0	0	0	0	-19.7339	0	-12.767	0	0	0	0	0	0	0	[n]1[cH][cH][n][cH][cH]1
+1	0	-5.46336	0	0	4	0	0	-30.8176	0	0	-30.8176	0	0	0	0	9.94926	0	9.94926	26.4243	0	0	-20.8683	0	0	-20.8683	[03]pyrazine.mvdml	0	6	-3.47806	-2.19466	pyrazine	80.088	2	[03]pyrazine	0	0	0	0	0	-19.3268	0	-13.1679	0	0	0	0	0	0	0	[n]1[cH][cH][n][cH][cH]1
+1	0	-4.8632	0	0	4	0	0	-29.8015	0	0	-29.8015	0	0	0	0	9.94936	0	9.94936	26.425	0	0	-19.8522	0	0	-19.8522	[04]pyrazine.mvdml	0	6	-3.3087	-2.09269	pyrazine	80.088	2	[04]pyrazine	0	0	0	0	0	-18.9541	0	-12.5561	0	0	0	0	0	0	0	[n]1[cH][cH][n][cH][cH]1

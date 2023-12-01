@@ -1,0 +1,69 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:22:08" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-69.5154" OriginalLigandName="D-glucuronic_acid" Rank="-1" name="[02]D-glucuronic_acid" NumberOfRotatableBonds="5" RMSD="-1" rootAtom="6" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/D-glucuronic_acid.out.mol2" >
+<AtomList count="23" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="0" vol="10" hyb="2" pos="33.2876,20.7227,-11.3728" elem="8" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="32.8574,20.7588,-12.5068" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="31.8075,19.7564,-12.9925" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="3" vol="10" pos="32.4332,18.4872,-12.765" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="31.4692,19.8936,-14.494" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="5" vol="10" pos="30.7608,18.6794,-14.781" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="6" vol="12.77" pos="30.5363,21.0886,-14.8125" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="7" vol="10" pos="30.0407,20.757,-16.1175" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="8" vol="12.77" pos="31.2727,22.4451,-14.8571" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="9" vol="10" pos="30.2658,23.3817,-15.231" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="10" vol="12.77" hyb="2" pos="32.3997,22.4938,-15.8881" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="11" vol="10" hyb="2" pos="32.3353,22.241,-17.0737" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="12" vol="10" pos="33.5518,22.9351,-15.3229" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="33.1968,21.4899,-13.2603" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="30.8904,19.8117,-12.3518" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="33.1552,18.5859,-12.0765" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="32.3856,19.9054,-15.135" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="30.0672,18.8443,-15.4891" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="29.6782,21.1616,-14.0996" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="19" vol="10" pos="29.8074,21.589,-16.6144" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="20" vol="10" pos="31.6861,22.7209,-13.8424" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="21" vol="10" pos="30.3444,23.6086,-16.2008" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="22" vol="10" pos="33.423,23.7218,-14.6963" elem="1" />
+</AtomList>
+<BondList count="22" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="1" type="1" />
+<Bond rot="t" chosen="t" a1="1" a2="2" />
+<Bond rot="t" chosen="t" a1="2" a2="4" />
+<Bond a1="2" a2="14" />
+<Bond rot="t" a1="2" a2="3" />
+<Bond a1="3" a2="15" />
+<Bond rot="t" a1="4" a2="5" />
+<Bond a1="5" a2="17" />
+<Bond rot="t" chosen="t" a1="6" a2="4" />
+<Bond a1="6" a2="18" />
+<Bond rot="t" a1="6" a2="7" />
+<Bond a1="7" a2="19" />
+<Bond rot="t" a1="8" a2="9" />
+<Bond rot="t" chosen="t" a1="8" a2="6" />
+<Bond rot="t" chosen="t" a1="10" a2="8" />
+<Bond a1="11" a2="10" type="1" />
+<Bond rot="t" a1="12" a2="10" />
+<Bond a1="13" a2="1" />
+<Bond a1="16" a2="4" />
+<Bond a1="20" a2="8" />
+<Bond a1="21" a2="9" />
+<Bond a1="22" a2="12" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-11.9951;Cofactor (elec)=0;Cofactor (hbond)=-2.5;Csp2=1;Csp3=4;DOF=5;E-Inter (cofactor - ligand)=-51.0136;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-51.0136;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-16.189;E-Intra (sp2-sp2)=0;E-Intra (steric)=-4.38628;E-Intra (tors)=2.07347;E-Intra (tors, ligand atoms)=-18.5018;E-Intra (vdw)=3.74584;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-69.5154;Electro=0;ElectroLong=0;Energy=-69.5154;HBond=0;HeavyAtoms=13;LE1=-5.34734;LE3=-2.2307;Ligand=D-glucuronic_acid;MW=194.139;N=0;Name=D-glucuronic_acid;NoHBond90=0;Nplus=0;OH=4;OPO32minus=0;OS=0;PoseEnergy=-67.1288;RMSD=0;RerankScore=-28.999;Run=0;SimilarityScore=0;Steric=0;Torsions=5;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

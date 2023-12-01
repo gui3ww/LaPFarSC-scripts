@@ -1,0 +1,54 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:25:57" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-33.5629" OriginalLigandName="nicotinamide" Rank="-1" name="[03]nicotinamide" NumberOfRotatableBonds="1" RMSD="-1" rootAtom="3" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/nicotinamide.out.mol2" >
+<AtomList count="15" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="10" pdb="81" sol="-17.4" type="1" genericType="-1" id="0" vol="10" hyb="2" pos="33.7465,23.4785,-15.5783" elem="7" ih="2" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="32.5901,22.7829,-15.8127" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="2" vol="10" hyb="2" pos="31.8633,23.0909,-16.7699" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="3" vol="10.8" hyb="2" pos="32.2551,21.6585,-14.8961" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="4" vol="10.8" hyb="2" pos="33.0093,21.3835,-13.7466" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="5" vol="10.8" hyb="2" pos="32.623,20.3237,-12.9229" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="6" vol="10.8" hyb="2" pos="31.4925,19.5693,-13.2689" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="11" pdb="81" aro="t" sol="-17.4" type="2" genericType="-1" id="7" vol="10" hyb="2" pos="30.7496,19.8303,-14.3822" elem="7" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="8" vol="10.8" hyb="2" pos="31.1275,20.8613,-15.1796" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="34.391,23.2549,-14.8259" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="34.0248,24.2494,-16.1796" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="33.8843,21.9902,-13.4901" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="33.1915,20.0822,-12.0219" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="31.1568,18.7265,-12.6464" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="30.5104,21.0497,-16.0714" elem="1" />
+</AtomList>
+<BondList count="15" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="10" />
+<Bond a1="0" a2="9" />
+<Bond a1="1" a2="0" type="3" />
+<Bond a1="2" a2="1" type="1" />
+<Bond rot="t" chosen="t" a1="3" a2="1" />
+<Bond a1="3" inRing="t" a2="4" type="5" />
+<Bond a1="4" a2="11" />
+<Bond a1="5" a2="12" />
+<Bond a1="5" inRing="t" a2="4" type="5" />
+<Bond a1="6" inRing="t" a2="5" type="5" />
+<Bond a1="7" inRing="t" a2="8" type="5" />
+<Bond a1="7" inRing="t" a2="6" type="5" />
+<Bond a1="8" inRing="t" a2="3" type="5" />
+<Bond a1="13" a2="6" />
+<Bond a1="14" a2="8" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-8.15022;Cofactor (elec)=0;Cofactor (hbond)=-2.5;Csp2=5;Csp3=0;DOF=1;E-Inter (cofactor - ligand)=-44.8539;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-44.8539;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0.0540089;E-Intra (steric)=11.237;E-Intra (tors)=0.0540089;E-Intra (tors, ligand atoms)=11.291;E-Intra (vdw)=26.667;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-33.5629;Electro=0;ElectroLong=0;Energy=-33.5629;HBond=0;HeavyAtoms=9;LE1=-3.72921;LE3=-2.36417;Ligand=nicotinamide;MW=122.125;N=2;Name=nicotinamide;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-31.5923;RMSD=0;RerankScore=-21.2776;Run=0;SimilarityScore=0;Steric=0;Torsions=1;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

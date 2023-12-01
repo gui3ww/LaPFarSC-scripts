@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:50:14)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-10.3079	0	-12.47	0	12	4	-71.296	0	0	-71.296	0	0	-27.5023	0	6.22715	6.74664	-14.5285	25.5888	0	0	-85.8245	0	0	-85.8245	[00]lactose.mvdml	0	23	-3.7315	-1.38974	lactose	342.296	0	[00]lactose	0	0	8	0	3	-84.8139	0	-31.9639	0	0	0	4	0	0	0	OCC(O1)C(O)C(O)C(O)C1OC2C(O)C(O)C(O)OC2CO
+1	0	-18.9433	0	-12.4367	0	12	4	-71.2355	0	0	-71.2355	0	0	-30.0984	0	8.73686	6.58171	-14.7798	27.0574	0	0	-86.0153	0	0	-86.0153	[01]lactose.mvdml	0	23	-3.7398	-1.36724	lactose	342.296	0	[01]lactose	0	0	8	0	3	-84.6731	0	-31.4464	0	0	0	4	0	0	0	OCC(O1)C(O)C(O)C(O)C1OC2C(O)C(O)C(O)OC2CO
+1	0	-14.9674	0	-13.7107	0	12	4	-71.1728	0	0	-71.1728	0	0	-29.9226	0	12.0243	4.53435	-13.3639	28.8114	0	0	-84.5367	0	0	-84.5367	[02]lactose.mvdml	0	23	-3.67551	-1.41391	lactose	342.296	0	[02]lactose	0	0	8	0	3	-83.8393	0	-32.5198	0	0	0	4	0	0	0	OCC(O1)C(O)C(O)C(O)C1OC2C(O)C(O)C(O)OC2CO
+1	0	-5.48539	0	-12.7305	0	12	4	-69.9109	0	0	-69.9109	0	0	-30.1633	0	8.09923	7.43454	-14.6296	26.7069	0	0	-84.5404	0	0	-84.5404	[03]lactose.mvdml	0	23	-3.67567	-1.30467	lactose	342.296	0	[03]lactose	0	0	8	0	3	-83.5569	0	-30.0074	0	0	0	4	0	0	0	OCC(O1)C(O)C(O)C(O)C1OC2C(O)C(O)C(O)OC2CO
+1	0	-18.606	0	-9.50859	0	12	4	-70.8968	0	0	-70.8968	0	0	-29.458	0	8.25379	7.78619	-13.418	28.8423	0	0	-84.3149	0	0	-84.3149	[04]lactose.mvdml	0	23	-3.66586	-1.30207	lactose	342.296	0	[04]lactose	0	0	8	0	3	-83.2217	0	-29.9477	0	0	0	4	0	0	0	OCC(O1)C(O)C(O)C(O)C1OC2C(O)C(O)C(O)OC2CO

@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:01:12)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-18.1832	0	-7.8915	2	6	9	-81.6845	0	0	-81.6845	0	0	-15.3168	0	-8.80759	8.44519	-15.6792	2.57807	0	0	-97.3637	0	0	-97.3637	[00]L-glutathione.mvdml	0	20	-4.86819	-2.12045	L-glutathione	307.323	3	[00]L-glutathione	0	0	0	0	0	-92.5012	0	-42.409	0	0	0	9	0	2	0	SCC(c(nCC(=O)O)=O)nc(=O)CCC(N)C(O)=O
+1	0	-17.6468	0	-5	2	6	9	-72.1282	0	0	-72.1282	0	0	-12.7298	0	-7.04848	0.828095	-18.9502	2.18368	0	0	-91.0784	0	0	-91.0784	[01]L-glutathione.mvdml	0	20	-4.55392	-2.17766	L-glutathione	307.323	3	[01]L-glutathione	0	0	0	0	0	-90.2165	0	-43.5532	0	0	0	9	0	2	0	SCC(c(nCC(=O)O)=O)nc(=O)CCC(N)C(O)=O
+1	0	-13.549	0	-7.48858	2	6	9	-73.5841	0	0	-73.5841	0	0	-14.8346	0	-8.07742	3.2754	-19.6366	2.58176	0	0	-93.2207	0	0	-93.2207	[02]L-glutathione.mvdml	0	20	-4.66103	-2.11279	L-glutathione	307.323	3	[02]L-glutathione	0	0	0	0	0	-90.1003	0	-42.2558	0	0	0	9	0	2	0	SCC(c(nCC(=O)O)=O)nc(=O)CCC(N)C(O)=O
+1	0	-11.1782	0	-5	2	6	9	-72.129	0	0	-72.129	0	0	-15.045	0	-6.47555	1.80724	-19.7133	3.08359	0	0	-91.8424	0	0	-91.8424	[03]L-glutathione.mvdml	0	20	-4.59212	-2.12058	L-glutathione	307.323	3	[03]L-glutathione	0	0	0	0	0	-90.0998	0	-42.4116	0	0	0	9	0	2	0	SCC(c(nCC(=O)O)=O)nc(=O)CCC(N)C(O)=O
+1	0	-15.0771	0	-6.39623	2	6	9	-70.286	0	0	-70.286	0	0	-14.9618	0	-7.40426	2.70729	-19.6588	2.31961	0	0	-89.9449	0	0	-89.9449	[04]L-glutathione.mvdml	0	20	-4.49724	-2.03619	L-glutathione	307.323	3	[04]L-glutathione	0	0	0	0	0	-89.1305	0	-40.7238	0	0	0	9	0	2	0	SCC(c(nCC(=O)O)=O)nc(=O)CCC(N)C(O)=O

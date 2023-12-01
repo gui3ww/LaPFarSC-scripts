@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:52:54)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-12.1397	0	-9.61997	2	4	6	-61.4209	0	0	-61.4209	0	0	-3.78568	0.00322571	2.8454	0.861542	-0.0787402	5.57011	0	0	-61.4997	0	0	-61.4997	[00]L-arginine.mvdml	0	12	-5.12497	-2.90846	L-arginine	174.201	4	[00]L-arginine	0	0	0	0	0	-60.4821	0	-34.9015	0	0	0	6	0	0	0	O=C(O)C(N)CCCNC(=[NH2])[NH]
+1	0	-11.6561	0	-7.5	2	4	6	-60.4677	0	0	-60.4677	0	0	-3.84539	0.000257846	1.59727	1.60348	-0.644638	3.8505	0	0	-61.1123	0	0	-61.1123	[01]L-arginine.mvdml	0	12	-5.09269	-2.84061	L-arginine	174.201	4	[01]L-arginine	0	0	0	0	0	-60.3481	0	-34.0874	0	0	0	6	0	0	0	O=C(O)C(N)CCCNC(=[NH2])[NH]
+1	0	-11.8745	0	-7.5	2	4	6	-60.2693	0	0	-60.2693	0	0	-3.79105	0.00886657	2.01849	1.38563	-0.38693	4.79264	0	0	-60.6562	0	0	-60.6562	[02]L-arginine.mvdml	0	12	-5.05469	-2.83028	L-arginine	174.201	4	[02]L-arginine	0	0	0	0	0	-59.9896	0	-33.9634	0	0	0	6	0	0	0	O=C(O)C(N)CCCNC(=[NH2])[NH]
+1	0	-11.584	0	-7.49596	2	4	6	-59.5437	0	0	-59.5437	0	0	-3.51049	0.515978	1.50395	1.41151	-0.595031	6.37113	0	0	-60.1388	0	0	-60.1388	[03]L-arginine.mvdml	0	12	-5.01156	-2.75407	L-arginine	174.201	4	[03]L-arginine	0	0	0	0	0	-59.496	0	-33.0489	0	0	0	6	0	0	0	O=C(O)C(N)CCCNC(=[NH2])[NH]
+1	0	-12.3441	0	-7.5	2	4	6	-59.5381	0	0	-59.5381	0	0	-3.73585	0.00346418	2.02792	1.16624	-0.54169	4.37291	0	0	-60.0798	0	0	-60.0798	[04]L-arginine.mvdml	0	12	-5.00665	-2.81576	L-arginine	174.201	4	[04]L-arginine	0	0	0	0	0	-58.1778	0	-33.7892	0	0	0	6	0	0	0	O=C(O)C(N)CCCNC(=[NH2])[NH]

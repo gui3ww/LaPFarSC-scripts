@@ -1,0 +1,53 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:26:32" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-32.4224" OriginalLigandName="N-ethylacetamide" Rank="-1" name="[01]N-ethylacetamide" NumberOfRotatableBonds="1" RMSD="-1" rootAtom="3" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/N-ethylacetamide.mol2" >
+<AtomList count="15" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="32.6706,22.0504,-15.1711" elem="6" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" pos="33.5482,23.1012,-15.8229" elem="6" ih="3" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="2" vol="10" hyb="2" pos="31.6699,21.6257,-15.6984" elem="8" />
+<Atom pdbid="1" triposAtomType="10" pdb="81" sol="-17.4" type="1" genericType="-1" id="3" vol="10" hyb="2" pos="33.1028,21.6259,-13.9446" elem="7" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="32.3763,20.6147,-13.1727" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" pos="33.0699,20.3868,-11.8251" elem="6" ih="3" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="6" vol="10" pos="34.4237,23.3692,-15.1906" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="7" vol="10" pos="33.9273,22.7227,-16.7993" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="32.9557,24.0263,-16.0063" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="33.9572,22.0271,-13.5576" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="31.3286,20.9571,-13.0015" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="32.3467,19.6578,-13.7452" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="32.5306,19.6194,-11.223" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="34.1169,20.0333,-11.9679" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="33.1034,21.3267,-11.2275" elem="1" />
+</AtomList>
+<BondList count="14" basetype="MVD.Model.Bond" >
+<Bond rot="t" a1="0" a2="1" />
+<Bond a1="0" a2="2" type="1" />
+<Bond a1="0" a2="3" type="3" />
+<Bond a1="1" a2="6" />
+<Bond a1="1" a2="7" />
+<Bond a1="1" a2="8" />
+<Bond rot="t" chosen="t" a1="3" a2="4" />
+<Bond a1="3" a2="9" />
+<Bond rot="t" a1="4" a2="5" />
+<Bond a1="4" a2="10" />
+<Bond a1="4" a2="11" />
+<Bond a1="5" a2="12" />
+<Bond a1="5" a2="13" />
+<Bond a1="5" a2="14" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-8.3446;Cofactor (elec)=0;Cofactor (hbond)=0;Csp2=0;Csp3=3;DOF=1;E-Inter (cofactor - ligand)=-33.9205;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-33.9205;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0;E-Intra (steric)=1.45968;E-Intra (tors)=0.0384086;E-Intra (tors, ligand atoms)=1.49809;E-Intra (vdw)=1.48964;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-32.4224;Electro=0;ElectroLong=0;Energy=-32.4224;HBond=0;HeavyAtoms=6;LE1=-5.40373;LE3=-3.321;Ligand=N-ethylacetamide;MW=87.1204;N=1;Name=N-ethylacetamide;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-32.1695;RMSD=0;RerankScore=-19.926;Run=0;SimilarityScore=0;Steric=0;Torsions=1;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:43:07)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-10.0508	0	-2.5	7	2	3	-51.5978	0	0	-51.5978	0	0	0	0	6.86943	0.202197	7.07162	29.8172	0	0	-44.5262	0	0	-44.5262	[00]hydrocinnamic_acid.mvdml	0	11	-4.04783	-2.32237	hydrocinnamic_acid	150.175	0	[00]hydrocinnamic_acid	0	0	0	0	0	-44.1088	0	-25.5461	0	0	0	3	0	0	0	OC(=O)CC[c]1[cH][cH][cH][cH][cH]1
+1	0	-9.92661	0	-2.5	7	2	3	-51.009	0	0	-51.009	0	0	0	0	6.91381	0.204581	7.11839	29.8828	0	0	-43.8906	0	0	-43.8906	[01]hydrocinnamic_acid.mvdml	0	11	-3.99006	-2.28842	hydrocinnamic_acid	150.175	0	[01]hydrocinnamic_acid	0	0	0	0	0	-43.4412	0	-25.1726	0	0	0	3	0	0	0	OC(=O)CC[c]1[cH][cH][cH][cH][cH]1
+1	0	-10.0328	0	-2.48785	7	2	3	-51.3672	0	0	-51.3672	0	0	0	0	7.08126	0.296521	7.37778	30.2465	0	0	-43.9894	0	0	-43.9894	[02]hydrocinnamic_acid.mvdml	0	11	-3.99903	-2.29297	hydrocinnamic_acid	150.175	0	[02]hydrocinnamic_acid	0	0	0	0	0	-43.3306	0	-25.2227	0	0	0	3	0	0	0	OC(=O)CC[c]1[cH][cH][cH][cH][cH]1
+1	0	-9.45882	0	-2.5	7	2	3	-51.5993	0	0	-51.5993	0	0	0	0	6.77166	1.07608	7.84774	29.7766	0	0	-43.7516	0	0	-43.7516	[03]hydrocinnamic_acid.mvdml	0	11	-3.97742	-2.24998	hydrocinnamic_acid	150.175	0	[03]hydrocinnamic_acid	0	0	0	0	0	-43.051	0	-24.7497	0	0	0	3	0	0	0	OC(=O)CC[c]1[cH][cH][cH][cH][cH]1
+1	0	-7.56244	0	-2.5	7	2	3	-50.938	0	0	-50.938	0	0	0	0	6.86196	1.10885	7.9708	29.9433	0	0	-42.9672	0	0	-42.9672	[04]hydrocinnamic_acid.mvdml	0	11	-3.90611	-2.20747	hydrocinnamic_acid	150.175	0	[04]hydrocinnamic_acid	0	0	0	0	0	-42.6012	0	-24.2822	0	0	0	3	0	0	0	OC(=O)CC[c]1[cH][cH][cH][cH][cH]1

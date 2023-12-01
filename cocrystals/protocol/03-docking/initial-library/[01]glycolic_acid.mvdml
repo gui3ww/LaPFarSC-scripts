@@ -1,0 +1,41 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:40:50" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-32.4675" OriginalLigandName="glycolic_acid" Rank="-1" name="[01]glycolic_acid" NumberOfRotatableBonds="1" RMSD="-1" rootAtom="1" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/glycolic_acid.mol2" >
+<AtomList count="9" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="0" vol="10" pos="33.4374,23.2186,-15.2342" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="32.6523,22.1335,-15.1133" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="2" vol="10" hyb="2" pos="31.8966,21.7555,-15.975" elem="8" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="32.8161,21.4322,-13.7838" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="4" vol="10" pos="31.5596,21.46,-13.1112" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="5" vol="10" pos="33.5011,23.6546,-14.3689" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="6" vol="10" pos="33.5658,21.951,-13.1468" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="7" vol="10" pos="33.1042,20.3697,-13.9436" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="31.5074,22.2735,-12.5949" elem="1" />
+</AtomList>
+<BondList count="8" basetype="MVD.Model.Bond" >
+<Bond rot="t" a1="0" a2="1" />
+<Bond a1="0" a2="5" />
+<Bond a1="1" a2="2" type="1" />
+<Bond rot="t" chosen="t" a1="1" a2="3" />
+<Bond rot="t" a1="3" a2="4" />
+<Bond a1="3" a2="6" />
+<Bond a1="3" a2="7" />
+<Bond a1="4" a2="8" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-6.11992;Cofactor (elec)=0;Cofactor (hbond)=-3.1648;Csp2=1;Csp3=1;DOF=1;E-Inter (cofactor - ligand)=-28.6603;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-28.6603;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-3.82248;E-Intra (sp2-sp2)=0;E-Intra (steric)=0;E-Intra (tors)=0.015302;E-Intra (tors, ligand atoms)=-3.80718;E-Intra (vdw)=-0.259071;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-32.4675;Electro=0;ElectroLong=0;Energy=-32.4675;HBond=0;HeavyAtoms=5;LE1=-6.49351;LE3=-3.45503;Ligand=glycolic_acid;MW=76.0514;N=0;Name=glycolic_acid;NoHBond90=0;Nplus=0;OH=1;OPO32minus=0;OS=0;PoseEnergy=-32.0972;RMSD=0;RerankScore=-17.2752;Run=0;SimilarityScore=0;Steric=0;Torsions=1;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

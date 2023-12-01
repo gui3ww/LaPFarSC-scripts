@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:54:53)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-8.6257	0	-9.73705	2	2	3	-44.0205	0	0	-44.0205	0	0	-5.83077	0	2.84008	1.02064	-1.97005	1.63106	0	0	-45.9906	0	0	-45.9906	[00]L-aspartic_acid.mvdml	0	9	-5.11006	-2.75864	L-aspartic_acid	133.103	1	[00]L-aspartic_acid	0	0	0	0	0	-45.2456	0	-24.8278	0	0	0	3	0	0	0	O=C(O)CC(N)C(O)=O
+1	0	-7.74123	0	-8.66158	2	2	3	-42.7357	0	0	-42.7357	0	0	-5.92762	0	3.91559	0.414656	-1.59737	3.24173	0	0	-44.333	0	0	-44.333	[01]L-aspartic_acid.mvdml	0	9	-4.92589	-2.69043	L-aspartic_acid	133.103	1	[01]L-aspartic_acid	0	0	0	0	0	-43.7036	0	-24.2139	0	0	0	3	0	0	0	O=C(O)CC(N)C(O)=O
+1	0	-7.20241	0	-9.04794	2	2	3	-43.5504	0	0	-43.5504	0	0	-5.93591	0	4.1055	0.674826	-1.15558	2.64864	0	0	-44.706	0	0	-44.706	[02]L-aspartic_acid.mvdml	0	9	-4.96733	-2.72334	L-aspartic_acid	133.103	1	[02]L-aspartic_acid	0	0	0	0	0	-43.6812	0	-24.51	0	0	0	3	0	0	0	O=C(O)CC(N)C(O)=O
+1	0	-9.11774	0	-7.5	2	2	3	-43.0725	0	0	-43.0725	0	0	-4.62799	0	2.07376	1.26111	-1.29313	3.58133	0	0	-44.3657	0	0	-44.3657	[03]L-aspartic_acid.mvdml	0	9	-4.92952	-2.65469	L-aspartic_acid	133.103	1	[03]L-aspartic_acid	0	0	0	0	0	-43.4885	0	-23.8922	0	0	0	3	0	0	0	O=C(O)CC(N)C(O)=O
+1	0	-8.96945	0	-7.5	2	2	3	-42.2792	0	0	-42.2792	0	0	-5.8008	0	3.84953	0.597661	-1.3536	3.2318	0	0	-43.6328	0	0	-43.6328	[04]L-aspartic_acid.mvdml	0	9	-4.84809	-2.64224	L-aspartic_acid	133.103	1	[04]L-aspartic_acid	0	0	0	0	0	-43.2152	0	-23.7801	0	0	0	3	0	0	0	O=C(O)CC(N)C(O)=O

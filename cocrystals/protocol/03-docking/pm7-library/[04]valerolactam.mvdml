@@ -1,0 +1,56 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:44:43" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-25.2553" OriginalLigandName="valerolactam" Rank="-1" name="[04]valerolactam" RMSD="-1" rootAtom="4" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM7/valerolactam.out.mol2" >
+<AtomList count="16" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="0" vol="10" hyb="2" pos="38.1843,27.696,-14.2136" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="38.4566,26.6947,-14.8516" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="37.3841,25.7986,-15.4213" elem="6" ih="2" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="37.8946,24.8694,-16.5206" elem="6" ih="2" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="39.1885,24.1943,-16.0601" elem="6" ih="2" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" pos="40.2742,25.2562,-15.824" elem="6" ih="2" />
+<Atom cc="3" pdbid="1" triposAtomType="10" pdb="81" sol="-17.4" type="1" genericType="-1" id="6" vol="10" hyb="2" pos="39.7876,26.3636,-14.9972" elem="7" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="7" vol="10" pos="36.9487,25.2134,-14.5821" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="36.5518,26.4334,-15.7942" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="38.0686,25.4367,-17.4559" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="37.1269,24.1128,-16.769" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="39.0069,23.6159,-15.1333" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="39.5408,23.4634,-16.8102" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="40.6337,25.6582,-16.8009" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="41.1538,24.7935,-15.3185" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="40.4841,26.9835,-14.6064" elem="1" />
+</AtomList>
+<BondList count="16" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="1" type="1" />
+<Bond a1="1" inRing="t" a2="6" type="3" />
+<Bond a1="2" inRing="t" a2="1" />
+<Bond a1="2" inRing="t" a2="3" />
+<Bond a1="3" a2="9" />
+<Bond a1="3" inRing="t" a2="4" />
+<Bond a1="4" inRing="t" a2="5" />
+<Bond a1="4" a2="12" />
+<Bond a1="5" a2="13" />
+<Bond a1="5" a2="14" />
+<Bond a1="6" a2="15" />
+<Bond a1="6" inRing="t" a2="5" />
+<Bond a1="7" a2="2" />
+<Bond a1="8" a2="2" />
+<Bond a1="10" a2="3" />
+<Bond a1="11" a2="4" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-6.66138;Cofactor (elec)=0;Cofactor (hbond)=-2.5;Csp2=0;Csp3=4;DOF=0;E-Inter (cofactor - ligand)=-31.3822;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-31.3822;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0;E-Intra (steric)=6.12693;E-Intra (tors)=0;E-Intra (tors, ligand atoms)=6.12693;E-Intra (vdw)=11.7743;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-25.2553;Electro=0;ElectroLong=0;Energy=-25.2553;HBond=0;HeavyAtoms=7;LE1=-3.6079;LE3=-2.31452;Ligand=valerolactam;MW=99.1311;N=1;Name=valerolactam;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-25.068;RMSD=0;RerankScore=-16.2016;Run=0;SimilarityScore=0;Steric=0;Torsions=0;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

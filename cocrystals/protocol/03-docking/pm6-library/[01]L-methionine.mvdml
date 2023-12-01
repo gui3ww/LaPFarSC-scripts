@@ -1,0 +1,63 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:09:05" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-47.5067" OriginalLigandName="L-methionine" Rank="-1" name="[01]L-methionine" NumberOfRotatableBonds="4" RMSD="-1" rootAtom="4" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/L-methionine.out.mol2" >
+<AtomList count="20" basetype="MVD.Model.Atom" >
+<Atom triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="32.6513,22.4878,-15.6614" elem="6" />
+<Atom triposAtomType="8" pdb="81" sol="-17.4" type="1" genericType="-1" id="1" vol="10" pos="30.7017,22.1535,-14.3048" elem="7" ih="2" />
+<Atom triposAtomType="3" pdb="12" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="32.1942,22.07,-14.263" elem="6" ih="1" />
+<Atom triposAtomType="3" pdb="14" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="32.642,20.6437,-13.8883" elem="6" ih="2" />
+<Atom triposAtomType="3" pdb="22" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="32.2804,20.3347,-12.4437" elem="6" ih="2" />
+<Atom triposAtomType="18" pdb="108" sol="-6.4" type="4" genericType="-1" id="5" vol="20" pos="32.8518,18.6347,-12.1011" elem="16" />
+<Atom triposAtomType="3" pdb="18" sol="4" type="4" genericType="-1" id="6" vol="12.77" pos="31.8288,17.6669,-13.2338" elem="6" ih="3" />
+<Atom triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="7" vol="10" hyb="2" pos="32.3379,21.9491,-16.7103" elem="8" />
+<Atom triposAtomType="14" pdb="105" sol="-17.4" type="3" genericType="-1" id="8" vol="10" pos="33.48,23.5596,-15.6683" elem="8" ih="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="30.3156,21.8461,-13.4057" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="30.4134,23.133,-14.4081" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="32.6468,22.8071,-13.5354" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="33.7376,20.5396,-14.0525" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="32.165,19.9198,-14.5852" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="31.1901,20.4057,-12.2624" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="32.7699,21.0412,-11.7422" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="32.1095,16.6082,-13.1381" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="31.9759,17.9649,-14.2799" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="30.7597,17.7591,-13.0045" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="19" vol="10" pos="33.7184,23.892,-14.7417" elem="1" />
+</AtomList>
+<BondList count="19" basetype="MVD.Model.Bond" >
+<Bond rot="t" chosen="t" a1="0" a2="2" />
+<Bond rot="t" a1="0" a2="8" />
+<Bond a1="1" a2="9" />
+<Bond rot="t" a1="2" a2="1" />
+<Bond rot="t" chosen="t" a1="2" a2="3" />
+<Bond a1="3" a2="13" />
+<Bond a1="3" a2="12" />
+<Bond rot="t" chosen="t" a1="4" a2="3" />
+<Bond rot="t" chosen="t" a1="4" a2="5" />
+<Bond rot="t" a1="6" a2="5" />
+<Bond a1="6" a2="16" />
+<Bond a1="7" a2="0" type="1" />
+<Bond a1="10" a2="1" />
+<Bond a1="11" a2="2" />
+<Bond a1="14" a2="4" />
+<Bond a1="15" a2="4" />
+<Bond a1="17" a2="6" />
+<Bond a1="18" a2="6" />
+<Bond a1="19" a2="8" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-7.88685;Cofactor (elec)=0;Cofactor (hbond)=-4.99793;Csp2=1;Csp3=4;DOF=4;E-Inter (cofactor - ligand)=-44.3592;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-44.3592;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-3.5033;E-Intra (sp2-sp2)=0;E-Intra (steric)=0.0611438;E-Intra (tors)=0.294673;E-Intra (tors, ligand atoms)=-3.14748;E-Intra (vdw)=1.32983;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-47.5067;Electro=0;ElectroLong=0;Energy=-47.5067;HBond=0;HeavyAtoms=9;LE1=-5.27852;LE3=-2.91472;Ligand=L-methionine;MW=149.211;N=1;Name=L-methionine;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=1;PoseEnergy=-47.0288;RMSD=0;RerankScore=-26.2325;Run=0;SimilarityScore=0;Steric=0;Torsions=4;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

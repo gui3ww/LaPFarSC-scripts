@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 21:55:53)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-19.3077	0	-7.5	1	11	6	-78.6026	0	0	-78.6026	0	0	-7.5	0	-5.88774	2.88509	-10.5026	8.56666	0	0	-89.1052	0	0	-89.1052	[00]alitame.mvdml	0	22	-4.05024	-2.01975	alitame	331.431	3	[00]alitame	0	0	0	0	1	-87.9211	0	-44.4345	0	0	0	6	0	2	0	O=c(nC1C(SC1(C)(C))(C)C)C(C)nc(=O)C(N)CC(=O)O
+1	0	-15.4684	0	-2.5	1	11	6	-63.3793	0	0	-63.3793	0	0	-7.49721	0	-16.4192	2.66604	-21.2503	4.00111	0	0	-84.6296	0	0	-84.6296	[01]alitame.mvdml	0	22	-3.8468	-1.72371	alitame	331.431	3	[01]alitame	0	0	0	0	1	-83.8667	0	-37.9215	0	0	0	6	0	2	0	O=c(nC1C(SC1(C)(C))(C)C)C(C)nc(=O)C(N)CC(=O)O
+1	0	-13.6542	0	-2.90802	1	11	6	-67.1328	0	0	-67.1328	0	0	-7.5	0	-7.17275	1.00654	-13.6662	5.97911	0	0	-80.799	0	0	-80.799	[02]alitame.mvdml	0	22	-3.67268	-1.81238	alitame	331.431	3	[02]alitame	0	0	0	0	1	-80.0315	0	-39.8724	0	0	0	6	0	2	0	O=c(nC1C(SC1(C)(C))(C)C)C(C)nc(=O)C(N)CC(=O)O
+1	0	-5.90349	0	-5	1	11	6	-60.7013	0	0	-60.7013	0	0	-7.49761	0	-15.0181	2.58113	-19.9346	2.90748	0	0	-80.6358	0	0	-80.6358	[03]alitame.mvdml	0	22	-3.66527	-1.65	alitame	331.431	3	[03]alitame	0	0	0	0	1	-79.8112	0	-36.3001	0	0	0	6	0	2	0	O=c(nC1C(SC1(C)(C))(C)C)C(C)nc(=O)C(N)CC(=O)O
+1	0	-14.2107	0	-6.30691	1	11	6	-58.939	0	0	-58.939	0	0	-7.5	0	-15.9111	2.14794	-21.2632	4.27026	0	0	-80.2022	0	0	-80.2022	[04]alitame.mvdml	0	22	-3.64555	-1.61862	alitame	331.431	3	[04]alitame	0	0	0	0	1	-79.4495	0	-35.6097	0	0	0	6	0	2	0	O=c(nC1C(SC1(C)(C))(C)C)C(C)nc(=O)C(N)CC(=O)O

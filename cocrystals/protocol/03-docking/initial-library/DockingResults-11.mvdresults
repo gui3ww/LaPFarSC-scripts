@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 21:53:31)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-10.08	0	-7.38259	2	4	5	-55.05	0	0	-55.05	0	0	0	0	-0.880071	0.705768	-0.174302	0.238562	0	0	-55.2243	0	0	-55.2243	[00]adipic_acid.mvdml	0	10	-5.52243	-3.25963	adipic_acid	146.141	0	[00]adipic_acid	0	0	0	0	0	-54.6204	0	-32.5963	0	0	0	5	0	0	0	O=C(O)CCCCC(=O)O
+1	0	-9.97713	0	-4.79179	2	4	5	-51.9228	0	0	-51.9228	0	0	0	0	-2.19771	0.871938	-1.32578	-0.292765	0	0	-53.2485	0	0	-53.2485	[01]adipic_acid.mvdml	0	10	-5.32485	-3.08583	adipic_acid	146.141	0	[01]adipic_acid	0	0	0	0	0	-52.7174	0	-30.8583	0	0	0	5	0	0	0	O=C(O)CCCCC(=O)O
+1	0	-11.1153	0	-5	2	4	5	-53.4773	0	0	-53.4773	0	0	0	0	-1.83925	1.50638	-0.332868	-0.310255	0	0	-53.8102	0	0	-53.8102	[02]adipic_acid.mvdml	0	10	-5.38102	-3.11398	adipic_acid	146.141	0	[02]adipic_acid	0	0	0	0	0	-52.6844	0	-31.1398	0	0	0	5	0	0	0	O=C(O)CCCCC(=O)O
+1	0	-10.7653	0	-7.43277	2	4	5	-52.3198	0	0	-52.3198	0	0	0	0	-2.44995	2.46104	0.0110844	-0.417647	0	0	-52.3087	0	0	-52.3087	[03]adipic_acid.mvdml	0	10	-5.23087	-2.96675	adipic_acid	146.141	0	[03]adipic_acid	0	0	0	0	0	-51.7339	0	-29.6675	0	0	0	5	0	0	0	O=C(O)CCCCC(=O)O
+1	0	-9.19383	0	-7.4666	2	4	5	-52.4336	0	0	-52.4336	0	0	0	0	-1.56937	1.59045	0.0210824	0.785896	0	0	-52.4125	0	0	-52.4125	[04]adipic_acid.mvdml	0	10	-5.24125	-3.02339	adipic_acid	146.141	0	[04]adipic_acid	0	0	0	0	0	-51.6464	0	-30.2339	0	0	0	5	0	0	0	O=C(O)CCCCC(=O)O

@@ -1,0 +1,58 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:09:50" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-36.4132" OriginalLigandName="L-proline" Rank="-1" name="[04]L-proline" NumberOfRotatableBonds="1" RMSD="-1" rootAtom="2" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM7/L-proline.out.mol2" >
+<AtomList count="17" basetype="MVD.Model.Atom" >
+<Atom triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="37.2675,25.6662,-16.1398" elem="6" />
+<Atom cc="3" triposAtomType="8" pdb="81" sol="-17.4" type="1" genericType="-1" id="1" vol="10" pos="39.2149,24.6725,-15.1286" elem="7" ih="1" />
+<Atom cc="3" triposAtomType="3" pdb="12" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="38.2585,25.7923,-14.991" elem="6" ih="1" />
+<Atom cc="3" triposAtomType="3" pdb="14" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="39.0533,27.1165,-15.0812" elem="6" ih="2" />
+<Atom cc="3" triposAtomType="3" pdb="22" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="40.4123,26.736,-15.6989" elem="6" ih="2" />
+<Atom cc="3" triposAtomType="3" pdb="15" sol="4" type="4" genericType="-1" id="5" vol="12.77" pos="40.3643,25.2028,-15.9056" elem="6" ih="2" />
+<Atom triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="6" vol="10" hyb="2" pos="37.5208,25.6662,-17.3146" elem="8" />
+<Atom triposAtomType="14" pdb="105" sol="-17.4" type="3" genericType="-1" id="7" vol="10" pos="35.9956,25.5012,-15.7015" elem="8" ih="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="39.5041,24.3228,-14.2181" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="37.6826,25.7132,-14.0351" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="39.1794,27.565,-14.0827" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="38.5302,27.8689,-15.6944" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="40.57,27.2526,-16.6602" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="41.2466,27.0307,-15.0457" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="41.305,24.7053,-15.614" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="40.1746,24.9608,-16.9764" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="35.9169,25.539,-14.7157" elem="1" />
+</AtomList>
+<BondList count="17" basetype="MVD.Model.Bond" >
+<Bond rot="t" a1="0" a2="7" />
+<Bond a1="1" inRing="t" a2="5" />
+<Bond a1="2" inRing="t" a2="3" />
+<Bond rot="t" chosen="t" a1="2" a2="0" />
+<Bond a1="2" inRing="t" a2="1" />
+<Bond a1="3" a2="11" />
+<Bond a1="3" inRing="t" a2="4" />
+<Bond a1="4" inRing="t" a2="5" />
+<Bond a1="4" a2="12" />
+<Bond a1="5" a2="14" />
+<Bond a1="5" a2="15" />
+<Bond a1="6" a2="0" type="1" />
+<Bond a1="7" a2="16" />
+<Bond a1="8" a2="1" />
+<Bond a1="9" a2="2" />
+<Bond a1="10" a2="3" />
+<Bond a1="13" a2="4" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-7.7458;Cofactor (elec)=0;Cofactor (hbond)=-4.99513;Csp2=1;Csp3=4;DOF=1;E-Inter (cofactor - ligand)=-34.3434;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-34.3434;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-3.6338;E-Intra (sp2-sp2)=0;E-Intra (steric)=1.54028;E-Intra (tors)=0.0236832;E-Intra (tors, ligand atoms)=-2.06985;E-Intra (vdw)=1.68525;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-36.4132;Electro=0;ElectroLong=0;Energy=-36.4132;HBond=0;HeavyAtoms=8;LE1=-4.55165;LE3=-2.51917;Ligand=L-proline;MW=115.13;N=1;Name=L-proline;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-35.6331;RMSD=0;RerankScore=-20.1533;Run=0;SimilarityScore=0;Steric=0;Torsions=1;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

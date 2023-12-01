@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:38:42)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-10.7025	0	-7.49884	7	0	1	-46.958	0	0	-46.958	0	0	-2.5	0.00591995	10.1822	0.00591995	7.68814	29.3947	0	0	-39.2699	0	0	-39.2699	[00]gentisic_acid.mvdml	0	11	-3.56999	-2.03838	gentisic_acid	154.12	0	[00]gentisic_acid	0	0	2	0	0	-38.5619	0	-22.4222	0	0	0	1	0	0	0	O[c]([cH]1)[cH][cH][c](O)[c]1C(=O)O
+1	0	-10.6762	0	-7.5	7	0	1	-47.0123	0	0	-47.0123	0	0	-2.5	0.991338	9.70204	0.991338	8.19337	28.3674	0	0	-38.819	0	0	-38.819	[01]gentisic_acid.mvdml	0	11	-3.529	-1.92084	gentisic_acid	154.12	0	[01]gentisic_acid	0	0	2	0	0	-38.3175	0	-21.1292	0	0	0	1	0	0	0	O[c]([cH]1)[cH][cH][c](O)[c]1C(=O)O
+1	0	-8.86966	0	-7.09365	7	0	1	-46.4738	0	0	-46.4738	0	0	-2.5	0.626413	9.88397	0.626413	8.01038	28.6579	0	0	-38.4634	0	0	-38.4634	[02]gentisic_acid.mvdml	0	11	-3.49668	-1.93707	gentisic_acid	154.12	0	[02]gentisic_acid	0	0	2	0	0	-37.9264	0	-21.3078	0	0	0	1	0	0	0	O[c]([cH]1)[cH][cH][c](O)[c]1C(=O)O
+1	0	-7.23811	0	-4.99893	7	0	1	-46.0449	0	0	-46.0449	0	0	-2.5	0.00177629	10.184	0.00177629	7.68575	29.3966	0	0	-38.3591	0	0	-38.3591	[03]gentisic_acid.mvdml	0	11	-3.48719	-1.98895	gentisic_acid	154.12	0	[03]gentisic_acid	0	0	2	0	0	-37.7853	0	-21.8785	0	0	0	1	0	0	0	O[c]([cH]1)[cH][cH][c](O)[c]1C(=O)O
+1	0	-5.3042	0	-6.68433	7	0	1	-45.7801	0	0	-45.7801	0	0	-2.5	0.363197	10.0123	0.363197	7.87548	29.0058	0	0	-37.9046	0	0	-37.9046	[04]gentisic_acid.mvdml	0	11	-3.44587	-1.93037	gentisic_acid	154.12	0	[04]gentisic_acid	0	0	2	0	0	-37.4889	0	-21.234	0	0	0	1	0	0	0	O[c]([cH]1)[cH][cH][c](O)[c]1C(=O)O

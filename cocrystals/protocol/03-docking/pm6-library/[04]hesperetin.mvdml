@@ -1,0 +1,98 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:41:59" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-65.7724" OriginalLigandName="hesperetin" Rank="-1" name="[04]hesperetin" NumberOfRotatableBonds="2" RMSD="-1" rootAtom="5" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/hesperetin.out.mol2" >
+<AtomList count="36" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" pos="32.8756,18.3089,-12.5637" elem="6" ih="3" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="2" genericType="-1" id="1" vol="10" pos="31.8239,19.308,-12.6742" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="2" vol="10.8" hyb="2" pos="31.9792,20.2871,-13.6295" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="3" vol="10.8" hyb="2" pos="32.9733,21.2576,-13.68" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="4" vol="10.8" hyb="2" pos="32.983,22.1775,-14.7408" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="5" vol="10.8" hyb="2" pos="32.0132,22.1278,-15.7422" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="6" vol="10.8" hyb="2" pos="31.0068,21.1408,-15.7029" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="7" vol="10.8" hyb="2" pos="30.988,20.2309,-14.6526" elem="6" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="8" vol="10" pos="29.9888,19.2885,-14.6576" elem="8" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="9" vol="12.77" pos="31.9856,23.0916,-16.9058" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="10" vol="12.77" pos="32.053,22.4819,-18.2935" elem="6" ih="2" />
+<Atom cc="3" pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="11" vol="12.77" hyb="2" pos="33.4005,21.8699,-18.6033" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="12" vol="10" hyb="2" pos="33.4778,20.879,-19.316" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="13" vol="10.8" hyb="2" pos="34.5418,22.5673,-18.0369" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="14" vol="10.8" hyb="2" pos="35.8853,22.2627,-18.3858" elem="6" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="15" vol="10" pos="36.0573,21.2108,-19.2165" elem="8" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="16" vol="10.8" hyb="2" pos="36.9701,23.0065,-17.9137" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="17" vol="10.8" hyb="2" pos="36.7056,24.0876,-17.0567" elem="6" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="18" vol="10" pos="37.7916,24.7776,-16.6375" elem="8" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="19" vol="10.8" hyb="2" pos="35.405,24.4271,-16.65" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="20" vol="10.8" hyb="2" pos="34.3501,23.6515,-17.1363" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="2" genericType="-1" id="21" vol="10" pos="33.1179,24.0294,-16.7088" elem="8" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="22" vol="10" pos="32.5429,17.729,-11.6919" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="23" vol="10" pos="33.8407,18.7876,-12.3717" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="24" vol="10" pos="32.9001,17.6878,-13.4649" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="25" vol="10" pos="33.7452,21.3152,-12.9105" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="26" vol="10" pos="33.773,22.9322,-14.7633" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="27" vol="10" pos="30.2391,21.0964,-16.4792" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="28" vol="10" pos="30.0617,18.6715,-13.8662" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="29" vol="10" pos="31.1296,23.8103,-16.8135" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="30" vol="10" pos="31.2307,21.7442,-18.4431" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="31" vol="10" pos="31.8377,23.2611,-19.0681" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="32" vol="10" pos="35.1792,20.7841,-19.495" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="33" vol="10" pos="37.9927,22.7655,-18.198" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="34" vol="10" pos="37.559,25.5469,-16.0204" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="35" vol="10" pos="35.2181,25.2552,-15.9689" elem="1" />
+</AtomList>
+<BondList count="38" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="24" />
+<Bond rot="t" a1="0" a2="1" />
+<Bond a1="0" a2="23" />
+<Bond rot="t" chosen="t" a1="1" a2="2" />
+<Bond a1="2" inRing="t" a2="7" type="5" />
+<Bond a1="2" inRing="t" a2="3" type="5" />
+<Bond a1="3" inRing="t" a2="4" type="5" />
+<Bond a1="4" inRing="t" a2="5" type="5" />
+<Bond a1="4" a2="26" />
+<Bond rot="t" chosen="t" a1="5" a2="9" />
+<Bond a1="6" a2="27" />
+<Bond a1="6" inRing="t" a2="5" type="5" />
+<Bond a1="7" inRing="t" a2="6" type="5" />
+<Bond rot="t" a1="8" a2="7" />
+<Bond a1="9" inRing="t" a2="21" />
+<Bond a1="9" inRing="t" a2="10" />
+<Bond a1="10" inRing="t" a2="11" />
+<Bond a1="10" a2="31" />
+<Bond a1="11" a2="12" type="1" />
+<Bond a1="13" inRing="t" a2="11" />
+<Bond a1="13" inRing="t" a2="14" type="5" />
+<Bond a1="14" inRing="t" a2="16" type="5" />
+<Bond rot="t" a1="14" a2="15" />
+<Bond a1="15" a2="32" />
+<Bond a1="16" a2="33" />
+<Bond rot="t" a1="17" a2="18" />
+<Bond a1="17" inRing="t" a2="16" type="5" />
+<Bond a1="19" inRing="t" a2="17" type="5" />
+<Bond a1="20" inRing="t" a2="19" type="5" />
+<Bond a1="20" inRing="t" a2="13" type="5" />
+<Bond a1="21" inRing="t" a2="20" />
+<Bond a1="22" a2="0" />
+<Bond a1="25" a2="3" />
+<Bond a1="28" a2="8" />
+<Bond a1="29" a2="9" />
+<Bond a1="30" a2="10" />
+<Bond a1="34" a2="18" />
+<Bond a1="35" a2="19" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-14.6331;Cofactor (elec)=0;Cofactor (hbond)=0;Csp2=12;Csp3=3;DOF=2;E-Inter (cofactor - ligand)=-72.7804;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-72.7804;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-5;E-Intra (sp2-sp2)=0;E-Intra (steric)=11.8341;E-Intra (tors)=0.173935;E-Intra (tors, ligand atoms)=7.00803;E-Intra (vdw)=72.0101;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-65.7724;Electro=0;ElectroLong=0;Energy=-65.7724;HBond=0;HeavyAtoms=22;LE1=-2.98966;LE3=-1.43663;Ligand=hesperetin;MW=302.279;N=0;Name=hesperetin;NoHBond90=0;Nplus=0;OH=3;OPO32minus=0;OS=2;PoseEnergy=-64.7171;RMSD=0;RerankScore=-31.6058;Run=0;SimilarityScore=0;Steric=0;Torsions=2;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

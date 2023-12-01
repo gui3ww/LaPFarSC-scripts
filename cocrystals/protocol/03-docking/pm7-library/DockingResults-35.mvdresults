@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:41:54)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-12.1842	0	-7.23938	7	1	3	-56.6939	0	0	-56.6939	0	0	-3.46088	0.755172	10.0618	0.786184	7.38713	32.2601	0	0	-49.3068	0	0	-49.3068	[00]hippuric_acid.mvdml	0	13	-3.79283	-2.05363	hippuric_acid	179.173	1	[00]hippuric_acid	0	0	0	0	0	-48.3543	0	-26.6972	0	0	0	3	0	1	0	OC(=O)Cnc(=O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-12.9836	0	-6.43177	7	1	3	-54.9123	0	0	-54.9123	0	0	-3.33605	0.170207	10.3044	0.4677	7.436	32.9747	0	0	-47.4763	0	0	-47.4763	[01]hippuric_acid.mvdml	0	13	-3.65202	-2.01188	hippuric_acid	179.173	1	[01]hippuric_acid	0	0	0	0	0	-46.6668	0	-26.1544	0	0	0	3	0	1	0	OC(=O)Cnc(=O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-13.2741	0	-5.89166	7	1	3	-54.824	0	0	-54.824	0	0	-3.7419	1.91439	9.54561	1.93419	7.73789	31.015	0	0	-47.0861	0	0	-47.0861	[02]hippuric_acid.mvdml	0	13	-3.62201	-1.84764	hippuric_acid	179.173	1	[02]hippuric_acid	0	0	0	0	0	-46.6058	0	-24.0193	0	0	0	3	0	1	0	OC(=O)Cnc(=O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-12.1741	0	-7.23967	7	1	3	-54.5724	0	0	-54.5724	0	0	-3.6573	0.665807	10.0581	0.898303	7.2991	31.7722	0	0	-47.2733	0	0	-47.2733	[03]hippuric_acid.mvdml	0	13	-3.63641	-1.95694	hippuric_acid	179.173	1	[03]hippuric_acid	0	0	0	0	0	-46.4881	0	-25.4402	0	0	0	3	0	1	0	OC(=O)Cnc(=O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-11.3489	0	-7.26488	7	1	3	-52.0898	0	0	-52.0898	0	0	-5.43707	0.268173	10.5854	1.58046	6.72881	32.7141	0	0	-45.361	0	0	-45.361	[04]hippuric_acid.mvdml	0	13	-3.48931	-1.79516	hippuric_acid	179.173	1	[04]hippuric_acid	0	0	0	0	0	-45.0271	0	-23.3371	0	0	0	3	0	1	0	OC(=O)Cnc(=O)[c]1[cH][cH][cH][cH][cH]1

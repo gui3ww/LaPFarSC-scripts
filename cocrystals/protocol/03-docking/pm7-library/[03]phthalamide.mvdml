@@ -1,0 +1,64 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:27:51" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-31.2186" OriginalLigandName="phthalamide" Rank="-1" name="[03]phthalamide" NumberOfRotatableBonds="2" RMSD="-1" rootAtom="3" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM7/phthalamide.out.mol2" >
+<AtomList count="20" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="10" pdb="81" sol="-17.4" type="1" genericType="-1" id="0" vol="10" hyb="2" pos="33.6876,20.8709,-10.4413" elem="7" ih="2" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="34.0214,21.7713,-9.45521" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="2" vol="10" hyb="2" pos="33.1495,22.4162,-8.90136" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="3" vol="10.8" hyb="2" pos="35.4732,21.9207,-9.15364" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="4" vol="10.8" hyb="2" pos="36.3084,20.8328,-9.41703" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="5" vol="10.8" hyb="2" pos="37.6761,20.9296,-9.17522" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="6" vol="10.8" hyb="2" pos="38.2104,22.1098,-8.66" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="7" vol="10.8" hyb="2" pos="37.3782,23.1944,-8.39785" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="8" vol="10.8" hyb="2" pos="36.0075,23.1079,-8.65825" elem="6" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="9" vol="12.77" hyb="2" pos="35.2129,24.3346,-8.33778" elem="6" />
+<Atom pdbid="1" triposAtomType="10" pdb="81" sol="-17.4" type="1" genericType="-1" id="10" vol="10" hyb="2" pos="34.5756,24.3809,-7.12177" elem="7" ih="2" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="11" vol="10" hyb="2" pos="35.0589,25.2232,-9.15481" elem="8" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="34.3617,20.2956,-10.8971" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="32.7254,20.7313,-10.6862" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="35.8941,19.9098,-9.8227" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="38.3266,20.0818,-9.38656" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="39.2791,22.1831,-8.46015" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="37.7879,24.117,-7.97626" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="34.8041,23.7385,-6.38097" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="19" vol="10" pos="34.033,25.1871,-6.87711" elem="1" />
+</AtomList>
+<BondList count="20" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="12" />
+<Bond a1="0" a2="13" />
+<Bond a1="1" a2="0" type="3" />
+<Bond a1="2" a2="1" type="1" />
+<Bond rot="t" chosen="t" a1="3" a2="1" />
+<Bond a1="3" inRing="t" a2="8" type="5" />
+<Bond a1="4" inRing="t" a2="3" type="5" />
+<Bond a1="5" inRing="t" a2="4" type="5" />
+<Bond a1="5" inRing="t" a2="6" type="5" />
+<Bond a1="6" inRing="t" a2="7" type="5" />
+<Bond a1="7" inRing="t" a2="8" type="5" />
+<Bond a1="7" a2="17" />
+<Bond rot="t" chosen="t" a1="8" a2="9" />
+<Bond a1="9" a2="11" type="1" />
+<Bond a1="10" a2="9" type="3" />
+<Bond a1="10" a2="19" />
+<Bond a1="14" a2="4" />
+<Bond a1="15" a2="5" />
+<Bond a1="16" a2="6" />
+<Bond a1="18" a2="10" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-11.2795;Cofactor (elec)=0;Cofactor (hbond)=-4.99762;Csp2=6;Csp3=0;DOF=2;E-Inter (cofactor - ligand)=-46.3822;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-46.3822;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-2.5;E-Intra (sp2-sp2)=7.14831;E-Intra (steric)=10.5152;E-Intra (tors)=7.14831;E-Intra (tors, ligand atoms)=15.1636;E-Intra (vdw)=32.2407;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-31.2186;Electro=0;ElectroLong=0;Energy=-31.2186;HBond=0;HeavyAtoms=12;LE1=-2.60155;LE3=-0.865048;Ligand=phthalamide;MW=164.161;N=2;Name=phthalamide;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-30.7471;RMSD=0;RerankScore=-10.3806;Run=0;SimilarityScore=0;Steric=0;Torsions=2;VdW (LJ12-6)=0;carbonyl=2;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

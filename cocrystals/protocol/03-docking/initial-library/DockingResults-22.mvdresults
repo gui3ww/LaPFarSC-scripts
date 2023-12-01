@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:17:36)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-11.8543	0	-7.5	3	3	5	-62.3215	0	0	-62.3215	0	0	-10.9532	0	5.93938	2.12193	-2.8919	4.97608	0	0	-65.2134	0	0	-65.2134	[00]citric_acid.mvdml	0	13	-5.01642	-2.60107	citric_acid	192.124	0	[00]citric_acid	0	0	1	0	0	-64.4175	0	-33.8139	0	0	0	5	0	0	0	OC(CC(O)=O)(C(O)=O)CC(=O)O
+1	0	-10.6708	0	-9.12847	3	3	5	-57.0233	0	0	-57.0233	0	0	-13.9798	0	6.94403	1.32165	-5.71408	6.45231	0	0	-62.7373	0	0	-62.7373	[01]citric_acid.mvdml	0	13	-4.82595	-2.38439	citric_acid	192.124	0	[01]citric_acid	0	0	1	0	0	-61.8782	0	-30.9971	0	0	0	5	0	0	0	OC(CC(O)=O)(C(O)=O)CC(=O)O
+1	0	-11.4658	0	-5	3	3	5	-57.6096	0	0	-57.6096	0	0	-9.40961	0	4.47895	1.18357	-3.74709	5.86824	0	0	-61.3567	0	0	-61.3567	[02]citric_acid.mvdml	0	13	-4.71974	-2.46036	citric_acid	192.124	0	[02]citric_acid	0	0	1	0	0	-60.4714	0	-31.9847	0	0	0	5	0	0	0	OC(CC(O)=O)(C(O)=O)CC(=O)O
+1	0	-11.5214	0	-4.99241	3	3	5	-59.4076	0	0	-59.4076	0	0	-11.1091	0	5.67291	1.27682	-4.15939	4.72482	0	0	-63.567	0	0	-63.567	[03]citric_acid.mvdml	0	13	-4.88977	-2.53333	citric_acid	192.124	0	[03]citric_acid	0	0	1	0	0	-59.835	0	-32.9332	0	0	0	5	0	0	0	OC(CC(O)=O)(C(O)=O)CC(=O)O
+1	0	-11.558	0	-6.36142	3	3	5	-54.2948	0	0	-54.2948	0	0	-13.5133	0	7.26165	0.582349	-5.66933	7.47711	0	0	-59.9641	0	0	-59.9641	[04]citric_acid.mvdml	0	13	-4.61262	-2.29622	citric_acid	192.124	0	[04]citric_acid	0	0	1	0	0	-59.2531	0	-29.8509	0	0	0	5	0	0	0	OC(CC(O)=O)(C(O)=O)CC(=O)O

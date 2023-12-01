@@ -1,0 +1,56 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:30:47" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-22.0758" OriginalLigandName="piperazine" Rank="-1" name="[03]piperazine" RMSD="-1" rootAtom="3" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM7/piperazine.out.mol2" >
+<AtomList count="16" basetype="MVD.Model.Atom" >
+<Atom cc="3" pdbid="1" triposAtomType="8" pdb="81" sol="-17.4" type="1" genericType="-1" id="0" vol="10" pos="39.7985,26.6369,-14.8027" elem="7" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" pos="39.0355,27.8797,-14.5369" elem="6" ih="2" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="37.5949,27.5067,-14.1109" elem="6" ih="2" />
+<Atom cc="3" pdbid="1" triposAtomType="8" pdb="81" sol="-17.4" type="1" genericType="-1" id="3" vol="10" pos="36.958,26.7315,-15.2016" elem="7" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="37.7206,25.489,-15.4678" elem="6" ih="2" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" pos="39.1615,25.8618,-15.8935" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="6" vol="10" pos="40.7656,26.8552,-15.0379" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="7" vol="10" pos="39.5395,28.425,-13.7116" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="38.9949,28.554,-15.4192" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="37.0006,28.4309,-13.951" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="37.6252,26.9518,-13.1485" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="35.9908,26.513,-14.9665" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="37.2169,24.9437,-16.293" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="37.7613,24.8141,-14.5854" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="39.7556,24.9378,-16.054" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="39.1309,26.4171,-16.8559" elem="1" />
+</AtomList>
+<BondList count="16" basetype="MVD.Model.Bond" >
+<Bond a1="0" inRing="t" a2="1" />
+<Bond a1="0" a2="6" />
+<Bond a1="1" a2="8" />
+<Bond a1="1" a2="7" />
+<Bond a1="2" a2="9" />
+<Bond a1="2" inRing="t" a2="1" />
+<Bond a1="3" inRing="t" a2="2" />
+<Bond a1="4" inRing="t" a2="3" />
+<Bond a1="4" inRing="t" a2="5" />
+<Bond a1="5" a2="15" />
+<Bond a1="5" inRing="t" a2="0" />
+<Bond a1="10" a2="2" />
+<Bond a1="11" a2="3" />
+<Bond a1="12" a2="4" />
+<Bond a1="13" a2="4" />
+<Bond a1="14" a2="5" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-5.64757;Cofactor (elec)=0;Cofactor (hbond)=-5;Csp2=0;Csp3=4;DOF=0;E-Inter (cofactor - ligand)=-29.7105;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-29.7105;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0;E-Intra (steric)=7.63468;E-Intra (tors)=0;E-Intra (tors, ligand atoms)=7.63468;E-Intra (vdw)=11.8934;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-22.0758;Electro=0;ElectroLong=0;Energy=-22.0758;HBond=0;HeavyAtoms=6;LE1=-3.67931;LE3=-2.48656;Ligand=piperazine;MW=86.1356;N=2;Name=piperazine;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-19.0719;RMSD=0;RerankScore=-14.9194;Run=0;SimilarityScore=0;Steric=0;Torsions=0;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

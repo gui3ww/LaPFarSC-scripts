@@ -1,0 +1,49 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:20:32" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-31.3061" OriginalLigandName="D-alanine" Rank="-1" name="[04]D-alanine" NumberOfRotatableBonds="1" RMSD="-1" rootAtom="1" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM7/D-alanine.out.mol2" >
+<AtomList count="13" basetype="MVD.Model.Atom" >
+<Atom triposAtomType="3" pdb="14" sol="4" type="4" genericType="-1" id="0" vol="12.77" pos="33.0372,17.1164,-12.4578" elem="6" ih="3" />
+<Atom triposAtomType="3" pdb="12" sol="4" type="4" genericType="-1" id="1" vol="12.77" pos="32.79,18.6235,-12.4282" elem="6" ih="1" />
+<Atom triposAtomType="8" pdb="81" sol="-17.4" type="1" genericType="-1" id="2" vol="10" pos="31.3904,19.0061,-12.7024" elem="7" ih="2" />
+<Atom triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" hyb="2" pos="33.169,19.1672,-11.0416" elem="6" />
+<Atom triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="4" vol="10" pos="32.2067,19.8239,-10.3587" elem="8" ih="1" />
+<Atom triposAtomType="13" pdb="105" sol="-17.4" type="2" genericType="-1" id="5" vol="10" hyb="2" pos="34.2653,19.0758,-10.5609" elem="8" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="6" vol="10" pos="34.0796,16.8853,-12.1837" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="7" vol="10" pos="32.8562,16.6897,-13.4494" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="32.4077,16.5777,-11.7383" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="33.4606,19.1376,-13.1712" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="30.734,18.3318,-12.3357" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="31.2147,19.1266,-13.6873" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="31.8287,20.5994,-10.8635" elem="1" />
+</AtomList>
+<BondList count="12" basetype="MVD.Model.Bond" >
+<Bond rot="t" a1="0" a2="1" />
+<Bond a1="0" a2="6" />
+<Bond a1="0" a2="8" />
+<Bond rot="t" chosen="t" a1="1" a2="3" />
+<Bond a1="2" a2="10" />
+<Bond rot="t" a1="2" a2="1" />
+<Bond rot="t" a1="3" a2="4" />
+<Bond a1="3" a2="5" type="1" />
+<Bond a1="7" a2="0" />
+<Bond a1="9" a2="1" />
+<Bond a1="11" a2="2" />
+<Bond a1="12" a2="4" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-5.79162;Cofactor (elec)=0;Cofactor (hbond)=-7.49384;Csp2=1;Csp3=2;DOF=1;E-Inter (cofactor - ligand)=-30.3568;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-30.3568;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-2.57246;E-Intra (sp2-sp2)=0;E-Intra (steric)=1.57262;E-Intra (tors)=0.0505154;E-Intra (tors, ligand atoms)=-0.949325;E-Intra (vdw)=2.15667;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-31.3061;Electro=0;ElectroLong=0;Energy=-31.3061;HBond=0;HeavyAtoms=6;LE1=-5.21769;LE3=-2.94286;Ligand=D-alanine;MW=89.0932;N=1;Name=D-alanine;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-30.9019;RMSD=0;RerankScore=-17.6571;Run=0;SimilarityScore=0;Steric=0;Torsions=1;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:29:32)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-9.84208	0	-5	2	5	6	-53.8729	0	0	-53.8729	0	0	0	0	-1.13891	0.541497	-0.597413	2.04502	0	0	-54.4704	0	0	-54.4704	[00]pimelic_acid.mvdml	0	11	-4.95185	-2.89411	pimelic_acid	160.168	0	[00]pimelic_acid	0	0	0	0	0	-53.9487	0	-31.8352	0	0	0	6	0	0	0	O=C(O)CCCCCC(=O)O
+1	0	-11.3537	0	-5.5949	2	5	6	-53.7915	0	0	-53.7915	0	0	0	0	-0.834715	0.814912	-0.0198037	3.23241	0	0	-53.8113	0	0	-53.8113	[01]pimelic_acid.mvdml	0	11	-4.89193	-2.84658	pimelic_acid	160.168	0	[01]pimelic_acid	0	0	0	0	0	-53.0865	0	-31.3124	0	0	0	6	0	0	0	O=C(O)CCCCCC(=O)O
+1	0	-9.98314	0	-5	2	5	6	-53.2969	0	0	-53.2969	0	0	0	0	-0.739939	1.07711	0.337173	1.43848	0	0	-52.9597	0	0	-52.9597	[02]pimelic_acid.mvdml	0	11	-4.81452	-2.81834	pimelic_acid	160.168	0	[02]pimelic_acid	0	0	0	0	0	-52.5307	0	-31.0017	0	0	0	6	0	0	0	O=C(O)CCCCCC(=O)O
+1	0	-10.5327	0	-4.99481	2	5	6	-53.2488	0	0	-53.2488	0	0	0	0	-1.33091	0.5595	-0.771411	1.4027	0	0	-54.0202	0	0	-54.0202	[03]pimelic_acid.mvdml	0	11	-4.91093	-2.86954	pimelic_acid	160.168	0	[03]pimelic_acid	0	0	0	0	0	-52.4737	0	-31.5649	0	0	0	6	0	0	0	O=C(O)CCCCCC(=O)O
+1	0	-12.0773	0	-4.99909	2	5	6	-52.737	0	0	-52.737	0	0	0	0	-1.14361	1.24021	0.0966003	2.32882	0	0	-52.6404	0	0	-52.6404	[04]pimelic_acid.mvdml	0	11	-4.78549	-2.76885	pimelic_acid	160.168	0	[04]pimelic_acid	0	0	0	0	0	-52.0949	0	-30.4574	0	0	0	6	0	0	0	O=C(O)CCCCCC(=O)O

@@ -1,0 +1,55 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:49:01" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-45.5937" OriginalLigandName="xanthine" Rank="-1" name="[02]xanthine" RMSD="-1" rootAtom="10" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/xanthine.mol2" >
+<AtomList count="15" basetype="MVD.Model.Atom" >
+<Atom cc="3" pdbid="1" triposAtomType="12" pdb="81" sol="-17.4" type="1" genericType="-1" id="0" vol="10" hyb="2" pos="31.7748,20.077,-12.5518" elem="7" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="32.7309,20.4947,-11.8307" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="7" pdb="81" sol="-17.4" type="2" genericType="-1" id="2" vol="10" hyb="2" pos="33.4443,21.3529,-12.4293" elem="7" />
+<Atom cc="3" pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" hyb="2" pos="32.9161,21.4813,-13.5723" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="10" pdb="81" sol="-17.4" type="1" genericType="-1" id="4" vol="10" hyb="2" pos="33.2549,22.2558,-14.6146" elem="7" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" hyb="2" pos="32.5285,22.2362,-15.7652" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="6" vol="10" hyb="2" pos="32.814,22.9297,-16.7086" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="10" pdb="81" sol="-17.4" type="1" genericType="-1" id="7" vol="10" hyb="2" pos="31.4485,21.3889,-15.8094" elem="7" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="8" vol="12.77" hyb="2" pos="31.0666,20.5764,-14.7692" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="9" vol="10" hyb="2" pos="30.1044,19.8523,-14.8711" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="10" vol="12.77" hyb="2" pos="31.8488,20.6724,-13.6668" elem="6" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="31.0542,19.3707,-12.2806" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="32.8854,20.1281,-10.8098" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="34.061,22.8462,-14.5025" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="30.9037,21.3626,-16.6548" elem="1" />
+</AtomList>
+<BondList count="16" basetype="MVD.Model.Bond" >
+<Bond a1="0" inRing="t" a2="10" />
+<Bond a1="0" a2="11" />
+<Bond a1="1" inRing="t" a2="0" />
+<Bond a1="1" a2="12" />
+<Bond a1="2" inRing="t" a2="1" type="1" />
+<Bond a1="3" inRing="t" a2="2" />
+<Bond a1="3" inRing="t" a2="10" type="1" />
+<Bond a1="4" inRing="t" a2="3" />
+<Bond a1="4" a2="13" />
+<Bond a1="5" inRing="t" a2="4" type="3" />
+<Bond a1="5" a2="6" type="1" />
+<Bond a1="7" inRing="t" a2="5" type="3" />
+<Bond a1="7" inRing="t" a2="8" type="3" />
+<Bond a1="7" a2="14" />
+<Bond a1="8" a2="9" type="1" />
+<Bond a1="10" inRing="t" a2="8" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-9.23876;Cofactor (elec)=0;Cofactor (hbond)=-2.19526;Csp2=3;Csp3=0;DOF=0;E-Inter (cofactor - ligand)=-48.3308;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-48.3308;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-2.5;E-Intra (sp2-sp2)=0;E-Intra (steric)=5.23708;E-Intra (tors)=0;E-Intra (tors, ligand atoms)=2.73708;E-Intra (vdw)=22.5917;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-45.5937;Electro=0;ElectroLong=0;Energy=-45.5937;HBond=0;HeavyAtoms=11;LE1=-4.14488;LE3=-2.27765;Ligand=xanthine;MW=152.111;N=4;Name=xanthine;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-45.2399;RMSD=0;RerankScore=-25.0541;Run=0;SimilarityScore=0;Steric=0;Torsions=0;VdW (LJ12-6)=0;carbonyl=2;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

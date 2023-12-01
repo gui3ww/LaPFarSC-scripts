@@ -1,0 +1,51 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:10:13" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-38.4991" OriginalLigandName="L-serine" Rank="-1" name="[03]L-serine" NumberOfRotatableBonds="2" RMSD="-1" rootAtom="1" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM7/L-serine.out.mol2" >
+<AtomList count="14" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="8" pdb="81" sol="-17.4" type="1" genericType="-1" id="0" vol="10" pos="36.4736,25.7805,-15.9753" elem="7" ih="2" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" pos="37.5993,25.9965,-15.0468" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="37.6308,27.4265,-14.4617" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="3" vol="10" pos="36.438,27.6538,-13.7473" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" hyb="2" pos="38.8951,25.7487,-15.8294" elem="6" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="5" vol="10" pos="39.684,24.7456,-15.4" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="6" vol="10" hyb="2" pos="39.2417,26.4104,-16.7713" elem="8" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="7" vol="10" pos="36.2685,26.6342,-16.4886" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="35.6364,25.4876,-15.4965" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="37.5596,25.247,-14.2134" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="38.4186,27.5389,-13.6941" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="37.7678,28.1901,-15.2498" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="35.9187,26.8227,-13.669" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="40.0609,24.9125,-14.4856" elem="1" />
+</AtomList>
+<BondList count="13" basetype="MVD.Model.Bond" >
+<Bond rot="t" a1="0" a2="1" />
+<Bond a1="0" a2="7" />
+<Bond rot="t" chosen="t" a1="1" a2="2" />
+<Bond a1="2" a2="10" />
+<Bond a1="2" a2="11" />
+<Bond rot="t" a1="2" a2="3" />
+<Bond a1="3" a2="12" />
+<Bond rot="t" chosen="t" a1="4" a2="1" />
+<Bond a1="4" a2="6" type="1" />
+<Bond rot="t" a1="5" a2="4" />
+<Bond a1="8" a2="0" />
+<Bond a1="9" a2="1" />
+<Bond a1="13" a2="5" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-6.96623;Cofactor (elec)=0;Cofactor (hbond)=-7.49882;Csp2=1;Csp3=2;DOF=2;E-Inter (cofactor - ligand)=-33.8209;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-33.8209;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-5.89122;E-Intra (sp2-sp2)=0;E-Intra (steric)=1.18411;E-Intra (tors)=0.0289587;E-Intra (tors, ligand atoms)=-4.67815;E-Intra (vdw)=0.11776;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-38.4991;Electro=0;ElectroLong=0;Energy=-38.4991;HBond=0;HeavyAtoms=7;LE1=-5.49987;LE3=-2.87328;Ligand=L-serine;MW=105.093;N=1;Name=L-serine;NoHBond90=0;Nplus=0;OH=1;OPO32minus=0;OS=0;PoseEnergy=-37.9138;RMSD=0;RerankScore=-20.113;Run=0;SimilarityScore=0;Steric=0;Torsions=2;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

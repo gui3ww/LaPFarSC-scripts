@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:57:31)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-10.4213	0	-12.4273	2	3	4	-50.8718	0	0	-50.8718	0	0	-2.58028	0	1.22888	0.690097	-0.661304	2.64908	0	0	-51.5331	0	0	-51.5331	[00]L-glutamic_acid_z.mvdml	0	10	-5.15331	-2.93979	L-glutamic_acid_z	147.129	1	[00]L-glutamic_acid_z	0	0	0	0	0	-50.4377	0	-29.3979	0	0	0	4	0	0	0	O=C(O)CCC(N)C(=O)O
+1	0	-10.9321	0	-10	2	3	4	-49.9605	0	0	-49.9605	0	0	-2.5	0	1.13328	0.415429	-0.951295	1.40801	0	0	-50.9118	0	0	-50.9118	[01]L-glutamic_acid_z.mvdml	0	10	-5.09118	-2.92959	L-glutamic_acid_z	147.129	1	[01]L-glutamic_acid_z	0	0	0	0	0	-49.6521	0	-29.2959	0	0	0	4	0	0	0	O=C(O)CCC(N)C(=O)O
+1	0	-10.5444	0	-9.99231	2	3	4	-47.0454	0	0	-47.0454	0	0	-3.17364	0	0.764685	0.288047	-2.1209	0.22863	0	0	-49.1663	0	0	-49.1663	[02]L-glutamic_acid_z.mvdml	0	10	-4.91663	-2.78878	L-glutamic_acid_z	147.129	1	[02]L-glutamic_acid_z	0	0	0	0	0	-48.3628	0	-27.8878	0	0	0	4	0	0	0	O=C(O)CCC(N)C(=O)O
+1	0	-10.4671	0	-9.90399	2	3	4	-48.1818	0	0	-48.1818	0	0	-2.58309	0	0.174025	1.48904	-0.920021	1.73524	0	0	-49.1018	0	0	-49.1018	[03]L-glutamic_acid_z.mvdml	0	10	-4.91018	-2.73376	L-glutamic_acid_z	147.129	1	[03]L-glutamic_acid_z	0	0	0	0	0	-48.0053	0	-27.3376	0	0	0	4	0	0	0	O=C(O)CCC(N)C(=O)O
+1	0	-10.4612	0	-9.60905	2	3	4	-47.6826	0	0	-47.6826	0	0	-2.5	0	1.26925	0.222354	-1.0084	1.53495	0	0	-48.691	0	0	-48.691	[04]L-glutamic_acid_z.mvdml	0	10	-4.8691	-2.80647	L-glutamic_acid_z	147.129	1	[04]L-glutamic_acid_z	0	0	0	0	0	-48.0008	0	-28.0647	0	0	0	4	0	0	0	O=C(O)CCC(N)C(=O)O

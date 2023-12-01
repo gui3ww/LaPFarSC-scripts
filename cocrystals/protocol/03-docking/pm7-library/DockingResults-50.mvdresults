@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:05:22)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-8.63719	0	-7.5	1	5	3	-40.6281	0	0	-40.6281	0	0	-3.52988	0	-1.88629	2.44384	-2.97232	-0.0350884	0	0	-43.6004	0	0	-43.6004	[00]L-leucine.mvdml	0	9	-4.84449	-2.49946	L-leucine	131.173	1	[00]L-leucine	0	0	0	0	0	-43.0331	0	-22.4951	0	0	0	3	0	0	0	OC(=O)C(N)CC(C)C
+1	0	-8.15087	0	-5	1	5	3	-39.9416	0	0	-39.9416	0	0	-3.81273	0	-1.35196	1.75055	-3.41414	0.17162	0	0	-43.3558	0	0	-43.3558	[01]L-leucine.mvdml	0	9	-4.81731	-2.51239	L-leucine	131.173	1	[01]L-leucine	0	0	0	0	0	-42.5776	0	-22.6115	0	0	0	3	0	0	0	OC(=O)C(N)CC(C)C
+1	0	-7.65356	0	-5	1	5	3	-38.8446	0	0	-38.8446	0	0	-2.57892	0	-1.66258	0.871374	-3.37012	2.12508	0	0	-42.2148	0	0	-42.2148	[02]L-leucine.mvdml	0	9	-4.69053	-2.50641	L-leucine	131.173	1	[02]L-leucine	0	0	0	0	0	-41.7013	0	-22.5577	0	0	0	3	0	0	0	OC(=O)C(N)CC(C)C
+1	0	-8.28516	0	-4.99978	1	5	3	-38.8146	0	0	-38.8146	0	0	-2.58049	0	-1.68386	1.05345	-3.2109	1.99455	0	0	-42.0255	0	0	-42.0255	[03]L-leucine.mvdml	0	9	-4.6695	-2.48785	L-leucine	131.173	1	[03]L-leucine	0	0	0	0	0	-41.4378	0	-22.3906	0	0	0	3	0	0	0	OC(=O)C(N)CC(C)C
+1	0	-8.04007	0	-5	1	5	3	-40.0437	0	0	-40.0437	0	0	-2.5	0	-1.09765	2.02199	-1.57566	1.21088	0	0	-41.6193	0	0	-41.6193	[04]L-leucine.mvdml	0	9	-4.62437	-2.47002	L-leucine	131.173	1	[04]L-leucine	0	0	0	0	0	-41.2741	0	-22.2302	0	0	0	3	0	0	0	OC(=O)C(N)CC(C)C

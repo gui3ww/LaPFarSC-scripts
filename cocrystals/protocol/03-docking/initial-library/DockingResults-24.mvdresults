@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:20:07)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-12.0171	0	-7.32943	1	4	5	-60.4558	0	0	-60.4558	0	0	-19.1275	0	0.555443	1.6652	-16.9069	2.85881	0	0	-77.3627	0	0	-77.3627	[00]D-glucuronic_acid.mvdml	0	13	-5.95098	-2.6415	D-glucuronic_acid	194.139	0	[00]D-glucuronic_acid	0	0	4	0	0	-76.3527	0	-34.3395	0	0	0	5	0	1	0	O=CC(O)C(O)C(O)C(O)C(=O)O
+1	0	-11.6862	0	-3.65474	1	4	5	-54.6364	0	0	-54.6364	0	0	-16.7777	0	-5.64604	1.0271	-21.3966	2.68173	0	0	-76.033	0	0	-76.033	[01]D-glucuronic_acid.mvdml	0	13	-5.84869	-2.502	D-glucuronic_acid	194.139	0	[01]D-glucuronic_acid	0	0	4	0	0	-75.2266	0	-32.5261	0	0	0	5	0	1	0	O=CC(O)C(O)C(O)C(O)C(=O)O
+1	0	-8.18283	0	-9.06881	1	4	5	-59.1612	0	0	-59.1612	0	0	-15.5168	0	-1.61917	1.59823	-15.5378	2.27033	0	0	-74.699	0	0	-74.699	[02]D-glucuronic_acid.mvdml	0	13	-5.74608	-2.62145	D-glucuronic_acid	194.139	0	[02]D-glucuronic_acid	0	0	4	0	0	-74.0863	0	-34.0788	0	0	0	5	0	1	0	O=CC(O)C(O)C(O)C(O)C(=O)O
+1	0	-10.683	0	-9.09283	1	4	5	-53.3166	0	0	-53.3166	0	0	-16.9906	0	-5.34117	2.10066	-20.2311	3.76541	0	0	-73.5477	0	0	-73.5477	[03]D-glucuronic_acid.mvdml	0	13	-5.65751	-2.3478	D-glucuronic_acid	194.139	0	[03]D-glucuronic_acid	0	0	4	0	0	-72.3498	0	-30.5215	0	0	0	5	0	1	0	O=CC(O)C(O)C(O)C(O)C(=O)O
+1	0	-12.1526	0	-8.4027	1	4	5	-58.5799	0	0	-58.5799	0	0	-17.5829	0	-0.0648317	3.22405	-14.4237	5.00469	0	0	-73.0035	0	0	-73.0035	[04]D-glucuronic_acid.mvdml	0	13	-5.61565	-2.42742	D-glucuronic_acid	194.139	0	[04]D-glucuronic_acid	0	0	4	0	0	-72.1074	0	-31.5564	0	0	0	5	0	1	0	O=CC(O)C(O)C(O)C(O)C(=O)O

@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:10:58)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-11.4171	0	-7.5	9	2	3	-59.8427	0	0	-59.8427	0	0	-3.72785	0	-2.75048	6.8988	0.420468	25.3973	0	0	-59.4222	0	0	-59.4222	[00]L-tryptophan.mvdml	0	15	-3.96148	-1.76647	L-tryptophan	204.225	2	[00]L-tryptophan	0	0	0	0	0	-58.8428	0	-26.4971	0	0	0	3	0	0	0	O=C(O)C(N)C[c]1[c]2[cH][cH][cH][cH][c]2n[cH]1
+1	0	-12.7864	0	-7.4569	9	2	3	-57.1526	0	0	-57.1526	0	0	-3.80855	0	-0.00158808	1.80468	-2.00545	26.2016	0	0	-59.158	0	0	-59.158	[01]L-tryptophan.mvdml	0	15	-3.94387	-1.93809	L-tryptophan	204.225	2	[01]L-tryptophan	0	0	0	0	0	-58.8042	0	-29.0713	0	0	0	3	0	0	0	O=C(O)C(N)C[c]1[c]2[cH][cH][cH][cH][c]2n[cH]1
+1	0	-12.1998	0	-4.97506	9	2	3	-55.7725	0	0	-55.7725	0	0	-3.61447	0	-2.27879	3.5145	-2.37876	24.3277	0	0	-58.1513	0	0	-58.1513	[02]L-tryptophan.mvdml	0	15	-3.87675	-1.81926	L-tryptophan	204.225	2	[02]L-tryptophan	0	0	0	0	0	-57.7109	0	-27.2888	0	0	0	3	0	0	0	O=C(O)C(N)C[c]1[c]2[cH][cH][cH][cH][c]2n[cH]1
+1	0	-13.5027	0	-5	9	2	3	-58.0669	0	0	-58.0669	0	0	-3.88418	0	2.64649	0.594075	-0.643621	26.3025	0	0	-58.7105	0	0	-58.7105	[03]L-tryptophan.mvdml	0	15	-3.91404	-2.01919	L-tryptophan	204.225	2	[03]L-tryptophan	0	0	0	0	0	-57.5439	0	-30.2878	0	0	0	3	0	0	0	O=C(O)C(N)C[c]1[c]2[cH][cH][cH][cH][c]2n[cH]1
+1	0	-12.612	0	-5	9	2	3	-57.7044	0	0	-57.7044	0	0	-3.79142	0	0.206675	2.17325	-1.4115	25.1121	0	0	-59.1159	0	0	-59.1159	[04]L-tryptophan.mvdml	0	15	-3.94106	-1.94489	L-tryptophan	204.225	2	[04]L-tryptophan	0	0	0	0	0	-57.0219	0	-29.1734	0	0	0	3	0	0	0	O=C(O)C(N)C[c]1[c]2[cH][cH][cH][cH][c]2n[cH]1

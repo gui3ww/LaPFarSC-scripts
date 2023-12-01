@@ -1,0 +1,55 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:12:08" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-58.4641" OriginalLigandName="L-tartaric_acid" Rank="-1" name="[03]L-tartaric_acid" NumberOfRotatableBonds="3" RMSD="-1" rootAtom="4" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/L-tartaric_acid.mol2" >
+<AtomList count="16" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="32.0827,21.4499,-14.0967" elem="6" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="1" vol="10" pos="32.5028,19.3621,-12.9627" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="2" vol="10" pos="31.5977,20.9225,-11.0903" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="32.9093,20.7164,-13.0519" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="32.848,21.3,-11.6496" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" hyb="2" pos="33.9092,20.785,-10.7004" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="6" vol="10" hyb="2" pos="30.883,21.5925,-14.0867" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="7" vol="10" pos="32.847,21.949,-15.0835" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="8" vol="10" hyb="2" pos="34.6989,21.5229,-10.162" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="9" vol="10" pos="33.9063,19.4512,-10.5575" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="31.9395,19.2615,-12.1895" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="31.0414,21.7094,-11.0376" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="33.9683,20.7071,-13.4019" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="32.8846,22.413,-11.6567" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="32.265,22.4104,-15.7085" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="34.6187,19.1973,-9.94964" elem="1" />
+</AtomList>
+<BondList count="15" basetype="MVD.Model.Bond" >
+<Bond rot="t" chosen="t" a1="0" a2="3" />
+<Bond a1="0" a2="6" type="1" />
+<Bond rot="t" a1="0" a2="7" />
+<Bond rot="t" a1="1" a2="3" />
+<Bond a1="1" a2="10" />
+<Bond rot="t" a1="2" a2="4" />
+<Bond a1="2" a2="11" />
+<Bond rot="t" chosen="t" a1="3" a2="4" />
+<Bond a1="3" a2="12" />
+<Bond rot="t" chosen="t" a1="4" a2="5" />
+<Bond a1="4" a2="13" />
+<Bond a1="5" a2="8" type="1" />
+<Bond rot="t" a1="5" a2="9" />
+<Bond a1="7" a2="14" />
+<Bond a1="9" a2="15" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-6.20884;Cofactor (elec)=0;Cofactor (hbond)=-5;Csp2=2;Csp3=2;DOF=3;E-Inter (cofactor - ligand)=-47.6489;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-47.6489;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-14.9613;E-Intra (sp2-sp2)=0;E-Intra (steric)=3.38893;E-Intra (tors)=0.757199;E-Intra (tors, ligand atoms)=-10.8152;E-Intra (vdw)=1.01741;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-58.4641;Electro=0;ElectroLong=0;Energy=-58.4641;HBond=0;HeavyAtoms=10;LE1=-5.84641;LE3=-2.72501;Ligand=L-tartaric_acid;MW=150.087;N=0;Name=L-tartaric_acid;NoHBond90=0;Nplus=0;OH=2;OPO32minus=0;OS=0;PoseEnergy=-57.8239;RMSD=0;RerankScore=-27.2501;Run=0;SimilarityScore=0;Steric=0;Torsions=3;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

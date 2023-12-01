@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:20:15)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-6.99802	0	-4.99867	1	2	1	-32.8888	0	0	-32.8888	0	0	-3.59487	0	1.34198	0.0767242	-2.17617	0.0265656	0	0	-35.065	0	0	-35.065	[00]D-alanine.mvdml	0	6	-5.84416	-3.24876	D-alanine	89.0932	1	[00]D-alanine	0	0	0	0	0	-34.7752	0	-19.4926	0	0	0	1	0	0	0	OC(=O)C(C)N
+1	0	-7.16698	0	-2.4979	1	2	1	-32.84	0	0	-32.84	0	0	-3.45498	0	1.14453	0.164174	-2.14627	-0.0160428	0	0	-34.9862	0	0	-34.9862	[01]D-alanine.mvdml	0	6	-5.83104	-3.23684	D-alanine	89.0932	1	[01]D-alanine	0	0	0	0	0	-34.7233	0	-19.4211	0	0	0	1	0	0	0	OC(=O)C(C)N
+1	0	-7.93875	0	-4.65671	1	2	1	-32.9062	0	0	-32.9062	0	0	-3.55311	0	1.28442	0.0715029	-2.19719	0.010203	0	0	-35.1034	0	0	-35.1034	[02]D-alanine.mvdml	0	6	-5.85057	-3.25335	D-alanine	89.0932	1	[02]D-alanine	0	0	0	0	0	-34.6474	0	-19.5201	0	0	0	1	0	0	0	OC(=O)C(C)N
+1	0	-5.84928	0	-4.99498	1	2	1	-32.2733	0	0	-32.2733	0	0	-3.67074	0	1.4437	0.1496	-2.07744	0.063913	0	0	-34.3507	0	0	-34.3507	[03]D-alanine.mvdml	0	6	-5.72512	-3.17183	D-alanine	89.0932	1	[03]D-alanine	0	0	0	0	0	-33.7912	0	-19.031	0	0	0	1	0	0	0	OC(=O)C(C)N
+1	0	-6.46426	0	-2.47485	1	2	1	-31.7737	0	0	-31.7737	0	0	-3.50804	0	1.221	0.0953908	-2.19165	-0.00407649	0	0	-33.9653	0	0	-33.9653	[04]D-alanine.mvdml	0	6	-5.66089	-3.13814	D-alanine	89.0932	1	[04]D-alanine	0	0	0	0	0	-33.4708	0	-18.8288	0	0	0	1	0	0	0	OC(=O)C(C)N

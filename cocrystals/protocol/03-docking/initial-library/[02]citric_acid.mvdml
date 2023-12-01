@@ -1,0 +1,65 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:19:50" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-61.3567" OriginalLigandName="citric_acid" Rank="-1" name="[02]citric_acid" NumberOfRotatableBonds="5" RMSD="-1" rootAtom="2" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/citric_acid.mol2" >
+<AtomList count="21" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="32.41,21.5431,-14.2745" elem="6" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" pos="33.2703,21.093,-13.1048" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="32.6659,20.2056,-11.998" elem="6" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="3" vol="10" pos="31.4761,20.8514,-11.5827" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" hyb="2" pos="32.2831,18.8141,-12.4994" elem="6" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" pos="33.5913,20.1201,-10.7698" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="6" vol="12.77" hyb="2" pos="33.8844,21.4049,-10.0106" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="7" vol="10" hyb="2" pos="32.79,22.2098,-15.2084" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="8" vol="10" pos="31.1326,21.138,-14.1918" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="9" vol="10" hyb="2" pos="33.0599,17.9411,-12.8036" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="10" vol="10" pos="30.9543,18.6117,-12.5316" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="11" vol="10" hyb="2" pos="33.0828,22.0672,-9.39459" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="12" vol="10" pos="35.1873,21.7355,-10.0383" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="33.6685,22.0289,-12.644" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="34.1564,20.575,-13.542" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="31.5705,21.8059,-11.6065" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="33.1748,19.4019,-10.0282" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="34.5817,19.7114,-11.0812" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="31.1001,20.3291,-13.6567" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="19" vol="10" pos="30.7904,17.7034,-12.8312" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="20" vol="10" pos="35.3146,22.5516,-9.53042" elem="1" />
+</AtomList>
+<BondList count="20" basetype="MVD.Model.Bond" >
+<Bond rot="t" chosen="t" a1="0" a2="1" />
+<Bond a1="0" a2="7" type="1" />
+<Bond rot="t" a1="0" a2="8" />
+<Bond rot="t" chosen="t" a1="1" a2="2" />
+<Bond a1="1" a2="13" />
+<Bond a1="1" a2="14" />
+<Bond rot="t" a1="2" a2="3" />
+<Bond rot="t" chosen="t" a1="2" a2="4" />
+<Bond rot="t" chosen="t" a1="2" a2="5" />
+<Bond a1="3" a2="15" />
+<Bond a1="4" a2="9" type="1" />
+<Bond rot="t" a1="4" a2="10" />
+<Bond rot="t" chosen="t" a1="5" a2="6" />
+<Bond a1="5" a2="16" />
+<Bond a1="5" a2="17" />
+<Bond a1="6" a2="11" type="1" />
+<Bond rot="t" a1="6" a2="12" />
+<Bond a1="8" a2="18" />
+<Bond a1="10" a2="19" />
+<Bond a1="12" a2="20" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-11.4658;Cofactor (elec)=0;Cofactor (hbond)=-5;Csp2=3;Csp3=3;DOF=5;E-Inter (cofactor - ligand)=-57.6096;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-57.6096;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-9.40961;E-Intra (sp2-sp2)=0;E-Intra (steric)=4.47895;E-Intra (tors)=1.18357;E-Intra (tors, ligand atoms)=-3.74709;E-Intra (vdw)=5.86824;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-61.3567;Electro=0;ElectroLong=0;Energy=-61.3567;HBond=0;HeavyAtoms=13;LE1=-4.71974;LE3=-2.46036;Ligand=citric_acid;MW=192.124;N=0;Name=citric_acid;NoHBond90=0;Nplus=0;OH=1;OPO32minus=0;OS=0;PoseEnergy=-60.4714;RMSD=0;RerankScore=-31.9847;Run=0;SimilarityScore=0;Steric=0;Torsions=5;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:26:32)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-7.13071	0	-2.49745	5	0	1	-45.9997	0	0	-45.9997	0	0	0	0.327843	15.4513	0.327843	15.7791	56.0665	0	0	-30.2206	0	0	-30.2206	[00]nicotinamide.mvdml	0	9	-3.35784	-1.85833	nicotinamide	122.125	2	[00]nicotinamide	0	0	0	0	0	-29.809	0	-16.7249	0	0	0	1	0	1	0	O=c(n)[c]1[cH][n][cH][cH][cH]1
+1	0	-8.66294	0	-2.48971	5	0	1	-46.0688	0	0	-46.0688	0	0	0	0.575124	15.3947	0.575124	15.9698	56.3354	0	0	-30.099	0	0	-30.099	[01]nicotinamide.mvdml	0	9	-3.34433	-1.81663	nicotinamide	122.125	2	[01]nicotinamide	0	0	0	0	0	-29.7447	0	-16.3497	0	0	0	1	0	1	0	O=c(n)[c]1[cH][n][cH][cH][cH]1
+1	0	-8.70408	0	-2.19988	5	0	1	-46.2768	0	0	-46.2768	0	0	0	1.25565	15.0635	1.25565	16.3191	54.5841	0	0	-29.9576	0	0	-29.9576	[02]nicotinamide.mvdml	0	9	-3.32862	-1.7449	nicotinamide	122.125	2	[02]nicotinamide	0	0	0	0	0	-29.4687	0	-15.7041	0	0	0	1	0	1	0	O=c(n)[c]1[cH][n][cH][cH][cH]1
+1	0	-8.37742	0	-2.06765	5	0	1	-46.0387	0	0	-46.0387	0	0	0	1.07161	15.1807	1.07161	16.2523	55.426	0	0	-29.7864	0	0	-29.7864	[03]nicotinamide.mvdml	0	9	-3.3096	-1.74592	nicotinamide	122.125	2	[03]nicotinamide	0	0	0	0	0	-29.27	0	-15.7133	0	0	0	1	0	1	0	O=c(n)[c]1[cH][n][cH][cH][cH]1
+1	0	-9.27101	0	-2.5	5	0	1	-45.2288	0	0	-45.2288	0	0	0	0.19658	15.5042	0.19658	15.7008	56.2924	0	0	-29.528	0	0	-29.528	[04]nicotinamide.mvdml	0	9	-3.28089	-1.82522	nicotinamide	122.125	2	[04]nicotinamide	0	0	0	0	0	-29.183	0	-16.427	0	0	0	1	0	1	0	O=c(n)[c]1[cH][n][cH][cH][cH]1

@@ -1,0 +1,84 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:08:27" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-30.0232" OriginalLigandName="(+)-camphoric_acid" Rank="-1" name="[04](+)-camphoric_acid" NumberOfRotatableBonds="2" RMSD="-1" rootAtom="6" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/(+)-camphoric_acid.out.mol2" >
+<AtomList count="30" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="30.8663,17.5058,-14.1198" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" pos="31.765,18.5215,-13.4249" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="32.0718,19.7521,-14.3106" elem="6" ih="2" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="32.4639,20.857,-13.3242" elem="6" ih="2" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="31.6924,20.5654,-12.0184" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" hyb="2" pos="32.5671,20.6924,-10.8" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="6" vol="12.77" pos="31.0458,19.1362,-12.1574" elem="6" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="7" vol="12.77" pos="29.5452,19.3134,-12.4314" elem="6" ih="3" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="8" vol="12.77" pos="31.2177,18.2826,-10.9033" elem="6" ih="3" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="9" vol="12.77" pos="33.0574,17.7734,-13.0875" elem="6" ih="3" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="10" vol="10" hyb="2" pos="30.4853,16.4213,-13.7128" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="11" vol="10" pos="30.5008,17.8995,-15.374" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="12" vol="10" hyb="2" pos="33.633,20.1321,-10.5929" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="13" vol="10" pos="32.0608,21.5268,-9.85123" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="32.8677,19.5499,-15.0481" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="31.1836,20.0457,-14.903" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="32.2233,21.8605,-13.7164" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="33.5595,20.8494,-13.1524" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="30.8704,21.323,-11.9028" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="19" vol="10" pos="29.0236,18.3507,-12.5085" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="20" vol="10" pos="29.0516,19.8574,-11.6142" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="21" vol="10" pos="29.3513,19.8739,-13.3535" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="22" vol="10" pos="30.6791,18.7076,-10.0463" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="23" vol="10" pos="30.8134,17.2713,-11.0581" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="24" vol="10" pos="32.2656,18.1558,-10.6038" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="25" vol="10" pos="33.7234,18.4138,-12.4857" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="26" vol="10" pos="32.8774,16.8572,-12.511" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="27" vol="10" pos="33.6167,17.4911,-13.9886" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="28" vol="10" pos="29.9414,17.2157,-15.8619" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="29" vol="10" pos="31.4223,22.2143,-10.2227" elem="1" />
+</AtomList>
+<BondList count="30" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="10" type="1" />
+<Bond rot="t" chosen="t" a1="1" a2="0" />
+<Bond a1="1" inRing="t" a2="6" />
+<Bond a1="2" a2="15" />
+<Bond a1="2" inRing="t" a2="1" />
+<Bond a1="3" inRing="t" a2="2" />
+<Bond a1="3" inRing="t" a2="4" />
+<Bond a1="4" a2="18" />
+<Bond a1="4" inRing="t" a2="6" />
+<Bond rot="t" chosen="t" a1="5" a2="4" />
+<Bond a1="5" a2="12" type="1" />
+<Bond rot="t" a1="6" a2="8" />
+<Bond rot="t" a1="6" a2="7" />
+<Bond a1="7" a2="20" />
+<Bond a1="7" a2="19" />
+<Bond a1="8" a2="23" />
+<Bond a1="8" a2="22" />
+<Bond a1="9" a2="26" />
+<Bond rot="t" a1="9" a2="1" />
+<Bond rot="t" a1="11" a2="0" />
+<Bond a1="11" a2="28" />
+<Bond rot="t" a1="13" a2="5" />
+<Bond a1="14" a2="2" />
+<Bond a1="16" a2="3" />
+<Bond a1="17" a2="3" />
+<Bond a1="21" a2="7" />
+<Bond a1="24" a2="8" />
+<Bond a1="25" a2="9" />
+<Bond a1="27" a2="9" />
+<Bond a1="29" a2="13" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-6.23019;Cofactor (elec)=0;Cofactor (hbond)=-2.49833;Csp2=2;Csp3=8;DOF=2;E-Inter (cofactor - ligand)=-40.2229;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-40.2229;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0;E-Intra (steric)=9.65039;E-Intra (tors)=0.549401;E-Intra (tors, ligand atoms)=10.1998;E-Intra (vdw)=30.534;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-30.0232;Electro=0;ElectroLong=0;Energy=-30.0232;HBond=0;HeavyAtoms=14;LE1=-2.14451;LE3=-1.27105;Ligand=(+)-camphoric_acid;MW=200.232;N=0;Name=(+)-camphoric_acid;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-29.5559;RMSD=0;RerankScore=-17.7948;Run=0;SimilarityScore=0;Steric=0;Torsions=2;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

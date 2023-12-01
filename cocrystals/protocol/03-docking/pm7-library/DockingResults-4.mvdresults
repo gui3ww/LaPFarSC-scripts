@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 21:51:24)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-6.52218	0	-2.5	5	1	0	-31.5315	0	0	-31.5315	0	0	0	0	8.59401	0	8.59401	25.2692	0	0	-22.9375	0	0	-22.9375	[00]3-methylpyridine.mvdml	0	7	-3.27679	-1.99877	3-methylpyridine	93.1265	1	[00]3-methylpyridine	0	0	0	0	0	-22.6423	0	-13.9914	0	0	0	0	0	0	0	C[c]1[cH][cH][cH][n][cH]1
+1	0	-6.75795	0	-2.27714	5	1	0	-31.2039	0	0	-31.2039	0	0	0	0	8.59398	0	8.59398	25.2689	0	0	-22.6099	0	0	-22.6099	[01]3-methylpyridine.mvdml	0	7	-3.22999	-1.9706	3-methylpyridine	93.1265	1	[01]3-methylpyridine	0	0	0	0	0	-22.1202	0	-13.7942	0	0	0	0	0	0	0	C[c]1[cH][cH][cH][n][cH]1
+1	0	-6.59913	0	-2.49286	5	1	0	-31.6591	0	0	-31.6591	0	0	0	0	8.59381	0	8.59381	25.2678	0	0	-23.0653	0	0	-23.0653	[02]3-methylpyridine.mvdml	0	7	-3.29504	-2.00977	3-methylpyridine	93.1265	1	[02]3-methylpyridine	0	0	0	0	0	-22.0243	0	-14.0684	0	0	0	0	0	0	0	C[c]1[cH][cH][cH][n][cH]1
+1	0	-6.4896	0	-2.40799	5	1	0	-30.9494	0	0	-30.9494	0	0	0	0	8.59389	0	8.59389	25.2682	0	0	-22.3555	0	0	-22.3555	[03]3-methylpyridine.mvdml	0	7	-3.19364	-1.94873	3-methylpyridine	93.1265	1	[03]3-methylpyridine	0	0	0	0	0	-21.8264	0	-13.6411	0	0	0	0	0	0	0	C[c]1[cH][cH][cH][n][cH]1
+1	0	-6.21139	0	-2.5	5	1	0	-31.2975	0	0	-31.2975	0	0	0	0	8.59379	0	8.59379	25.2675	0	0	-22.7037	0	0	-22.7037	[04]3-methylpyridine.mvdml	0	7	-3.24339	-1.97868	3-methylpyridine	93.1265	1	[04]3-methylpyridine	0	0	0	0	0	-21.4858	0	-13.8508	0	0	0	0	0	0	0	C[c]1[cH][cH][cH][n][cH]1

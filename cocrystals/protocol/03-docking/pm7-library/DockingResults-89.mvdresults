@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:45:04)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-4.78771	0	-7.37829	0	0	0	-25.0105	0.00753953	0	-25.003	0	0	0	0	0	0	0	0	0	0	-25.003	0	0.00753953	-25.003	[00]urea.mvdml	0	4	-6.25075	-3.76379	urea	60.0553	0	[00]urea	0	1	0	0	0	-24.4557	0	-15.0551	0	0	0	0	0	1	0	O=c(n)n
+1	0	-5.34313	0	-5	0	0	0	-23.8806	0.00740215	0	-23.8732	0	0	0	0	0	0	0	0	0	0	-23.8732	0	0.00740215	-23.8732	[01]urea.mvdml	0	4	-5.96831	-3.59374	urea	60.0553	0	[01]urea	0	1	0	0	0	-23.7117	0	-14.375	0	0	0	0	0	1	0	O=c(n)n
+1	0	-5.36145	0	-5	0	0	0	-23.9085	0.00739405	0	-23.9011	0	0	0	0	0	0	0	0	0	0	-23.9011	0	0.00739405	-23.9011	[02]urea.mvdml	0	4	-5.97528	-3.59794	urea	60.0553	0	[02]urea	0	1	0	0	0	-23.4546	0	-14.3918	0	0	0	0	0	1	0	O=c(n)n
+1	0	-4.33208	0	-7.5	0	0	0	-23.6632	0.00746724	0	-23.6557	0	0	0	0	0	0	0	0	0	0	-23.6557	0	0.00746724	-23.6557	[03]urea.mvdml	0	4	-5.91393	-3.56102	urea	60.0553	0	[03]urea	0	1	0	0	0	-23.3612	0	-14.2441	0	0	0	0	0	1	0	O=c(n)n
+1	0	-4.73871	0	-7.44825	0	0	0	-25.014	0.00753908	0	-25.0064	0	0	0	0	0	0	0	0	0	0	-25.0064	0	0.00753908	-25.0064	[04]urea.mvdml	0	4	-6.25161	-3.76431	urea	60.0553	0	[04]urea	0	1	0	0	0	-22.8916	0	-15.0573	0	0	0	0	0	1	0	O=c(n)n

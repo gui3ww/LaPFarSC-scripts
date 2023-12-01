@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:40:18)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-6.20608	0	-2.5	1	1	1	-29.3199	0	0	-29.3199	0	0	-3.44818	0	0	0.00380739	-3.44437	0.152445	0	0	-32.7642	0	0	-32.7642	[00]glycine.mvdml	0	5	-6.55285	-3.52516	glycine	75.0666	1	[00]glycine	0	0	0	0	0	-32.585	0	-17.6258	0	0	0	1	0	0	0	O=C(O)CN
+1	0	-7.24631	0	-3.46486	1	1	1	-29.1055	0	0	-29.1055	0	0	-3.72855	0	0	0.121104	-3.60745	-0.208478	0	0	-32.7129	0	0	-32.7129	[01]glycine.mvdml	0	5	-6.54258	-3.48738	glycine	75.0666	1	[01]glycine	0	0	0	0	0	-32.4099	0	-17.4369	0	0	0	1	0	0	0	O=C(O)CN
+1	0	-6.00592	0	-3.30845	1	1	1	-29.0673	0	0	-29.0673	0	0	-3.62976	0	0	0.018438	-3.61133	-0.18563	0	0	-32.6786	0	0	-32.6786	[02]glycine.mvdml	0	5	-6.53572	-3.5014	glycine	75.0666	1	[02]glycine	0	0	0	0	0	-32.2767	0	-17.507	0	0	0	1	0	0	0	O=C(O)CN
+1	0	-6.15298	0	-2.5	1	1	1	-28.5186	0	0	-28.5186	0	0	-3.48765	0	0	0.019781	-3.46786	0.111539	0	0	-31.9865	0	0	-31.9865	[03]glycine.mvdml	0	5	-6.3973	-3.42683	glycine	75.0666	1	[03]glycine	0	0	0	0	0	-31.7733	0	-17.1341	0	0	0	1	0	0	0	O=C(O)CN
+1	0	-6.17519	0	-2.5	1	1	1	-28.5685	0	0	-28.5685	0	0	-3.64575	0	0	0.0286669	-3.61708	-0.189567	0	0	-32.1856	0	0	-32.1856	[04]glycine.mvdml	0	5	-6.43711	-3.43954	glycine	75.0666	1	[04]glycine	0	0	0	0	0	-31.7366	0	-17.1977	0	0	0	1	0	0	0	O=C(O)CN

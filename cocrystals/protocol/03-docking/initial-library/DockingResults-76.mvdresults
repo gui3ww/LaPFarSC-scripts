@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:35:20)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-11.2249	0	-12.0169	8	7	5	-80.6796	0	0	-80.6796	0	0	-14.9977	0	12.8528	6.02536	3.88037	145.128	0	0	-76.7992	0	0	-76.7992	[00]riboflavin.mvdml	0	27	-2.84442	-0.760513	riboflavin	376.364	4	[00]riboflavin	0	0	4	0	0	-75.9939	0	-20.5339	0	0	0	5	0	2	0	O=c1nc(=O)N=C2C1=N[c]3[cH][c](C)[c](C)[cH][c]3N2CC(O)C(O)C(O)CO
+1	0	-20.1603	0	-2.5	8	7	5	-93.5884	0	0	-93.5884	0	0	-10.1335	0	19.783	8.96182	18.6113	141.427	0	0	-74.9771	0	0	-74.9771	[01]riboflavin.mvdml	0	27	-2.77693	-0.921222	riboflavin	376.364	4	[01]riboflavin	0	0	4	0	0	-74.0546	0	-24.873	0	0	0	5	0	2	0	O=c1nc(=O)N=C2C1=N[c]3[cH][c](C)[c](C)[cH][c]3N2CC(O)C(O)C(O)CO
+1	0	-15.0521	0	-10	8	7	5	-81.187	0	0	-81.187	0	0	-21.4633	0	21.2701	6.86414	6.67095	145.475	0	0	-74.516	0	0	-74.516	[02]riboflavin.mvdml	0	27	-2.75985	-0.687279	riboflavin	376.364	4	[02]riboflavin	0	0	4	0	0	-73.6544	0	-18.5565	0	0	0	5	0	2	0	O=c1nc(=O)N=C2C1=N[c]3[cH][c](C)[c](C)[cH][c]3N2CC(O)C(O)C(O)CO
+1	0	-14.3353	0	-10.6821	8	7	5	-78.7476	0	0	-78.7476	0	0	-24.1494	0	20.4419	7.86644	4.15892	145.425	0	0	-74.5887	0	0	-74.5887	[03]riboflavin.mvdml	0	27	-2.76255	-0.603602	riboflavin	376.364	4	[03]riboflavin	0	0	4	0	0	-73.4975	0	-16.2973	0	0	0	5	0	2	0	O=c1nc(=O)N=C2C1=N[c]3[cH][c](C)[c](C)[cH][c]3N2CC(O)C(O)C(O)CO
+1	0	-17.3579	0	-2.5	8	7	5	-80.2604	0	0	-80.2604	0	0	-22.5857	0	21.9643	6.93036	6.30893	145.17	0	0	-73.9514	0	0	-73.9514	[04]riboflavin.mvdml	0	27	-2.73894	-0.661466	riboflavin	376.364	4	[04]riboflavin	0	0	4	0	0	-73.0737	0	-17.8596	0	0	0	5	0	2	0	O=c1nc(=O)N=C2C1=N[c]3[cH][c](C)[c](C)[cH][c]3N2CC(O)C(O)C(O)CO

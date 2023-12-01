@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:21:21)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-10.3787	0	-6.85793	0	6	5	-56.0967	0	0	-56.0967	0	0	-15	0	0.595578	0.499694	-13.9047	4.80697	0	0	-70.0014	0	0	-70.0014	[00]mannitol.mvdml	0	12	-5.83345	-2.71091	mannitol	182.172	0	[00]mannitol	0	0	6	0	0	-69.119	0	-32.5309	0	0	0	5	0	0	0	OCC(O)C(O)C(O)C(O)CO
+1	0	-9.50396	0	-4.98708	0	6	5	-52.3909	0	0	-52.3909	0	0	-16.4771	0	0.234538	2.42678	-13.8158	4.1879	0	0	-66.2067	0	0	-66.2067	[01]mannitol.mvdml	0	12	-5.51723	-2.38671	mannitol	182.172	0	[01]mannitol	0	0	6	0	0	-65.7832	0	-28.6405	0	0	0	5	0	0	0	OCC(O)C(O)C(O)C(O)CO
+1	0	-9.60501	0	-2.5	0	6	5	-50.9968	0	0	-50.9968	0	0	-16.6972	0	0.425503	1.27537	-14.9963	4.41819	0	0	-65.9932	0	0	-65.9932	[02]mannitol.mvdml	0	12	-5.49943	-2.40137	mannitol	182.172	0	[02]mannitol	0	0	6	0	0	-65.0151	0	-28.8165	0	0	0	5	0	0	0	OCC(O)C(O)C(O)C(O)CO
+1	0	-7.0679	0	-5.45814	0	6	5	-50.6021	0	0	-50.6021	0	0	-12.5	0	-2.98308	0.358014	-15.1251	3.6409	0	0	-65.7271	0	0	-65.7271	[03]mannitol.mvdml	0	12	-5.47726	-2.51114	mannitol	182.172	0	[03]mannitol	0	0	6	0	0	-64.9065	0	-30.1337	0	0	0	5	0	0	0	OCC(O)C(O)C(O)C(O)CO
+1	0	-10.3449	0	-10	0	6	5	-51.1499	0	0	-51.1499	0	0	-12.4981	0	-2.41848	0.656533	-14.2601	5.68237	0	0	-65.41	0	0	-65.41	[04]mannitol.mvdml	0	12	-5.45084	-2.48355	mannitol	182.172	0	[04]mannitol	0	0	6	0	0	-64.566	0	-29.8025	0	0	0	5	0	0	0	OCC(O)C(O)C(O)C(O)CO

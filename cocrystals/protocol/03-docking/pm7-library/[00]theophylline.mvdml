@@ -1,0 +1,67 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:40:48" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-44.07" OriginalLigandName="theophylline" Rank="-1" name="[00]theophylline" RMSD="-1" rootAtom="3" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM7/theophylline.out.mol2" >
+<AtomList count="21" basetype="MVD.Model.Atom" >
+<Atom cc="3" pdbid="1" triposAtomType="11" pdb="81" aro="t" sol="-17.4" type="1" genericType="-1" id="0" vol="10" hyb="2" pos="32.8703,21.1807,-9.96004" elem="7" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="1" vol="10.8" hyb="2" pos="33.3451,19.9298,-10.3068" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="11" pdb="81" aro="t" sol="-17.4" type="2" genericType="-1" id="2" vol="10" hyb="2" pos="34.6881,19.8317,-10.1284" elem="7" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" hyb="2" pos="35.0914,21.066,-9.6489" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="11" pdb="81" sol="-17.4" type="2" genericType="-1" id="4" vol="10" hyb="2" pos="36.3513,21.4882,-9.30938" elem="7" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" pos="37.4971,20.5848,-9.44063" elem="6" ih="3" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" sol="4" type="4" genericType="-1" id="6" vol="12.77" hyb="2" pos="36.5338,22.8032,-8.83068" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="7" vol="10" hyb="2" pos="37.6376,23.1976,-8.52075" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="11" pdb="81" sol="-17.4" type="2" genericType="-1" id="8" vol="10" hyb="2" pos="35.4009,23.6339,-8.72923" elem="7" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="9" vol="12.77" pos="35.6632,24.9907,-8.22014" elem="6" ih="3" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" sol="4" type="4" genericType="-1" id="10" vol="12.77" hyb="2" pos="34.0699,23.2788,-9.0581" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="11" vol="10" hyb="2" pos="33.1692,24.0754,-8.92745" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" sol="4" type="4" genericType="-1" id="12" vol="12.77" hyb="2" pos="33.9698,21.9255,-9.53491" elem="6" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="31.9356,21.5315,-9.99028" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="32.7217,19.1274,-10.675" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="37.587,20.2323,-10.486" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="37.3644,19.7007,-8.78862" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="38.4354,21.0993,-9.1567" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="36.4282,25.4919,-8.84161" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="19" vol="10" pos="34.7378,25.5974,-8.2386" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="20" vol="10" pos="36.0357,24.9448,-7.18058" elem="1" />
+</AtomList>
+<BondList count="22" basetype="MVD.Model.Bond" >
+<Bond a1="0" inRing="t" a2="12" type="5" />
+<Bond a1="1" inRing="t" a2="2" type="5" />
+<Bond a1="1" inRing="t" a2="0" type="5" />
+<Bond a1="2" inRing="t" a2="3" type="5" />
+<Bond a1="3" inRing="t" a2="12" type="5" />
+<Bond a1="3" inRing="t" a2="4" type="3" />
+<Bond a1="4" inRing="t" a2="6" type="3" />
+<Bond rot="t" a1="5" a2="4" />
+<Bond a1="5" a2="17" />
+<Bond a1="5" a2="15" />
+<Bond a1="6" inRing="t" a2="8" type="3" />
+<Bond a1="6" a2="7" type="1" />
+<Bond rot="t" a1="8" a2="9" />
+<Bond a1="9" a2="19" />
+<Bond a1="9" a2="18" />
+<Bond a1="10" a2="11" type="1" />
+<Bond a1="10" inRing="t" a2="8" type="3" />
+<Bond a1="12" inRing="t" a2="10" type="3" />
+<Bond a1="13" a2="0" />
+<Bond a1="14" a2="1" />
+<Bond a1="16" a2="5" />
+<Bond a1="20" a2="9" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-11.2609;Cofactor (elec)=0;Cofactor (hbond)=-4.97721;Csp2=3;Csp3=2;DOF=0;E-Inter (cofactor - ligand)=-51.397;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-51.397;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-2.72697;E-Intra (sp2-sp2)=0;E-Intra (steric)=10.0539;E-Intra (tors)=0;E-Intra (tors, ligand atoms)=7.32698;E-Intra (vdw)=21.2813;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-44.07;Electro=0;ElectroLong=0;Energy=-44.07;HBond=0;HeavyAtoms=13;LE1=-3.39;LE3=-2.01951;Ligand=theophylline;MW=180.164;N=4;Name=theophylline;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-43.3439;RMSD=0;RerankScore=-26.2536;Run=0;SimilarityScore=0;Steric=0;Torsions=0;VdW (LJ12-6)=0;carbonyl=2;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

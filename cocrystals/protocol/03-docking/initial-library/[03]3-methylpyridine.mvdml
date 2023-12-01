@@ -1,0 +1,52 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 21:50:41" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-27.2849" OriginalLigandName="3-methylpyridine" Rank="-1" name="[03]3-methylpyridine" RMSD="-1" rootAtom="1" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/3-methylpyridine.mol2" >
+<AtomList count="14" basetype="MVD.Model.Atom" >
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="0" vol="10.8" hyb="2" pos="31.2505,20.4743,-13.6839" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="1" vol="10.8" hyb="2" pos="32.5081,20.8826,-13.221" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="2" vol="10.8" hyb="2" pos="33.2576,21.7186,-14.0559" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="3" vol="10.8" hyb="2" pos="32.7251,22.1001,-15.2885" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="4" vol="10.8" hyb="2" pos="31.4595,21.626,-15.6439" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="11" pdb="81" aro="t" sol="-17.4" type="2" genericType="-1" id="5" vol="10" hyb="2" pos="30.7241,20.8259,-14.8635" elem="7" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="6" vol="12.77" pos="33.0449,20.4505,-11.8809" elem="6" ih="3" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="7" vol="10" pos="30.621,19.8164,-13.063" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="34.2537,22.0719,-13.7459" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="33.2904,22.7592,-15.966" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="31.0148,21.9068,-16.6124" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="32.3179,19.824,-11.3175" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="33.9749,19.8531,-12.0156" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="33.2828,21.3397,-11.254" elem="1" />
+</AtomList>
+<BondList count="14" basetype="MVD.Model.Bond" >
+<Bond a1="0" inRing="t" a2="1" type="5" />
+<Bond a1="0" inRing="t" a2="5" type="5" />
+<Bond a1="0" a2="7" />
+<Bond a1="1" inRing="t" a2="2" type="5" />
+<Bond rot="t" a1="1" a2="6" />
+<Bond a1="2" inRing="t" a2="3" type="5" />
+<Bond a1="2" a2="8" />
+<Bond a1="3" inRing="t" a2="4" type="5" />
+<Bond a1="3" a2="9" />
+<Bond a1="4" inRing="t" a2="5" type="5" />
+<Bond a1="4" a2="10" />
+<Bond a1="6" a2="11" />
+<Bond a1="6" a2="12" />
+<Bond a1="6" a2="13" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-6.23835;Cofactor (elec)=0;Cofactor (hbond)=0;Csp2=5;Csp3=1;DOF=0;E-Inter (cofactor - ligand)=-35.9847;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-35.9847;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0;E-Intra (steric)=8.69976;E-Intra (tors)=0;E-Intra (tors, ligand atoms)=8.69976;E-Intra (vdw)=26.7756;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-27.2849;Electro=0;ElectroLong=0;Energy=-27.2849;HBond=0;HeavyAtoms=7;LE1=-3.89784;LE3=-2.34923;Ligand=3-methylpyridine;MW=93.1265;N=1;Name=3-methylpyridine;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-27.0053;RMSD=0;RerankScore=-16.4446;Run=0;SimilarityScore=0;Steric=0;Torsions=0;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

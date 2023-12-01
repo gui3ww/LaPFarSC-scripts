@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:39:53)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-9.15659	0	-4.81176	6	5	2	-45.7196	0	0	-45.7196	0	0	0	0	10.4825	0.111348	10.5939	39.1686	0	0	-35.1257	0	0	-35.1257	[00]t-butylhydroxyanisole.mvdml	0	13	-2.70197	-1.55164	t-butylhydroxyanisole	180.244	0	[00]t-butylhydroxyanisole	0	0	1	0	1	-34.7787	0	-20.1713	0	0	0	2	0	0	0	O[c]1[cH][cH][c](OC)[cH][c]1C(C)(C)C
+1	0	-10.9968	0	-4.50759	6	5	2	-47.8471	0	0	-47.8471	0	0	0	0	12.7251	0.105626	12.8307	67.8571	0	0	-35.0164	0	0	-35.0164	[01]t-butylhydroxyanisole.mvdml	0	13	-2.69357	-1.31416	t-butylhydroxyanisole	180.244	0	[01]t-butylhydroxyanisole	0	0	1	0	1	-34.5337	0	-17.084	0	0	0	2	0	0	0	O[c]1[cH][cH][c](OC)[cH][c]1C(C)(C)C
+1	0	-10.4737	0	-2.5	6	5	2	-47.285	0	0	-47.285	0	0	0	0	12.4862	0.013893	12.5001	48.3791	0	0	-34.7849	0	0	-34.7849	[02]t-butylhydroxyanisole.mvdml	0	13	-2.67576	-1.50617	t-butylhydroxyanisole	180.244	0	[02]t-butylhydroxyanisole	0	0	1	0	1	-34.2106	0	-19.5802	0	0	0	2	0	0	0	O[c]1[cH][cH][c](OC)[cH][c]1C(C)(C)C
+1	0	-10.0224	0	-2.49797	6	5	2	-46.0193	0	0	-46.0193	0	0	0	0	11.4194	0.0923296	11.5117	47.2651	0	0	-34.5076	0	0	-34.5076	[03]t-butylhydroxyanisole.mvdml	0	13	-2.65443	-1.46793	t-butylhydroxyanisole	180.244	0	[03]t-butylhydroxyanisole	0	0	1	0	1	-34.0475	0	-19.083	0	0	0	2	0	0	0	O[c]1[cH][cH][c](OC)[cH][c]1C(C)(C)C
+1	0	-9.1634	0	-2.48141	6	5	2	-45.1884	0	0	-45.1884	0	0	0	0	10.6085	0.114889	10.7234	41.4982	0	0	-34.465	0	0	-34.465	[04]t-butylhydroxyanisole.mvdml	0	13	-2.65115	-1.50021	t-butylhydroxyanisole	180.244	0	[04]t-butylhydroxyanisole	0	0	1	0	1	-33.9899	0	-19.5027	0	0	0	2	0	0	0	O[c]1[cH][cH][c](OC)[cH][c]1C(C)(C)C

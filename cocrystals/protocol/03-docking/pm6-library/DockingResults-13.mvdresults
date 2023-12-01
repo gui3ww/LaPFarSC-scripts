@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:00:08)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-12.0924	0	-1.10853	14	0	1	-68.1735	0	0	-68.1735	0	0	-2.5	4.82475	14.0065	4.82475	16.3312	66.7156	0	0	-51.8423	0	0	-51.8423	[00]apigenin.mvdml	0	20	-2.59211	-1.08819	apigenin	270.237	0	[00]apigenin	0	0	3	0	1	-50.75	0	-21.7637	0	0	0	1	0	1	0	O=c([cH]1)[c]2[c](O)[cH][c](O)[cH][c]2o[c]1[c]3[cH][cH][c](O)[cH][cH]3
+1	0	-16.0774	0	0	14	0	1	-67.3429	0	0	-67.3429	0	0	-2.5	5.70741	13.0263	5.70741	16.2338	66.1021	0	0	-51.1091	0	0	-51.1091	[01]apigenin.mvdml	0	20	-2.55546	-1.00641	apigenin	270.237	0	[01]apigenin	0	0	3	0	1	-50.3911	0	-20.1282	0	0	0	1	0	1	0	O=c([cH]1)[c]2[c](O)[cH][c](O)[cH][c]2o[c]1[c]3[cH][cH][c](O)[cH][cH]3
+1	0	-13.1688	0	-4.99911	14	0	1	-67.037	0	0	-67.037	0	0	-2.5	4.25451	14.5023	4.25451	16.2568	67.1597	0	0	-50.7802	0	0	-50.7802	[02]apigenin.mvdml	0	20	-2.53901	-1.0915	apigenin	270.237	0	[02]apigenin	0	0	3	0	1	-50.2365	0	-21.8301	0	0	0	1	0	1	0	O=c([cH]1)[c]2[c](O)[cH][c](O)[cH][c]2o[c]1[c]3[cH][cH][c](O)[cH][cH]3
+1	0	-15.5956	0	0	14	0	1	-66.5012	0	0	-66.5012	0	0	-2.5	5.295	13.5789	5.295	16.3739	66.3591	0	0	-50.1273	0	0	-50.1273	[03]apigenin.mvdml	0	20	-2.50637	-1.007	apigenin	270.237	0	[03]apigenin	0	0	3	0	1	-49.695	0	-20.1399	0	0	0	1	0	1	0	O=c([cH]1)[c]2[c](O)[cH][c](O)[cH][c]2o[c]1[c]3[cH][cH][c](O)[cH][cH]3
+1	0	-14.5815	0	-7.13569	14	0	1	-66.081	0	0	-66.081	0	0	-2.5	3.03678	15.3804	3.03678	15.9172	68.2613	0	0	-50.1639	0	0	-50.1639	[04]apigenin.mvdml	0	20	-2.50819	-1.14336	apigenin	270.237	0	[04]apigenin	0	0	3	0	1	-49.5055	0	-22.8671	0	0	0	1	0	1	0	O=c([cH]1)[c]2[c](O)[cH][c](O)[cH][c]2o[c]1[c]3[cH][cH][c](O)[cH][cH]3

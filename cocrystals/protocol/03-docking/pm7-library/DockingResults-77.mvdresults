@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:35:02)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-9.46017	0	-6.24353	6	0	0	-44.2208	0	0	-44.2208	0	0	0	0	1.39213	0	1.39213	24.6642	0	0	-42.8287	0	0	-42.8287	[00]saccharin.mvdml	0	12	-3.56906	-1.91276	saccharin	183.184	1	[00]saccharin	0	0	0	0	0	-42.3617	0	-22.9532	0	0	0	0	0	1	0	O=c(n1)[c]2[cH][cH][cH][cH][c]2S1(=O)=O
+1	0	-10.0699	0	-4.55751	6	0	0	-43.9339	0	0	-43.9339	0	0	0	0	1.39215	0	1.39215	24.6646	0	0	-42.5418	0	0	-42.5418	[01]saccharin.mvdml	0	12	-3.54515	-1.89836	saccharin	183.184	1	[01]saccharin	0	0	0	0	0	-41.8878	0	-22.7804	0	0	0	0	0	1	0	O=c(n1)[c]2[cH][cH][cH][cH][c]2S1(=O)=O
+1	0	-12.0329	0	-2.5	6	0	0	-43.8576	0	0	-43.8576	0	0	0	0	1.39218	0	1.39218	24.6643	0	0	-42.4654	0	0	-42.4654	[02]saccharin.mvdml	0	12	-3.53879	-1.89454	saccharin	183.184	1	[02]saccharin	0	0	0	0	0	-41.8224	0	-22.7345	0	0	0	0	0	1	0	O=c(n1)[c]2[cH][cH][cH][cH][c]2S1(=O)=O
+1	0	-11.4656	0	-2.5	6	0	0	-43.5257	0	0	-43.5257	0	0	0	0	1.39222	0	1.39222	24.6649	0	0	-42.1335	0	0	-42.1335	[03]saccharin.mvdml	0	12	-3.51112	-1.87788	saccharin	183.184	1	[03]saccharin	0	0	0	0	0	-41.6117	0	-22.5346	0	0	0	0	0	1	0	O=c(n1)[c]2[cH][cH][cH][cH][c]2S1(=O)=O
+1	0	-10.1451	0	-2.5	6	0	0	-43.3583	0	0	-43.3583	0	0	0	0	1.39229	0	1.39229	24.665	0	0	-41.966	0	0	-41.966	[04]saccharin.mvdml	0	12	-3.49717	-1.86948	saccharin	183.184	1	[04]saccharin	0	0	0	0	0	-41.3176	0	-22.4338	0	0	0	0	0	1	0	O=c(n1)[c]2[cH][cH][cH][cH][c]2S1(=O)=O

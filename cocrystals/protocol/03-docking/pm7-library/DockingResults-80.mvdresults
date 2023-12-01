@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:39:03)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-7.20764	0	-8.2031	2	2	3	-39.5157	0	0	-39.5157	0	0	0	0	1.56054	0.356486	1.91703	0.893821	0	0	-37.5986	0	0	-37.5986	[00]succinic_acid.mvdml	0	8	-4.69983	-2.88268	succinic_acid	118.088	0	[00]succinic_acid	0	0	0	0	0	-37.1795	0	-23.0614	0	0	0	3	0	0	0	O=C(O)CCC(=O)O
+1	0	-0.755553	0	-9.07913	2	2	3	-38.8915	0	0	-38.8915	0	0	0	0	-0.0939084	1.32585	1.23194	-0.417293	0	0	-37.6596	0	0	-37.6596	[01]succinic_acid.mvdml	0	8	-4.70745	-2.7804	succinic_acid	118.088	0	[01]succinic_acid	0	0	0	0	0	-36.8489	0	-22.2432	0	0	0	3	0	0	0	O=C(O)CCC(=O)O
+1	0	2.56117	0	-7.49921	2	2	3	-37.6366	0	0	-37.6366	0	0	0	0	0.212034	0.139029	0.351063	-0.298367	0	0	-37.2856	0	0	-37.2856	[02]succinic_acid.mvdml	0	8	-4.66069	-2.81648	succinic_acid	118.088	0	[02]succinic_acid	0	0	0	0	0	-36.5382	0	-22.5318	0	0	0	3	0	0	0	O=C(O)CCC(=O)O
+1	0	-8.16309	0	-7.22256	2	2	3	-39.0458	0	0	-39.0458	0	0	0	0	1.43064	0.690291	2.12093	0.814821	0	0	-36.9249	0	0	-36.9249	[03]succinic_acid.mvdml	0	8	-4.61561	-2.81234	succinic_acid	118.088	0	[03]succinic_acid	0	0	0	0	0	-36.4152	0	-22.4987	0	0	0	3	0	0	0	O=C(O)CCC(=O)O
+1	0	-8.22484	0	-6.84953	2	2	3	-38.0339	0	0	-38.0339	0	0	0	0	1.22431	0.281086	1.50539	0.34162	0	0	-36.5285	0	0	-36.5285	[04]succinic_acid.mvdml	0	8	-4.56606	-2.79684	succinic_acid	118.088	0	[04]succinic_acid	0	0	0	0	0	-36.0682	0	-22.3747	0	0	0	3	0	0	0	O=C(O)CCC(=O)O

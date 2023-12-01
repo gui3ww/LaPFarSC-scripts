@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:28:58)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-10.2055	0	-7.5	6	0	2	-53.2838	0	0	-53.2838	0	0	0	11.6112	3.09833	11.6112	14.7095	25.0047	0	0	-38.5742	0	0	-38.5742	[00]phthalamide.mvdml	0	12	-3.21452	-0.816021	phthalamide	164.161	2	[00]phthalamide	0	0	0	0	0	-37.6561	0	-9.79225	0	0	0	2	0	2	0	O=c(n)[c]1[cH][cH][cH][cH][c]1c(n)=O
+1	0	-11.1628	0	-2.5	6	0	2	-49.6803	0	0	-49.6803	0	0	-2.5	10.1185	5.25495	10.1185	12.8734	25.8969	0	0	-36.8069	0	0	-36.8069	[01]phthalamide.mvdml	0	12	-3.06724	-0.789792	phthalamide	164.161	2	[01]phthalamide	0	0	0	0	0	-36.3773	0	-9.4775	0	0	0	2	0	2	0	O=c(n)[c]1[cH][cH][cH][cH][c]1c(n)=O
+1	0	-9.18965	0	-2.5	6	0	2	-50.5118	0	0	-50.5118	0	0	-2.5	6.51352	9.79988	6.51352	13.8134	30.1931	0	0	-36.6984	0	0	-36.6984	[02]phthalamide.mvdml	0	12	-3.0582	-1.18945	phthalamide	164.161	2	[02]phthalamide	0	0	0	0	0	-36.2127	0	-14.2734	0	0	0	2	0	2	0	O=c(n)[c]1[cH][cH][cH][cH][c]1c(n)=O
+1	0	-9.57801	0	-2.5	6	0	2	-50.4709	0	0	-50.4709	0	0	-2.5	4.51912	11.8766	4.51912	13.8958	34.1579	0	0	-36.5751	0	0	-36.5751	[03]phthalamide.mvdml	0	12	-3.04793	-1.37331	phthalamide	164.161	2	[03]phthalamide	0	0	0	0	0	-35.8945	0	-16.4797	0	0	0	2	0	2	0	O=c(n)[c]1[cH][cH][cH][cH][c]1c(n)=O
+1	0	-10.0649	0	-2.49447	6	0	2	-48.8408	0	0	-48.8408	0	0	-2.5	10.1371	5.24157	10.1371	12.8787	25.8759	0	0	-35.9621	0	0	-35.9621	[04]phthalamide.mvdml	0	12	-2.99684	-0.745672	phthalamide	164.161	2	[04]phthalamide	0	0	0	0	0	-35.701	0	-8.94807	0	0	0	2	0	2	0	O=c(n)[c]1[cH][cH][cH][cH][c]1c(n)=O

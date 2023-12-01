@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:08:56)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-5.22974	0	-2.17082	0	5	0	-36.523	0	0	-36.523	0	0	0	0	4.61247	0	4.61247	9.71731	0	0	-31.9105	0	0	-31.9105	[00]caprolactam.mvdml	0	8	-3.98882	-2.48035	caprolactam	113.158	1	[00]caprolactam	0	0	0	0	0	-31.625	0	-19.8428	0	0	0	0	0	1	0	O=c1nCCCCC1
+1	0	-9.92706	0	0	0	5	0	-36.2099	0	0	-36.2099	0	0	0	0	4.61236	0	4.61236	9.71722	0	0	-31.5976	0	0	-31.5976	[01]caprolactam.mvdml	0	8	-3.94969	-2.45679	caprolactam	113.158	1	[01]caprolactam	0	0	0	0	0	-31.2694	0	-19.6543	0	0	0	0	0	1	0	O=c1nCCCCC1
+1	0	-5.86937	0	-2.36846	0	5	0	-36.3325	0	0	-36.3325	0	0	0	0	4.61257	0	4.61257	9.71743	0	0	-31.7199	0	0	-31.7199	[02]caprolactam.mvdml	0	8	-3.96499	-2.46601	caprolactam	113.158	1	[02]caprolactam	0	0	0	0	0	-31.2024	0	-19.7281	0	0	0	0	0	1	0	O=c1nCCCCC1
+1	0	-9.82987	0	0	0	5	0	-35.9576	0	0	-35.9576	0	0	0	0	4.61246	0	4.61246	9.71738	0	0	-31.3452	0	0	-31.3452	[03]caprolactam.mvdml	0	8	-3.91815	-2.4378	caprolactam	113.158	1	[03]caprolactam	0	0	0	0	0	-31.1115	0	-19.5024	0	0	0	0	0	1	0	O=c1nCCCCC1
+1	0	-6.5888	0	-1.80923	0	5	0	-36.1532	0	0	-36.1532	0	0	0	0	4.61257	0	4.61257	9.71743	0	0	-31.5406	0	0	-31.5406	[04]caprolactam.mvdml	0	8	-3.94258	-2.45252	caprolactam	113.158	1	[04]caprolactam	0	0	0	0	0	-30.8295	0	-19.6201	0	0	0	0	0	1	0	O=c1nCCCCC1

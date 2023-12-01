@@ -1,0 +1,43 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 21:54:14" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-43.8591" OriginalLigandName="acetylenedicarboxylic_acid" Rank="-1" name="[02]acetylenedicarboxylic_acid" NumberOfRotatableBonds="2" RMSD="-1" rootAtom="0" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM7/acetylenedicarboxylic_acid.out.mol2" >
+<AtomList count="10" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="1" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="1" pos="33.3193,19.5248,-11.1667" elem="6" />
+<Atom pdbid="1" triposAtomType="1" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="1" pos="33.9712,20.3052,-10.5104" elem="6" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" hyb="2" pos="32.5793,18.6005,-11.9813" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="3" vol="10" hyb="2" pos="32.9135,17.4819,-12.2582" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="4" vol="10" pos="31.3969,19.0629,-12.4672" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" hyb="2" pos="34.7108,21.2297,-9.69559" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="6" vol="10" hyb="2" pos="34.4696,22.3969,-9.55895" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="7" vol="10" pos="35.7738,20.7048,-9.03068" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="31.456,19.8938,-12.9971" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="35.9301,19.7415,-9.18149" elem="1" />
+</AtomList>
+<BondList count="9" basetype="MVD.Model.Bond" >
+<Bond rot="t" chosen="t" a1="0" a2="2" />
+<Bond a1="1" a2="0" type="2" />
+<Bond rot="t" a1="2" a2="4" />
+<Bond a1="3" a2="2" type="1" />
+<Bond a1="4" a2="8" />
+<Bond rot="t" chosen="t" a1="5" a2="1" />
+<Bond a1="5" a2="6" type="1" />
+<Bond rot="t" a1="7" a2="5" />
+<Bond a1="9" a2="7" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-7.70066;Cofactor (elec)=0;Cofactor (hbond)=-7.48921;Csp2=4;Csp3=0;DOF=2;E-Inter (cofactor - ligand)=-41.2636;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-41.2636;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0;E-Intra (steric)=-2.59554;E-Intra (tors)=0;E-Intra (tors, ligand atoms)=-2.59554;E-Intra (vdw)=-1.04652;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-43.8591;Electro=0;ElectroLong=0;Energy=-43.8591;HBond=0;HeavyAtoms=8;LE1=-5.48239;LE3=-3.17907;Ligand=acetylenedicarboxylic_acid;MW=114.056;N=0;Name=acetylenedicarboxylic_acid;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-42.6467;RMSD=0;RerankScore=-25.4326;Run=0;SimilarityScore=0;Steric=0;Torsions=2;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

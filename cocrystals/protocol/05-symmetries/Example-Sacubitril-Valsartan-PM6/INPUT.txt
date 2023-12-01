@@ -1,0 +1,60 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+311   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : AutoFrac
+
+% optType
+enthalpy
+% EndOptType
+
+% atomType
+C O H N
+% EndAtomType
+
+% numSpecies
+1 0
+0 1
+% EndNumSpecies
+
+% symmetries
+2 4 5 7 9 11-15 18 19 29 33 43 56 60-62 88
+% EndSymmetries
+
+% MolCenters
+5 4
+4 4
+% EndMol
+
+******************************************
+*               POPULATION               *
+******************************************
+50    : populationSize (how many individuals per generation)
+50    : initialPopSize (how many individuals in the first generation)
+3     : numGenerations (how many generations shall be calculated)
+2     : stopCrit       (after how many generations with identical minima to stop)
+0     : reoptOld       (reoptimize KeptBest structures 0/1)
+0.6   : bestFrac       (fraction of best structures to keep)
+*********************************
+*	VARCOMP VARIABLE	*
+*********************************
+20   : firstGeneMax (how many different composition in the first generation)
+2    : minAt
+4    : maxAt
+****************************************
+*   DETAILS OF AB INITIO CALCULATIONS  *
+****************************************
+% abinitioCode
+8
+% ENDabinit
+
+% commandExecutable
+mpirun -np 8 /usr/local/qe-7.0/bin/pw.x -npool 2 < qe.in > output
+% EndExecutable
+
+1   : checkMolecules
+1   : checkConnectivity
+0    : whichCluster
+0.0001  : ExternalPressure
+

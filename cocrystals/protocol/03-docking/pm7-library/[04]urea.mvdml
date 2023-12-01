@@ -1,0 +1,39 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:45:12" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-25.0064" OriginalLigandName="urea" Rank="-1" name="[04]urea" RMSD="-1" rootAtom="1" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM7/urea.out.mol2" >
+<AtomList count="8" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" pc="0.5" triposAtomType="10" pdb="81" sol="-39.2" type="1" genericType="-1" id="0" vol="10" hyb="2" pos="33.1959,19.7421,-11.2224" elem="7" ih="2" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="32.6919,18.7434,-12.0496" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="2" vol="10" hyb="2" pos="33.3056,17.715,-12.2608" elem="8" />
+<Atom pdbid="1" pc="0.5" triposAtomType="10" pdb="81" sol="-39.2" type="1" genericType="-1" id="3" vol="10" hyb="2" pos="31.4315,18.9788,-12.6076" elem="7" ih="2" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="4" vol="10" pos="32.6531,20.5168,-10.9197" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="5" vol="10" pos="34.0371,19.5493,-10.7128" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="6" vol="10" pos="31.1046,18.3091,-13.281" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="7" vol="10" pos="31.0652,19.8994,-12.7044" elem="1" />
+</AtomList>
+<BondList count="7" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="5" />
+<Bond a1="1" a2="0" type="3" />
+<Bond a1="1" a2="2" type="1" />
+<Bond a1="3" a2="1" type="3" />
+<Bond a1="4" a2="0" />
+<Bond a1="6" a2="3" />
+<Bond a1="7" a2="3" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-4.73871;Cofactor (elec)=0;Cofactor (hbond)=-7.44825;Csp2=0;Csp3=0;DOF=0;E-Inter (cofactor - ligand)=-25.014;E-Inter (protein - ligand)=0.00753908;E-Inter (water - ligand)=0;E-Inter total=-25.0064;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0;E-Intra (steric)=0;E-Intra (tors)=0;E-Intra (tors, ligand atoms)=0;E-Intra (vdw)=0;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-25.0064;Electro=0;ElectroLong=0.00753908;Energy=-25.0064;HBond=0;HeavyAtoms=4;LE1=-6.25161;LE3=-3.76431;Ligand=urea;MW=60.0553;N=0;Name=urea;NoHBond90=0;Nplus=1;OH=0;OPO32minus=0;OS=0;PoseEnergy=-22.8916;RMSD=0;RerankScore=-15.0573;Run=0;SimilarityScore=0;Steric=0;Torsions=0;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

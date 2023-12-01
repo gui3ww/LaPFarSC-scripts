@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:14:33)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-18.7408	0	-12.4964	0	12	8	-69.149	0	0	-69.149	0	0	-35.7897	0	8.67888	4.59773	-22.5131	23.3025	0	0	-91.6621	0	0	-91.6621	[00]maltitol.mvdml	0	23	-3.98531	-1.41666	maltitol	344.312	0	[00]maltitol	0	0	9	0	2	-90.7699	0	-32.5832	0	0	0	8	0	0	0	OC(CO)C(C(O)C(O)CO)OC(O1)C(O)C(O)C(O)C1CO
+1	0	-12.4741	0	-18.6515	0	12	8	-69.649	0	0	-69.649	0	0	-33.4276	0	10.761	1.62067	-21.046	25.2358	0	0	-90.695	0	0	-90.695	[01]maltitol.mvdml	0	23	-3.94326	-1.52391	maltitol	344.312	0	[01]maltitol	0	0	9	0	2	-89.299	0	-35.0498	0	0	0	8	0	0	0	OC(CO)C(C(O)C(O)CO)OC(O1)C(O)C(O)C(O)C1CO
+1	0	-12.4301	0	-12.0222	0	12	8	-65.7944	0	0	-65.7944	0	0	-30.9289	0	2.361	4.17498	-24.393	22.8501	0	0	-90.1873	0	0	-90.1873	[02]maltitol.mvdml	0	23	-3.92119	-1.39608	maltitol	344.312	0	[02]maltitol	0	0	9	0	2	-89.0563	0	-32.1098	0	0	0	8	0	0	0	OC(CO)C(C(O)C(O)CO)OC(O1)C(O)C(O)C(O)C1CO
+1	0	-17.7954	0	-11.7184	0	12	8	-68.4621	0	0	-68.4621	0	0	-28.4288	0	7.50396	0.257259	-20.6676	29.4224	0	0	-89.1298	0	0	-89.1298	[03]maltitol.mvdml	0	23	-3.87521	-1.5475	maltitol	344.312	0	[03]maltitol	0	0	9	0	2	-88.5799	0	-35.5925	0	0	0	8	0	0	0	OC(CO)C(C(O)C(O)CO)OC(O1)C(O)C(O)C(O)C1CO
+1	0	-10.0308	0	-13.8106	0	12	8	-69.1894	0	0	-69.1894	0	0	-33.429	0	6.1078	7.53508	-19.7861	20.0826	0	0	-88.9755	0	0	-88.9755	[04]maltitol.mvdml	0	23	-3.8685	-1.33661	maltitol	344.312	0	[04]maltitol	0	0	9	0	2	-88.058	0	-30.7421	0	0	0	8	0	0	0	OC(CO)C(C(O)C(O)CO)OC(O1)C(O)C(O)C(O)C1CO

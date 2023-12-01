@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:43:14)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-13.7786	0	-2.5	2	6	2	-65.2103	0	0	-65.2103	0	0	-3.83341	0	4.93475	0.192268	1.29361	16.0926	0	0	-63.9167	0	0	-63.9167	[00]thymidine.mvdml	0	17	-3.75981	-2.11709	thymidine	242.229	2	[00]thymidine	0	0	2	0	1	-63.0233	0	-35.9906	0	0	0	2	0	2	0	O=c(nc1(=O))[c](C)[cH]n1C(O2)CC(O)C2CO
+1	0	-13.4657	0	-2.5	2	6	2	-64.8402	0	0	-64.8402	0	0	-3.83343	0	4.98715	0.958769	2.11249	16.1408	0	0	-62.7277	0	0	-62.7277	[01]thymidine.mvdml	0	17	-3.68987	-2.06077	thymidine	242.229	2	[01]thymidine	0	0	2	0	1	-61.7595	0	-35.0331	0	0	0	2	0	2	0	O=c(nc1(=O))[c](C)[cH]n1C(O2)CC(O)C2CO
+1	0	-11.8234	0	-2.5	2	6	2	-63.3269	0	0	-63.3269	0	0	-6.33341	0	7.49517	1.36284	2.52461	19.9692	0	0	-60.8023	0	0	-60.8023	[02]thymidine.mvdml	0	17	-3.5766	-1.92821	thymidine	242.229	2	[02]thymidine	0	0	2	0	1	-60.3329	0	-32.7796	0	0	0	2	0	2	0	O=c(nc1(=O))[c](C)[cH]n1C(O2)CC(O)C2CO
+1	0	-10.834	0	-3.83053	2	6	2	-60.1901	0	0	-60.1901	0	0	-6.33349	0	6.33874	0.900374	0.90562	16.8969	0	0	-59.2845	0	0	-59.2845	[03]thymidine.mvdml	0	17	-3.48732	-1.87947	thymidine	242.229	2	[03]thymidine	0	0	2	0	1	-58.2492	0	-31.951	0	0	0	2	0	2	0	O=c(nc1(=O))[c](C)[cH]n1C(O2)CC(O)C2CO
+1	0	-12.2001	0	-2.5	2	6	2	-63.1288	0	0	-63.1288	0	0	-3.83345	0	6.40333	0.433262	3.00314	16.1646	0	0	-60.1257	0	0	-60.1257	[04]thymidine.mvdml	0	17	-3.5368	-2.01464	thymidine	242.229	2	[04]thymidine	0	0	2	0	1	-58.2435	0	-34.2489	0	0	0	2	0	2	0	O=c(nc1(=O))[c](C)[cH]n1C(O2)CC(O)C2CO

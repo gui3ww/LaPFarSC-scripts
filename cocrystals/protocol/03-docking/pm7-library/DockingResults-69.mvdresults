@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:24:50)
+# 
+# Workspace file: ws-pm7.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm7-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 5157529922669337432
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-7.72802	0	-5	2	0	1	-31.6939	0	0	-31.6939	0	0	-5.21568	0.0449838	-0.281081	0.0449838	-5.45178	0.181055	0	0	-37.1457	0	0	-37.1457	[00]oxalic_acid.mvdml	0	6	-6.19094	-3.17202	oxalic_acid	90.0349	0	[00]oxalic_acid	0	0	0	0	0	-36.9182	0	-19.0321	0	0	0	1	0	0	0	OC(=O)C(=O)O
+1	0	-6.99257	0	-5	2	0	1	-30.9028	0	0	-30.9028	0	0	-5.21397	0.0351812	-0.281409	0.0351812	-5.4602	0.183513	0	0	-36.363	0	0	-36.363	[01]oxalic_acid.mvdml	0	6	-6.0605	-3.09517	oxalic_acid	90.0349	0	[01]oxalic_acid	0	0	0	0	0	-36.1097	0	-18.571	0	0	0	1	0	0	0	OC(=O)C(=O)O
+1	0	-7.65759	0	-5	2	0	1	-31.729	0	0	-31.729	0	0	-5.2112	0.020415	-0.281828	0.020415	-5.47261	0.187248	0	0	-37.2016	0	0	-37.2016	[02]oxalic_acid.mvdml	0	6	-6.20026	-3.18186	oxalic_acid	90.0349	0	[02]oxalic_acid	0	0	0	0	0	-34.9788	0	-19.0912	0	0	0	1	0	0	0	OC(=O)C(=O)O
+1	0	-6.32565	0	-7.49758	2	0	1	-29.7718	0	0	-29.7718	0	0	-5.20785	0.00164283	-0.282412	0.00164283	-5.48862	0.192016	0	0	-35.2605	0	0	-35.2605	[03]oxalic_acid.mvdml	0	6	-5.87674	-2.99032	oxalic_acid	90.0349	0	[03]oxalic_acid	0	0	0	0	0	-34.9552	0	-17.9419	0	0	0	1	0	0	0	OC(=O)C(=O)O
+1	0	-7.27556	0	-5	2	0	1	-29.6442	0	0	-29.6442	0	0	-5.241	0.182136	-0.276956	0.182136	-5.33582	0.146769	0	0	-34.98	0	0	-34.98	[04]oxalic_acid.mvdml	0	6	-5.83	-2.93106	oxalic_acid	90.0349	0	[04]oxalic_acid	0	0	0	0	0	-34.7286	0	-17.5864	0	0	0	1	0	0	0	OC(=O)C(=O)O

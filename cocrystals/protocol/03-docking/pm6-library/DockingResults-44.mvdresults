@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:56:29)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	1	-9.2788	0	-5	1	2	3	-48.6758	0.000150243	0	-48.6757	0	-8.37457	-6.02396	0	2.71738	0.259102	-11.4221	1.23986	0	0	-60.0977	0	0.000150243	-60.0977	[00]L-aspartic_acid_z.mvdml	0	9	-6.67752	-3.56441	L-aspartic_acid_z	133.103	0	[00]L-aspartic_acid_z	0	1	0	0	0	-59.6432	0	-32.0797	0	0	0	3	0	0	0	O=C(O)CC([NH3+])[c]([o])[o]
+1	1	-9.07504	0	-2.5	1	2	3	-44.1844	0.000114543	0	-44.1843	0	-9.30806	-4.91714	0	1.25628	0.572495	-12.3964	2.17266	0	0	-56.5807	0	0.000114543	-56.5807	[01]L-aspartic_acid_z.mvdml	0	9	-6.28674	-3.29017	L-aspartic_acid_z	133.103	0	[01]L-aspartic_acid_z	0	1	0	0	0	-56.157	0	-29.6115	0	0	0	3	0	0	0	O=C(O)CC([NH3+])[c]([o])[o]
+1	1	-9.01657	0	-5	1	2	3	-48.8155	0.000152862	0	-48.8154	0	-8.46764	-6.05686	0	3.08931	0.336053	-11.0991	1.5906	0	0	-59.9145	0	0.000152862	-59.9145	[02]L-aspartic_acid_z.mvdml	0	9	-6.65717	-3.55773	L-aspartic_acid_z	133.103	0	[02]L-aspartic_acid_z	0	1	0	0	0	-55.5777	0	-32.0196	0	0	0	3	0	0	0	O=C(O)CC([NH3+])[c]([o])[o]
+1	1	-9.05636	0	-5	1	2	3	-48.8267	0.000152316	0	-48.8265	0	-8.35612	-6.08782	0	2.77467	0.303665	-11.3656	1.26191	0	0	-60.1921	0	0.000152316	-60.1921	[03]L-aspartic_acid_z.mvdml	0	9	-6.68801	-3.56753	L-aspartic_acid_z	133.103	0	[03]L-aspartic_acid_z	0	1	0	0	0	-55.5508	0	-32.1078	0	0	0	3	0	0	0	O=C(O)CC([NH3+])[c]([o])[o]
+1	1	-8.97223	0	-4.99871	1	2	3	-44.3157	4.06502e-05	0	-44.3156	0	-9.29658	-4.94494	0	1.96881	0.691811	-11.5809	2.93536	0	0	-55.8965	0	4.06502e-05	-55.8965	[04]L-aspartic_acid_z.mvdml	0	9	-6.21073	-3.26056	L-aspartic_acid_z	133.103	0	[04]L-aspartic_acid_z	0	1	0	0	0	-55.3424	0	-29.3451	0	0	0	3	0	0	0	O=C(O)CC([NH3+])[c]([o])[o]

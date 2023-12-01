@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:09:05)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-11.5822	0	-2.5	7	2	3	-53.8166	0	0	-53.8166	0	0	-3.30418	0	5.48977	2.8998	5.08538	28.1354	0	0	-48.7313	0	0	-48.7313	[00]L-phenylalanine.mvdml	0	12	-4.06094	-2.06854	L-phenylalanine	165.189	1	[00]L-phenylalanine	0	0	0	0	0	-47.9684	0	-24.8225	0	0	0	3	0	0	0	O=C(O)C(N)C[c]1[cH][cH][cH][cH][cH]1
+1	0	-10.5577	0	-2.5	7	2	3	-51.3243	0	0	-51.3243	0	0	-3.77502	0	5.09195	1.70709	3.02403	25.6802	0	0	-48.3003	0	0	-48.3003	[01]L-phenylalanine.mvdml	0	12	-4.02503	-2.07088	L-phenylalanine	165.189	1	[01]L-phenylalanine	0	0	0	0	0	-47.359	0	-24.8506	0	0	0	3	0	0	0	O=C(O)C(N)C[c]1[cH][cH][cH][cH][cH]1
+1	0	-8.37698	0	-4.9966	7	2	3	-50.4962	0	0	-50.4962	0	0	-3.65985	0	4.8997	1.86492	3.10476	25.6167	0	0	-47.3914	0	0	-47.3914	[02]L-phenylalanine.mvdml	0	12	-3.94928	-2.0205	L-phenylalanine	165.189	1	[02]L-phenylalanine	0	0	0	0	0	-46.8487	0	-24.2459	0	0	0	3	0	0	0	O=C(O)C(N)C[c]1[cH][cH][cH][cH][cH]1
+1	0	-10.042	0	-5	7	2	3	-52.0188	0	0	-52.0188	0	0	-3.42849	0	6.57118	2.03588	5.17857	28.0355	0	0	-46.8403	0	0	-46.8403	[03]L-phenylalanine.mvdml	0	12	-3.90336	-2.03154	L-phenylalanine	165.189	1	[03]L-phenylalanine	0	0	0	0	0	-46.501	0	-24.3785	0	0	0	3	0	0	0	O=C(O)C(N)C[c]1[cH][cH][cH][cH][cH]1
+1	0	-9.31701	0	-2.5	7	2	3	-50.9901	0	0	-50.9901	0	0	-3.80735	0	5.18955	2.55874	3.94094	25.9374	0	0	-47.0492	0	0	-47.0492	[04]L-phenylalanine.mvdml	0	12	-3.92077	-1.98317	L-phenylalanine	165.189	1	[04]L-phenylalanine	0	0	0	0	0	-46.4911	0	-23.798	0	0	0	3	0	0	0	O=C(O)C(N)C[c]1[cH][cH][cH][cH][cH]1

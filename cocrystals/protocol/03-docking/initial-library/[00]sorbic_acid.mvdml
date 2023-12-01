@@ -1,0 +1,55 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:39:23" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-42.7048" OriginalLigandName="sorbic_acid" Rank="-1" name="[00]sorbic_acid" NumberOfRotatableBonds="2" RMSD="-1" rootAtom="3" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/sorbic_acid.mol2" >
+<AtomList count="16" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" pos="32.1945,19.4551,-11.3601" elem="6" ih="3" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="32.7937,20.5755,-12.1689" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="2" vol="12.77" hyb="2" pos="32.5088,20.7979,-13.4628" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" hyb="2" pos="33.0533,21.8035,-14.1706" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" hyb="2" pos="32.7804,21.9984,-15.4729" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" hyb="2" pos="33.3047,22.9991,-16.2314" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="6" vol="10" hyb="2" pos="33.1391,23.0822,-17.4292" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="7" vol="10" pos="34.0565,23.9758,-15.6682" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="33.0001,18.7885,-10.9766" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="31.6371,19.8692,-10.4893" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="31.4881,18.831,-11.9518" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="33.5033,21.2307,-11.6342" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="31.7939,20.1162,-13.9539" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="33.7479,22.4881,-13.6548" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="32.0854,21.3141,-15.9909" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="33.7426,24.1146,-14.7601" elem="1" />
+</AtomList>
+<BondList count="15" basetype="MVD.Model.Bond" >
+<Bond rot="t" a1="0" a2="1" />
+<Bond a1="0" a2="8" />
+<Bond a1="0" a2="9" />
+<Bond a1="0" a2="10" />
+<Bond a1="1" a2="2" type="1" />
+<Bond a1="1" a2="11" />
+<Bond rot="t" chosen="t" a1="2" a2="3" />
+<Bond a1="2" a2="12" />
+<Bond a1="3" a2="4" type="1" />
+<Bond a1="3" a2="13" />
+<Bond rot="t" chosen="t" a1="4" a2="5" />
+<Bond a1="4" a2="14" />
+<Bond a1="5" a2="6" type="1" />
+<Bond rot="t" a1="5" a2="7" />
+<Bond a1="7" a2="15" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-8.53435;Cofactor (elec)=0;Cofactor (hbond)=-2.5;Csp2=5;Csp3=1;DOF=2;E-Inter (cofactor - ligand)=-42.5227;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-42.5227;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0.0910456;E-Intra (steric)=-0.27321;E-Intra (tors)=0.0910456;E-Intra (tors, ligand atoms)=-0.182165;E-Intra (vdw)=1.03929;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-42.7048;Electro=0;ElectroLong=0;Energy=-42.7048;HBond=0;HeavyAtoms=8;LE1=-5.3381;LE3=-3.16974;Ligand=sorbic_acid;MW=112.127;N=0;Name=sorbic_acid;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-42.3675;RMSD=0;RerankScore=-25.3579;Run=0;SimilarityScore=0;Steric=0;Torsions=2;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

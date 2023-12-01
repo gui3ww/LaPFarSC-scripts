@@ -1,0 +1,53 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:15:02" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-49.6121" OriginalLigandName="malic_acid" Rank="-1" name="[03]malic_acid" NumberOfRotatableBonds="3" RMSD="-1" rootAtom="4" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/malic_acid.out.mol2" >
+<AtomList count="15" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="0" vol="10" pos="30.8721,20.5199,-12.4284" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="32.219,20.4829,-12.5923" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="2" vol="10" hyb="2" pos="32.9573,20.2428,-11.6525" elem="8" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="32.5935,20.7838,-14.0078" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="32.2067,22.2061,-14.4041" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="5" vol="10" pos="30.7918,22.3248,-14.5872" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="6" vol="12.77" hyb="2" pos="32.7777,22.5732,-15.7772" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="7" vol="10" hyb="2" pos="32.5023,22.0251,-16.8246" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="8" vol="10" pos="33.6911,23.5736,-15.8249" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="30.5252,21.4216,-12.1215" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="32.0964,20.0307,-14.6766" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="33.6877,20.6056,-14.175" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="32.5443,22.9612,-13.6442" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="30.3636,22.6491,-13.7428" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="33.9091,23.9971,-14.9201" elem="1" />
+</AtomList>
+<BondList count="14" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="9" />
+<Bond rot="t" a1="0" a2="1" />
+<Bond a1="1" a2="2" type="1" />
+<Bond rot="t" chosen="t" a1="3" a2="1" />
+<Bond a1="3" a2="11" />
+<Bond rot="t" chosen="t" a1="3" a2="4" />
+<Bond a1="4" a2="12" />
+<Bond a1="5" a2="13" />
+<Bond rot="t" a1="5" a2="4" />
+<Bond rot="t" chosen="t" a1="6" a2="4" />
+<Bond a1="6" a2="7" type="1" />
+<Bond rot="t" a1="8" a2="6" />
+<Bond a1="10" a2="3" />
+<Bond a1="14" a2="8" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-8.61966;Cofactor (elec)=0;Cofactor (hbond)=-6.43314;Csp2=2;Csp3=2;DOF=3;E-Inter (cofactor - ligand)=-46.912;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-46.912;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-6.04624;E-Intra (sp2-sp2)=0;E-Intra (steric)=2.54312;E-Intra (tors)=0.803001;E-Intra (tors, ligand atoms)=-2.70012;E-Intra (vdw)=0.477613;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-49.6121;Electro=0;ElectroLong=0;Energy=-49.6121;HBond=0;HeavyAtoms=9;LE1=-5.51246;LE3=-2.99822;Ligand=malic_acid;MW=134.087;N=0;Name=malic_acid;NoHBond90=0;Nplus=0;OH=1;OPO32minus=0;OS=0;PoseEnergy=-49.1119;RMSD=0;RerankScore=-26.984;Run=0;SimilarityScore=0;Steric=0;Torsions=3;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

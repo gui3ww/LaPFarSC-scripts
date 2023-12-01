@@ -1,0 +1,43 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:40:35" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-33.5713" OriginalLigandName="glycine" Rank="-1" name="[02]glycine" NumberOfRotatableBonds="1" RMSD="-1" rootAtom="2" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/glycine.out.mol2" >
+<AtomList count="10" basetype="MVD.Model.Atom" >
+<Atom triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="32.2203,20.868,-13.7358" elem="6" />
+<Atom triposAtomType="8" pdb="81" sol="-17.4" type="1" genericType="-1" id="1" vol="10" pos="33.232,22.5916,-15.1298" elem="7" ih="2" />
+<Atom triposAtomType="3" pdb="12" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="31.941,22.0444,-14.6334" elem="6" ih="2" />
+<Atom triposAtomType="13" pdb="105" sol="-17.4" type="2" genericType="-1" id="3" vol="10" hyb="2" pos="32.8258,20.805,-12.683" elem="8" />
+<Atom triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="4" vol="10" pos="31.6369,19.7456,-14.2508" elem="8" ih="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="5" vol="10" pos="33.0379,23.3167,-15.829" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="6" vol="10" pos="33.7203,23.0705,-14.3671" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="7" vol="10" pos="31.3105,22.7774,-14.0663" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="8" vol="10" pos="31.3086,21.7263,-15.5031" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="31.7525,18.9257,-13.6745" elem="1" />
+</AtomList>
+<BondList count="9" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="3" type="1" />
+<Bond rot="t" chosen="t" a1="0" a2="2" />
+<Bond a1="1" a2="5" />
+<Bond a1="2" a2="8" />
+<Bond rot="t" a1="2" a2="1" />
+<Bond rot="t" a1="4" a2="0" />
+<Bond a1="6" a2="1" />
+<Bond a1="7" a2="2" />
+<Bond a1="9" a2="4" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-7.67865;Cofactor (elec)=0;Cofactor (hbond)=-2.49068;Csp2=1;Csp3=1;DOF=1;E-Inter (cofactor - ligand)=-29.9874;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-29.9874;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-3.60565;E-Intra (sp2-sp2)=0;E-Intra (steric)=0;E-Intra (tors)=0.021666;E-Intra (tors, ligand atoms)=-3.58399;E-Intra (vdw)=-0.261355;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-33.5713;Electro=0;ElectroLong=0;Energy=-33.5713;HBond=0;HeavyAtoms=5;LE1=-6.71427;LE3=-3.61368;Ligand=glycine;MW=75.0666;N=1;Name=glycine;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-33.0662;RMSD=0;RerankScore=-18.0684;Run=0;SimilarityScore=0;Steric=0;Torsions=1;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

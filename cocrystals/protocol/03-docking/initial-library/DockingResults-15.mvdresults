@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:04:08)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-7.93985	0	-2.5	7	0	1	-45.854	0	0	-45.854	0	0	0	0.292321	13.9776	0.292321	14.2699	49.1972	0	0	-31.5841	0	0	-31.5841	[00]benzoic_acid.mvdml	0	9	-3.50934	-1.98905	benzoic_acid	122.121	0	[00]benzoic_acid	0	0	0	0	0	-31.2911	0	-17.9014	0	0	0	1	0	0	0	O=C(O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-8.22374	0	-2.33007	7	0	1	-45.8089	0	0	-45.8089	0	0	0	1.12952	13.6284	1.12952	14.7579	48.1892	0	0	-31.0509	0	0	-31.0509	[01]benzoic_acid.mvdml	0	9	-3.4501	-1.86186	benzoic_acid	122.121	0	[01]benzoic_acid	0	0	0	0	0	-30.5865	0	-16.7567	0	0	0	1	0	0	0	O=C(O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-8.21664	0	-2.15394	7	0	1	-45.7856	0	0	-45.7856	0	0	0	1.18529	13.6045	1.18529	14.7898	48.127	0	0	-30.9958	0	0	-30.9958	[02]benzoic_acid.mvdml	0	9	-3.44398	-1.85196	benzoic_acid	122.121	0	[02]benzoic_acid	0	0	0	0	0	-30.5806	0	-16.6677	0	0	0	1	0	0	0	O=C(O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-8.41186	0	-2.49728	7	0	1	-45.0968	0	0	-45.0968	0	0	0	0.444419	13.9154	0.444419	14.3599	49.0035	0	0	-30.7369	0	0	-30.7369	[03]benzoic_acid.mvdml	0	9	-3.41521	-1.91598	benzoic_acid	122.121	0	[03]benzoic_acid	0	0	0	0	0	-30.4601	0	-17.2438	0	0	0	1	0	0	0	O=C(O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-8.63497	0	0	7	0	1	-43.8985	0	0	-43.8985	0	0	0	0.242505	14.0056	0.242505	14.2481	49.1186	0	0	-29.6504	0	0	-29.6504	[04]benzoic_acid.mvdml	0	9	-3.29449	-1.86764	benzoic_acid	122.121	0	[04]benzoic_acid	0	0	0	0	0	-29.5037	0	-16.8087	0	0	0	1	0	0	0	O=C(O)[c]1[cH][cH][cH][cH][cH]1

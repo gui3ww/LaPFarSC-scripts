@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 22:38:29)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-8.62817	0	-2.5	4	0	2	-43.5298	0	0	-43.5298	0	0	0	0.239592	1.51139	0.239592	1.75098	0.74445	0	0	-41.7788	0	0	-41.7788	[00]fumaric_acid.mvdml	0	8	-5.22235	-3.18305	fumaric_acid	116.072	0	[00]fumaric_acid	0	0	0	0	0	-41.2574	0	-25.4644	0	0	0	2	0	0	0	OC(=O)C=CC(=O)O
+1	0	-8.78985	0	-2.5	4	0	2	-42.9006	0	0	-42.9006	0	0	0	0.393855	2.3012	0.393855	2.69505	1.7592	0	0	-40.2055	0	0	-40.2055	[01]fumaric_acid.mvdml	0	8	-5.02569	-3.07074	fumaric_acid	116.072	0	[01]fumaric_acid	0	0	0	0	0	-39.7476	0	-24.5659	0	0	0	2	0	0	0	OC(=O)C=CC(=O)O
+1	0	-9.68111	0	-4.99642	4	0	2	-42.3946	0	0	-42.3946	0	0	0	0.272719	1.50393	0.272719	1.77665	0.737829	0	0	-40.618	0	0	-40.618	[02]fumaric_acid.mvdml	0	8	-5.07725	-3.09138	fumaric_acid	116.072	0	[02]fumaric_acid	0	0	0	0	0	-39.706	0	-24.7311	0	0	0	2	0	0	0	OC(=O)C=CC(=O)O
+1	0	-8.29689	0	-4.9941	4	0	2	-42.1511	0	0	-42.1511	0	0	0	0.555556	2.30653	0.555556	2.86209	1.84151	0	0	-39.289	0	0	-39.289	[03]fumaric_acid.mvdml	0	8	-4.91112	-2.98098	fumaric_acid	116.072	0	[03]fumaric_acid	0	0	0	0	0	-38.7582	0	-23.8478	0	0	0	2	0	0	0	OC(=O)C=CC(=O)O
+1	0	-8.77425	0	-2.5	4	0	2	-43.339	0	0	-43.339	0	0	0	0.259788	1.50323	0.259788	1.76302	0.738316	0	0	-41.576	0	0	-41.576	[04]fumaric_acid.mvdml	0	8	-5.197	-3.165	fumaric_acid	116.072	0	[04]fumaric_acid	0	0	0	0	0	-38.0308	0	-25.32	0	0	0	2	0	0	0	OC(=O)C=CC(=O)O

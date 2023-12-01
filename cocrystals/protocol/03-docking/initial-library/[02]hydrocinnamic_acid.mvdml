@@ -1,0 +1,66 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:44:03" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-43.9894" OriginalLigandName="hydrocinnamic_acid" Rank="-1" name="[02]hydrocinnamic_acid" NumberOfRotatableBonds="3" RMSD="-1" rootAtom="7" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/hydrocinnamic_acid.mol2" >
+<AtomList count="21" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="32.1974,20.4609,-12.4557" elem="6" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" pos="33.0213,21.2338,-13.4495" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="2" vol="10" pos="33.7736,20.6696,-13.7613" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="3" vol="10" pos="33.4019,22.0345,-13.0078" elem="1" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="32.1771,21.6705,-14.6559" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="5" vol="10" pos="31.7119,20.8805,-15.0299" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="6" vol="10" pos="31.4879,22.315,-14.3542" elem="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="7" vol="10.8" hyb="2" pos="33.0202,22.3145,-15.743" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="8" vol="10.8" hyb="2" pos="33.7181,23.4832,-15.4576" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="33.6465,23.8787,-14.5959" elem="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="10" vol="10.8" hyb="2" pos="34.5196,24.0764,-16.4252" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="34.9864,24.8792,-16.2251" elem="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="12" vol="10.8" hyb="2" pos="34.6402,23.5048,-17.6749" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="35.1976,23.9058,-18.3304" elem="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="14" vol="10.8" hyb="2" pos="33.9462,22.3475,-17.9705" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="34.0238,21.952,-18.8307" elem="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="16" vol="10.8" hyb="2" pos="33.132,21.7615,-17.0049" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="32.6477,20.9718,-17.216" elem="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="18" vol="10" pos="32.1049,21.0742,-11.2718" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="19" vol="10" pos="31.6185,21.755,-11.3458" elem="1" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="20" vol="10" hyb="2" pos="31.6709,19.4034,-12.6939" elem="8" />
+</AtomList>
+<BondList count="21" basetype="MVD.Model.Bond" >
+<Bond rot="t" chosen="t" a1="0" a2="1" />
+<Bond rot="t" a1="0" a2="18" />
+<Bond a1="0" a2="20" type="1" />
+<Bond a1="1" a2="2" />
+<Bond a1="1" a2="3" />
+<Bond rot="t" chosen="t" a1="1" a2="4" />
+<Bond a1="4" a2="5" />
+<Bond a1="4" a2="6" />
+<Bond rot="t" chosen="t" a1="4" a2="7" />
+<Bond a1="7" inRing="t" a2="8" type="5" />
+<Bond a1="7" inRing="t" a2="16" type="5" />
+<Bond a1="8" a2="9" />
+<Bond a1="8" inRing="t" a2="10" type="5" />
+<Bond a1="10" a2="11" />
+<Bond a1="10" inRing="t" a2="12" type="5" />
+<Bond a1="12" a2="13" />
+<Bond a1="12" inRing="t" a2="14" type="5" />
+<Bond a1="14" a2="15" />
+<Bond a1="14" inRing="t" a2="16" type="5" />
+<Bond a1="16" a2="17" />
+<Bond a1="18" a2="19" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-10.0328;Cofactor (elec)=0;Cofactor (hbond)=-2.48785;Csp2=7;Csp3=2;DOF=3;E-Inter (cofactor - ligand)=-51.3672;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-51.3672;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0;E-Intra (steric)=7.08126;E-Intra (tors)=0.296521;E-Intra (tors, ligand atoms)=7.37778;E-Intra (vdw)=30.2465;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-43.9894;Electro=0;ElectroLong=0;Energy=-43.9894;HBond=0;HeavyAtoms=11;LE1=-3.99903;LE3=-2.29297;Ligand=hydrocinnamic_acid;MW=150.175;N=0;Name=hydrocinnamic_acid;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-43.3306;RMSD=0;RerankScore=-25.2227;Run=0;SimilarityScore=0;Steric=0;Torsions=3;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

@@ -1,0 +1,68 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:31:38" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-44.161" OriginalLigandName="ethylparaben" Rank="-1" name="[03]ethylparaben" NumberOfRotatableBonds="3" RMSD="-1" rootAtom="10" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/ethylparaben.mol2" >
+<AtomList count="22" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" pos="34.3028,20.3252,-10.1914" elem="6" ih="3" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" pos="33.2428,20.9963,-11.0651" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="2" genericType="-1" id="2" vol="10" pos="33.0149,20.1841,-12.1782" elem="8" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" hyb="2" pos="32.1705,20.4714,-13.2246" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="4" vol="10" hyb="2" pos="31.2729,19.6591,-13.3555" elem="8" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="5" vol="10.8" hyb="2" pos="32.1682,21.4985,-14.1358" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="6" vol="10.8" hyb="2" pos="33.34,22.0816,-14.4736" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="7" vol="10.8" hyb="2" pos="33.4158,23.0863,-15.3605" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="8" vol="10.8" hyb="2" pos="32.3193,23.5732,-15.9606" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="9" vol="10.8" hyb="2" pos="31.1486,23.0102,-15.6265" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="10" vol="10.8" hyb="2" pos="31.0753,22.0032,-14.7407" elem="6" ih="1" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="11" vol="10" pos="32.3826,24.5917,-16.8592" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="34.5215,20.9386,-9.28698" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="35.2582,20.189,-10.7487" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="33.9636,19.3218,-9.84468" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="32.3068,21.0778,-10.4645" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="33.6361,21.9846,-11.3992" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="34.3038,21.7592,-14.0432" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="34.3976,23.5259,-15.6067" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="19" vol="10" pos="30.2256,23.3943,-16.095" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="20" vol="10" pos="30.0582,21.6475,-14.5512" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="21" vol="10" pos="31.4856,24.8019,-17.1662" elem="1" />
+</AtomList>
+<BondList count="22" basetype="MVD.Model.Bond" >
+<Bond rot="t" a1="0" a2="1" />
+<Bond a1="0" a2="12" />
+<Bond a1="0" a2="13" />
+<Bond a1="0" a2="14" />
+<Bond rot="t" chosen="t" a1="1" a2="2" />
+<Bond a1="1" a2="15" />
+<Bond a1="1" a2="16" />
+<Bond rot="t" chosen="t" a1="2" a2="3" />
+<Bond a1="3" a2="4" type="1" />
+<Bond rot="t" chosen="t" a1="3" a2="5" />
+<Bond a1="5" inRing="t" a2="6" type="5" />
+<Bond a1="5" inRing="t" a2="10" type="5" />
+<Bond a1="6" inRing="t" a2="7" type="5" />
+<Bond a1="6" a2="17" />
+<Bond a1="7" inRing="t" a2="8" type="5" />
+<Bond a1="7" a2="18" />
+<Bond a1="8" inRing="t" a2="9" type="5" />
+<Bond rot="t" a1="8" a2="11" />
+<Bond a1="9" inRing="t" a2="10" type="5" />
+<Bond a1="9" a2="19" />
+<Bond a1="10" a2="20" />
+<Bond a1="11" a2="21" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-10.6583;Cofactor (elec)=0;Cofactor (hbond)=0;Csp2=6;Csp3=2;DOF=3;E-Inter (cofactor - ligand)=-54.0758;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-54.0758;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=1.39912;E-Intra (steric)=8.474;E-Intra (tors)=1.44078;E-Intra (tors, ligand atoms)=9.91478;E-Intra (vdw)=47.7454;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-44.161;Electro=0;ElectroLong=0;Energy=-44.161;HBond=0;HeavyAtoms=12;LE1=-3.68009;LE3=-1.85152;Ligand=ethylparaben;MW=166.174;N=0;Name=ethylparaben;NoHBond90=0;Nplus=0;OH=1;OPO32minus=0;OS=1;PoseEnergy=-42.674;RMSD=0;RerankScore=-22.2182;Run=0;SimilarityScore=0;Steric=0;Torsions=3;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

@@ -1,0 +1,67 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 23:06:57" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-51.2509" OriginalLigandName="L-leucine" Rank="-1" name="[00]L-leucine" NumberOfRotatableBonds="3" RMSD="-1" rootAtom="3" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/L-leucine.out.mol2" >
+<AtomList count="22" basetype="MVD.Model.Atom" >
+<Atom triposAtomType="3" pdb="17" sol="4" type="4" genericType="-1" id="0" vol="12.77" pos="32.3014,18.7923,-13.0961" elem="6" ih="3" />
+<Atom triposAtomType="3" pdb="22" sol="4" type="4" genericType="-1" id="1" vol="12.77" pos="32.4301,20.2187,-12.5565" elem="6" ih="1" />
+<Atom triposAtomType="3" pdb="16" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="33.2781,20.2505,-11.2798" elem="6" ih="3" />
+<Atom triposAtomType="3" pdb="14" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="32.9303,21.2186,-13.6214" elem="6" ih="2" />
+<Atom triposAtomType="3" pdb="12" sol="4" type="4" genericType="-1" id="4" vol="12.77" pos="31.9928,21.5785,-14.7851" elem="6" ih="1" />
+<Atom triposAtomType="8" pdb="81" sol="-17.4" type="1" genericType="-1" id="5" vol="10" pos="30.722,22.2642,-14.4398" elem="7" ih="2" />
+<Atom triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="6" vol="12.77" hyb="2" pos="32.7132,22.4384,-15.8221" elem="6" />
+<Atom triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="7" vol="10" pos="33.1579,23.6754,-15.4466" elem="8" ih="1" />
+<Atom triposAtomType="13" pdb="105" sol="-17.4" type="2" genericType="-1" id="8" vol="10" hyb="2" pos="32.8874,22.1636,-16.9957" elem="8" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="31.8062,18.1415,-12.3642" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="31.7047,18.7637,-14.0161" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="33.2715,18.3346,-13.3171" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="31.3978,20.5661,-12.2749" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="34.2548,19.7663,-11.4124" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="32.7754,19.7232,-10.4598" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="33.4637,21.2763,-10.9408" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="16" vol="10" pos="33.8804,20.8342,-14.0507" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="17" vol="10" pos="33.2121,22.1632,-13.1035" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="18" vol="10" pos="31.7371,20.614,-15.3282" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="19" vol="10" pos="30.0397,21.5859,-14.0897" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="20" vol="10" pos="30.8698,22.9343,-13.6717" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="21" vol="10" pos="33.6645,23.6813,-14.5613" elem="1" />
+</AtomList>
+<BondList count="21" basetype="MVD.Model.Bond" >
+<Bond a1="0" a2="10" />
+<Bond a1="0" a2="9" />
+<Bond rot="t" a1="1" a2="0" />
+<Bond a1="1" a2="12" />
+<Bond rot="t" a1="2" a2="1" />
+<Bond a1="2" a2="14" />
+<Bond a1="3" a2="17" />
+<Bond rot="t" chosen="t" a1="3" a2="1" />
+<Bond rot="t" chosen="t" a1="4" a2="3" />
+<Bond rot="t" a1="5" a2="4" />
+<Bond a1="5" a2="20" />
+<Bond rot="t" chosen="t" a1="6" a2="4" />
+<Bond a1="6" a2="8" type="1" />
+<Bond rot="t" a1="7" a2="6" />
+<Bond a1="11" a2="0" />
+<Bond a1="13" a2="2" />
+<Bond a1="15" a2="2" />
+<Bond a1="16" a2="3" />
+<Bond a1="18" a2="4" />
+<Bond a1="19" a2="5" />
+<Bond a1="21" a2="7" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-8.78968;Cofactor (elec)=0;Cofactor (hbond)=-4.57303;Csp2=1;Csp3=5;DOF=3;E-Inter (cofactor - ligand)=-46.6502;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-46.6502;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-3.74307;E-Intra (sp2-sp2)=0;E-Intra (steric)=-1.90268;E-Intra (tors)=1.04504;E-Intra (tors, ligand atoms)=-4.60072;E-Intra (vdw)=-0.0734681;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-51.2509;Electro=0;ElectroLong=0;Energy=-51.2509;HBond=0;HeavyAtoms=9;LE1=-5.69455;LE3=-3.04896;Ligand=L-leucine;MW=131.173;N=1;Name=L-leucine;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-50.6385;RMSD=0;RerankScore=-27.4406;Run=0;SimilarityScore=0;Steric=0;Torsions=3;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

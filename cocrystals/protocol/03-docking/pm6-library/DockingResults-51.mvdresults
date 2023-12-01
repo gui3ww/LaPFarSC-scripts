@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:06:57)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-9.926	0	-5	7	1	2	-51.6755	0	0	-51.6755	0	0	-1.38646	0	7.08613	0.421968	6.12164	29.6065	0	0	-45.5539	0	0	-45.5539	[00]L-mandelic_acid.mvdml	0	11	-4.14126	-2.30716	L-mandelic_acid	152.147	0	[00]L-mandelic_acid	0	0	1	0	0	-44.7017	0	-25.3787	0	0	0	2	0	0	0	OC(C(O)=O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-12.111	0	-2.5	7	1	2	-50.6287	0	0	-50.6287	0	0	-3.38236	0	8.40192	0.460878	5.48043	27.22	0	0	-45.1483	0	0	-45.1483	[01]L-mandelic_acid.mvdml	0	11	-4.10439	-2.25613	L-mandelic_acid	152.147	0	[01]L-mandelic_acid	0	0	1	0	0	-44.467	0	-24.8175	0	0	0	2	0	0	0	OC(C(O)=O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-10.9048	0	-2.5	7	1	2	-49.308	0	0	-49.308	0	0	-3.72164	0	9.08802	0.0432635	5.40964	27.3943	0	0	-43.8983	0	0	-43.8983	[02]L-mandelic_acid.mvdml	0	11	-3.99076	-2.20654	L-mandelic_acid	152.147	0	[02]L-mandelic_acid	0	0	1	0	0	-43.2954	0	-24.2719	0	0	0	2	0	0	0	OC(C(O)=O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-11.1119	0	-2.5	7	1	2	-48.0564	0	0	-48.0564	0	0	-3.78952	0	8.71058	0.494286	5.41535	27.1066	0	0	-42.6411	0	0	-42.6411	[03]L-mandelic_acid.mvdml	0	11	-3.87646	-2.10912	L-mandelic_acid	152.147	0	[03]L-mandelic_acid	0	0	1	0	0	-41.9893	0	-23.2003	0	0	0	2	0	0	0	OC(C(O)=O)[c]1[cH][cH][cH][cH][cH]1
+1	0	-8.88785	0	-2.5	7	1	2	-47.5357	0	0	-47.5357	0	0	-3.70563	0	8.66179	0.288695	5.24485	27.0965	0	0	-42.2909	0	0	-42.2909	[04]L-mandelic_acid.mvdml	0	11	-3.84463	-2.09904	L-mandelic_acid	152.147	0	[04]L-mandelic_acid	0	0	1	0	0	-41.9115	0	-23.0895	0	0	0	2	0	0	0	OC(C(O)=O)[c]1[cH][cH][cH][cH][cH]1

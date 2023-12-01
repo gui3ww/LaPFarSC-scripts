@@ -1,0 +1,55 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:57:13" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-60.1921" OriginalLigandName="L-aspartic_acid_z" Rank="-1" name="[03]L-aspartic_acid_z" NumberOfRotatableBonds="3" RMSD="-1" rootAtom="2" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM6/L-aspartic_acid_z.out.mol2" >
+<AtomList count="16" basetype="MVD.Model.Atom" >
+<Atom triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="0" vol="12.77" hyb="2" pos="32.5375,19.8448,-12.7196" elem="6" />
+<Atom pc="1" triposAtomType="9" pdb="81" sol="-39.2" type="1" genericType="-1" id="1" vol="10" pos="30.7418,21.2972,-13.6594" elem="7" ih="3" />
+<Atom triposAtomType="3" pdb="12" sol="4" type="4" genericType="-1" id="2" vol="12.77" pos="32.1009,20.6944,-13.9604" elem="6" ih="1" />
+<Atom triposAtomType="3" pdb="14" sol="4" type="4" genericType="-1" id="3" vol="12.77" pos="33.1167,21.7829,-14.2913" elem="6" ih="2" />
+<Atom triposAtomType="2" pdb="22" sol="4" type="4" genericType="-1" id="4" vol="12.77" hyb="2" pos="32.8383,22.4983,-15.5775" elem="6" />
+<Atom triposAtomType="13" pdb="99" sol="-17.4" type="2" genericType="-1" id="5" vol="10" hyb="2" pos="31.9195,22.2744,-16.3492" elem="8" />
+<Atom triposAtomType="14" pdb="98" sol="-17.4" type="3" genericType="-1" id="6" vol="10" pos="33.7605,23.4481,-15.8851" elem="8" ih="1" />
+<Atom pc="-0.5" triposAtomType="15" pdb="92" sol="-20.5" type="2" genericType="-1" id="7" vol="10" hyb="2" pos="32.6755,18.6193,-12.9312" elem="8" />
+<Atom pc="-0.5" triposAtomType="15" pdb="105" sol="-20.5" type="2" genericType="-1" id="8" vol="10" hyb="2" pos="32.728,20.4267,-11.6411" elem="8" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="9" vol="10" pos="30.1365,21.3286,-14.4962" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="30.2426,20.7257,-12.9374" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="30.8129,22.2578,-13.2856" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="32.0034,19.9909,-14.8411" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="33.1682,22.5465,-13.4693" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="34.1557,21.365,-14.3338" elem="1" />
+<Atom triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="34.0491,23.9949,-15.0803" elem="1" />
+</AtomList>
+<BondList count="15" basetype="MVD.Model.Bond" >
+<Bond rot="t" chosen="t" a1="0" a2="2" />
+<Bond a1="0" inRing="t" a2="8" type="3" />
+<Bond rot="t" a1="1" a2="2" />
+<Bond a1="1" a2="11" />
+<Bond rot="t" chosen="t" a1="2" a2="3" />
+<Bond rot="t" chosen="t" a1="3" a2="4" />
+<Bond a1="3" a2="13" />
+<Bond a1="3" a2="14" />
+<Bond a1="4" a2="5" type="1" />
+<Bond a1="6" a2="15" />
+<Bond rot="t" a1="6" a2="4" />
+<Bond a1="7" inRing="t" a2="0" type="3" />
+<Bond a1="9" a2="1" />
+<Bond a1="10" a2="1" />
+<Bond a1="12" a2="2" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=1;Cofactor (VdW)=-9.05636;Cofactor (elec)=0;Cofactor (hbond)=-5;Csp2=1;Csp3=2;DOF=3;E-Inter (cofactor - ligand)=-48.8267;E-Inter (protein - ligand)=0.000152316;E-Inter (water - ligand)=0;E-Inter total=-48.8265;E-Intra (clash)=0;E-Intra (elec)=-8.35612;E-Intra (hbond)=-6.08782;E-Intra (sp2-sp2)=0;E-Intra (steric)=2.77467;E-Intra (tors)=0.303665;E-Intra (tors, ligand atoms)=-11.3656;E-Intra (vdw)=1.26191;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-60.1921;Electro=0;ElectroLong=0.000152316;Energy=-60.1921;HBond=0;HeavyAtoms=9;LE1=-6.68801;LE3=-3.56753;Ligand=L-aspartic_acid_z;MW=133.103;N=0;Name=L-aspartic_acid_z;NoHBond90=0;Nplus=1;OH=0;OPO32minus=0;OS=0;PoseEnergy=-55.5508;RMSD=0;RerankScore=-32.1078;Run=0;SimilarityScore=0;Steric=0;Torsions=3;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

@@ -1,0 +1,27 @@
+
+#Instalation using Ubuntu22.04LTS
+#Author: Guilherme E. M. Mendes, LaPFarSC-UFRJ, 2023
+
+
+[OpenMPI]
+sudo apt-get -y install cmake gfortran openmpi-bin openmpi-common openmpi-doc libopenmpi-dev
+mpicc --showme:version
+
+[Quantum Espresso]
+sudo tar -xzf /home/lapfarsc/Documentos/Instaladores-Anguirel/qe-7.0-ReleasePack.tgz -C /usr/local
+cd /usr/local/qe-7.0/
+sudo ./configure
+sudo make pw && sudo make pp && sudo make cp && sudo make tddfpt
+export PATH=/usr/local/qe-7.0/bin:$PATH' >> /home/lapfarsc/.bashrc
+
+[USPEX]
+sudo tar -xf /home/lapfarsc/Documentos/Instaladores-Anguirel/USPEX-10.5.tar.gz  -C /usr/local
+sudo apt-get -y install libsqlite3-dev python3-pip
+sudo pip3 install numpy scipy spglib pysqlite3 ase matplotlib requests torch zipfile2 spglib
+cd /usr/local/USPEX_v10.5/
+sudo ./install.sh
+echo 'export MCRROOT=/usr/local/MATLAB/MATLAB_Runtime/' >> /home/lapfarsc/.bashrc
+echo 'export PATH=/usr/local/USPEX_v10.5/application/archive/:$PATH' >> /home/lapfarsc/.bashrc
+echo 'export USPEXPATH=/usr/local/USPEX_v10.5/application/archive/src' >> /home/lapfarsc/.bashrc
+USPEX -v
+

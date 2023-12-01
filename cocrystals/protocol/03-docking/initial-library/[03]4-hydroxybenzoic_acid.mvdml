@@ -1,0 +1,56 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 21:52:08" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-33.75" OriginalLigandName="4-hydroxybenzoic_acid" Rank="-1" name="[03]4-hydroxybenzoic_acid" NumberOfRotatableBonds="1" RMSD="-1" rootAtom="5" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_CCDC/4-hydroxybenzoic_acid.mol2" >
+<AtomList count="16" basetype="MVD.Model.Atom" >
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="0" vol="10.8" hyb="2" pos="30.9093,21.5925,-14.2471" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="1" vol="10.8" hyb="2" pos="30.908,22.2015,-15.4435" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="2" vol="10.8" hyb="2" pos="32.0486,22.5993,-16.0309" elem="6" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="3" vol="10.8" hyb="2" pos="33.1974,22.3654,-15.3753" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="4" vol="10.8" hyb="2" pos="33.2112,21.7573,-14.1786" elem="6" ih="1" />
+<Atom cc="3" pdbid="1" triposAtomType="4" pdb="1" aro="t" sol="0.6" type="4" genericType="-1" id="5" vol="10.8" hyb="2" pos="32.0647,21.3613,-13.5959" elem="6" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="6" vol="12.77" hyb="2" pos="32.091,20.7441,-12.3792" elem="6" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="7" vol="10" pos="30.9885,20.6368,-11.5963" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="8" vol="10" hyb="2" pos="33.096,20.25,-11.9133" elem="8" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="9" vol="10" pos="32.0331,23.2155,-17.2436" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="29.9339,21.2945,-13.828" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="29.9493,22.3809,-15.9592" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="34.1493,22.6819,-15.8347" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="34.1903,21.5972,-13.6969" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="30.6806,21.5324,-11.3834" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="31.1149,23.2937,-17.5493" elem="1" />
+</AtomList>
+<BondList count="16" basetype="MVD.Model.Bond" >
+<Bond a1="0" inRing="t" a2="1" type="5" />
+<Bond a1="0" inRing="t" a2="5" type="5" />
+<Bond a1="0" a2="10" />
+<Bond a1="1" inRing="t" a2="2" type="5" />
+<Bond a1="1" a2="11" />
+<Bond a1="2" inRing="t" a2="3" type="5" />
+<Bond rot="t" a1="2" a2="9" />
+<Bond a1="3" inRing="t" a2="4" type="5" />
+<Bond a1="3" a2="12" />
+<Bond a1="4" inRing="t" a2="5" type="5" />
+<Bond a1="4" a2="13" />
+<Bond rot="t" chosen="t" a1="5" a2="6" />
+<Bond rot="t" a1="6" a2="7" />
+<Bond a1="6" a2="8" type="1" />
+<Bond a1="7" a2="14" />
+<Bond a1="9" a2="15" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-8.73153;Cofactor (elec)=0;Cofactor (hbond)=-2.5;Csp2=7;Csp3=0;DOF=1;E-Inter (cofactor - ligand)=-46.6407;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-46.6407;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=0;E-Intra (sp2-sp2)=0.540086;E-Intra (steric)=12.3506;E-Intra (tors)=0.540086;E-Intra (tors, ligand atoms)=12.8907;E-Intra (vdw)=48.1676;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-33.75;Electro=0;ElectroLong=0;Energy=-33.75;HBond=0;HeavyAtoms=10;LE1=-3.375;LE3=-1.8408;Ligand=4-hydroxybenzoic_acid;MW=138.121;N=0;Name=4-hydroxybenzoic_acid;NoHBond90=0;Nplus=0;OH=1;OPO32minus=0;OS=0;PoseEnergy=-33.3035;RMSD=0;RerankScore=-18.408;Run=0;SimilarityScore=0;Steric=0;Torsions=1;VdW (LJ12-6)=0;carbonyl=0;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>

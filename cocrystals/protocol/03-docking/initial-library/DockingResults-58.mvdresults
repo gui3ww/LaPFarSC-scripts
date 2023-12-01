@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:13:21)
+# 
+# Workspace file: ws-initial.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/initial-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 8268748130942731285
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-8.76857	0	-5.65319	7	2	3	-57.1324	0	0	-57.1324	0	0	-3.6271	0	4.39164	0.414146	1.17868	46.4575	0	0	-55.9537	0	0	-55.9537	[00]L-tyrosine.mvdml	0	13	-4.30413	-2.06094	L-tyrosine	181.189	1	[00]L-tyrosine	0	0	1	0	0	-55.5353	0	-26.7923	0	0	0	3	0	0	0	O[c]([cH][cH]1)[cH][cH][c]1CC(N)C(=O)O
+1	0	-10.6249	0	-4.99101	7	2	3	-60.7245	0	0	-60.7245	0	0	-3.93631	0	6.50967	2.09426	4.66762	50.4148	0	0	-56.0569	0	0	-56.0569	[01]L-tyrosine.mvdml	0	13	-4.31207	-2.03572	L-tyrosine	181.189	1	[01]L-tyrosine	0	0	1	0	0	-55.098	0	-26.4644	0	0	0	3	0	0	0	O[c]([cH][cH]1)[cH][cH][c]1CC(N)C(=O)O
+1	0	-9.24027	0	-2.5	7	2	3	-56.8634	0	0	-56.8634	0	0	-3.42084	0	5.04164	1.21762	2.83841	45.9019	0	0	-54.025	0	0	-54.025	[02]L-tyrosine.mvdml	0	13	-4.15577	-1.98785	L-tyrosine	181.189	1	[02]L-tyrosine	0	0	1	0	0	-53.3303	0	-25.8421	0	0	0	3	0	0	0	O[c]([cH][cH]1)[cH][cH][c]1CC(N)C(=O)O
+1	0	-10.3128	0	-2.5	7	2	3	-54.8916	0	0	-54.8916	0	0	-3.73563	0	3.68084	0.683455	0.628667	45.6495	0	0	-54.2629	0	0	-54.2629	[03]L-tyrosine.mvdml	0	13	-4.17407	-1.95579	L-tyrosine	181.189	1	[03]L-tyrosine	0	0	1	0	0	-53.2291	0	-25.4253	0	0	0	3	0	0	0	O[c]([cH][cH]1)[cH][cH][c]1CC(N)C(=O)O
+1	0	-10.1239	0	-2.5	7	2	3	-57.1657	0	0	-57.1657	0	0	-3.93301	0	5.76102	1.68163	3.50964	49.9313	0	0	-53.6561	0	0	-53.6561	[04]L-tyrosine.mvdml	0	13	-4.12739	-1.91577	L-tyrosine	181.189	1	[04]L-tyrosine	0	0	1	0	0	-53.1154	0	-24.905	0	0	0	3	0	0	0	O[c]([cH][cH]1)[cH][cH][c]1CC(N)C(=O)O

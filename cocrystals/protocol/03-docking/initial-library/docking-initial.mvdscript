@@ -1,0 +1,1000 @@
+// Molegro Script Job.
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[0]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[1]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[2]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[3]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[4]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[5]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[6]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[7]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[8]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[9]
+NEW
+
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[10]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[11]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[12]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[13]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[14]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[15]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[16]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[17]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[18]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[19]
+NEW
+
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[20]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[21]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[22]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[23]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[24]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[25]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[26]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[27]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[28]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[29]
+NEW
+
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[30]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[31]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[32]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[33]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[34]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[35]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[36]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[37]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[38]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[39]
+NEW
+
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[40]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[41]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[42]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[43]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[44]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[45]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[46]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[47]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[48]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[49]
+NEW
+
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[50]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[51]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[52]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[53]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[54]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[55]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[56]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[57]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[58]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[59]
+NEW
+
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[60]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[61]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[62]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[63]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[64]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[65]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[66]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[67]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[68]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[69]
+NEW
+
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[70]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[71]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[72]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[73]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[74]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[75]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[76]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[77]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[78]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[79]
+NEW
+
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[80]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[81]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[82]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[83]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[84]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[85]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[86]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[87]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[88]
+NEW
+
+PARSERSETTINGS breakUnrealisticBonds=false;combineMoleculeFragments=true;useSybylForHybridization=true
+DOCKSETTINGS maxIterations=2000;runs=100;ignoreSimilarPoses=true;IgnoreSimilarPosesThreshold=1;MaxPoses=5;poseOutput=mvdml;createSmiles=true;postMinimize=true;postOptimizeHBonds=true
+POSENAMEPATTERN [$ID] $NAME
+EVALUATORTYPE MolDockGrid
+EVALUATOR cropdistance=0;gridresolution=0.20;ligandes=true;sp2sp2bond=true;internalhbond=true;hbond90=true;DisplaceWater=false
+OPTIMIZERTYPE MolDock
+OPTIMIZER cavity=false;popsize=50;scalingfactor=0.50;crossoverrate=0.90;offspringstrategy=1;terminationscheme=0;earlytermination=0.01;clusterthreshold=1.00;keepmaxposes=5
+LOAD "ws-initial.mvdml"
+DOCK Ligand[89]
+NEW
+

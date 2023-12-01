@@ -1,0 +1,16 @@
+# MVD Results file (maio 1 2023 - 23:22:37)
+# 
+# Workspace file: ws-pm6.mvdml
+# Dock Settings: Max iterations: 2000. Runs: 100. Ligands: 1. Output Directory: /home/lapfarsc/Documentos/Guilherme/CrystalCoformers/Sacubitril/03-docking/pm6-library/. IgnoreSimilarPoses: true (Treshold: 1). Randomize Ligand: true. Max Poses: 5. RMSD: false. PoseOutputFormat: mvdml. PostMinimize: true. PostOptimize: true. ClusterThenMinimize: true. CreateSmiles: true. PoseNamePattern: [$ID]$NAME. Threads: 1/1.
+# Optimizer: Population size: 50	Scaling factor (F): 0.5	Crossover rate (PC): 0.9	Offspring strategy: 1	Termination scheme: Variance-based	Early termination threshold: 0.01	Use forced cavity: No
+# Evaluator: Grid Resolution: 0.2. Torsion scheme: 1	Damp factor: 1	Include ligand electrostatics: Yes	Use Sp2Sp2 bond term: Yes	Skip torsion term: No	Use EPenal: Yes	Use EIntra: Yes	Use EInter: Yes		Max iterations: 2000	Ignore structural waters: No	Ignore cofactors: No	Tabu Clustering: disabled, treshold: 2, penalty: 100, rmsd calc: id.	SoftenPotential: false
+# Search Space: Radius: 15 Center: Vector[ 36.42 22.66 -13.26 ]
+# The random seed used for this session is: 13475879424821679284
+# 
+# 
+C0	CO2minus	Cofactor (VdW)	Cofactor (elec)	Cofactor (hbond)	Csp2	Csp3	DOF	E-Inter (cofactor - ligand)	E-Inter (protein - ligand)	E-Inter (water - ligand)	E-Inter total	E-Intra (clash)	E-Intra (elec)	E-Intra (hbond)	E-Intra (sp2-sp2)	E-Intra (steric)	E-Intra (tors)	E-Intra (tors, ligand atoms)	E-Intra (vdw)	E-Soft Constraint Penalty	E-Solvation	E-Total	Electro	ElectroLong	Energy	Filename	HBond	HeavyAtoms	LE1	LE3	Ligand	MW	N	Name	NoHBond90	Nplus	OH	OPO32minus	OS	PoseEnergy	RMSD	RerankScore	Run	SimilarityScore	Steric	Torsions	VdW (LJ12-6)	carbonyl	halogen	SMILES
+1	0	-9.72443	0	0	6	1	2	-48.4217	0	0	-48.4217	0	0	0	1.38598	9.8648	1.47905	11.3439	27.8684	0	0	-37.0778	0	0	-37.0778	[00]methylparaben.mvdml	0	11	-3.37071	-1.93733	methylparaben	152.147	0	[00]methylparaben	0	0	1	0	1	-36.7277	0	-21.3106	0	0	0	2	0	1	0	O=C(OC)[c]1[cH][cH][c](O)[cH][cH]1
+1	0	-8.56909	0	0	6	1	2	-47.949	0	0	-47.949	0	0	0	0.966007	10.1522	1.00164	11.1538	28.4149	0	0	-36.7952	0	0	-36.7952	[01]methylparaben.mvdml	0	11	-3.34502	-1.96505	methylparaben	152.147	0	[01]methylparaben	0	0	1	0	1	-36.4927	0	-21.6155	0	0	0	2	0	1	0	O=C(OC)[c]1[cH][cH][c](O)[cH][cH]1
+1	0	-9.23704	0	0	6	1	2	-48.063	0	0	-48.063	0	0	0	0.815324	10.1951	0.886839	11.0819	27.7408	0	0	-36.9811	0	0	-36.9811	[02]methylparaben.mvdml	0	11	-3.36192	-1.99764	methylparaben	152.147	0	[02]methylparaben	0	0	1	0	1	-36.385	0	-21.974	0	0	0	2	0	1	0	O=C(OC)[c]1[cH][cH][c](O)[cH][cH]1
+1	0	-9.99884	0	0	6	1	2	-47.7735	0	0	-47.7735	0	0	0	0.934241	10.1643	0.974573	11.1389	28.4517	0	0	-36.6346	0	0	-36.6346	[03]methylparaben.mvdml	0	11	-3.33042	-1.95893	methylparaben	152.147	0	[03]methylparaben	0	0	1	0	1	-35.8631	0	-21.5483	0	0	0	2	0	1	0	O=C(OC)[c]1[cH][cH][c](O)[cH][cH]1
+1	0	-9.72855	0	0	6	1	2	-46.8778	0	0	-46.8778	0	0	0	5.54323e-06	10.6328	0.100984	10.7338	29.7908	0	0	-36.144	0	0	-36.144	[04]methylparaben.mvdml	0	11	-3.28582	-2.01418	methylparaben	152.147	0	[04]methylparaben	0	0	1	0	1	-35.5762	0	-22.1559	0	0	0	2	0	1	0	O=C(OC)[c]1[cH][cH][c](O)[cH][cH]1

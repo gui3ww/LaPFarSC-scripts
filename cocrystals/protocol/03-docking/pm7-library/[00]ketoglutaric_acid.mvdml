@@ -1,0 +1,55 @@
+<!DOCTYPE MVDML>
+<Object title="Unnamed" version="12" type="MVD.Model.Project" datestring="segunda, maio 1, 23 22:45:15" >
+<ProteinList count="0" basetype="MVD.Model.Protein" />
+<LigandList count="0" basetype="MVD.Model.Ligand" />
+<WaterMoleculesList count="0" basetype="MVD.Model.Molecule" />
+<CofactorList count="0" basetype="MVD.Model.Molecule" />
+<PoseList count="1" basetype="MVD.Model.Pose" >
+<Pose Energy="-46.7657" OriginalLigandName="ketoglutaric_acid" Rank="-1" name="[00]ketoglutaric_acid" NumberOfRotatableBonds="4" RMSD="-1" rootAtom="5" filename="/home/lapfarsc/Documentos/Guilherme/CrystalCoformers/biblioteca/coformers_PM7/ketoglutaric_acid.out.mol2" >
+<AtomList count="16" basetype="MVD.Model.Atom" >
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="0" vol="10" pos="38.4447,22.8812,-8.9292" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="1" vol="12.77" hyb="2" pos="37.6471,21.8537,-9.26211" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="2" vol="10" hyb="2" pos="38.069,20.81,-9.68221" elem="8" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="3" vol="12.77" hyb="2" pos="36.1717,22.1919,-9.03753" elem="6" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="4" vol="10" hyb="2" pos="35.8091,23.3067,-8.79288" elem="8" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="5" vol="12.77" pos="35.2629,21.0087,-9.15442" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="3" pdb="1" sol="4" type="4" genericType="-1" id="6" vol="12.77" pos="34.2485,21.2259,-10.2731" elem="6" ih="2" />
+<Atom pdbid="1" triposAtomType="2" pdb="1" sol="4" type="4" genericType="-1" id="7" vol="12.77" hyb="2" pos="33.4572,19.971,-10.5153" elem="6" />
+<Atom pdbid="1" triposAtomType="14" pdb="92" sol="-17.4" type="3" genericType="-1" id="8" vol="10" pos="32.1168,20.0734,-10.2828" elem="8" ih="1" />
+<Atom pdbid="1" triposAtomType="13" pdb="92" sol="-17.4" type="2" genericType="-1" id="9" vol="10" hyb="2" pos="33.8749,18.9114,-10.8853" elem="8" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="10" vol="10" pos="39.0579,23.1604,-9.66267" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="11" vol="10" pos="34.7514,20.8077,-8.18182" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="12" vol="10" pos="35.8526,20.0745,-9.32291" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="13" vol="10" pos="34.7668,21.5451,-11.2056" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="14" vol="10" pos="33.5696,22.0702,-10.0183" elem="1" />
+<Atom pdbid="1" triposAtomType="21" pdb="35" type="4" genericType="-1" id="15" vol="10" pos="31.641,20.7403,-10.8178" elem="1" />
+</AtomList>
+<BondList count="15" basetype="MVD.Model.Bond" >
+<Bond rot="t" a1="0" a2="1" />
+<Bond a1="1" a2="2" type="1" />
+<Bond rot="t" chosen="t" a1="1" a2="3" />
+<Bond rot="t" chosen="t" a1="3" a2="5" />
+<Bond a1="4" a2="3" type="1" />
+<Bond rot="t" chosen="t" a1="5" a2="6" />
+<Bond a1="5" a2="11" />
+<Bond rot="t" chosen="t" a1="6" a2="7" />
+<Bond a1="6" a2="14" />
+<Bond a1="7" a2="9" type="1" />
+<Bond rot="t" a1="8" a2="7" />
+<Bond a1="10" a2="0" />
+<Bond a1="12" a2="5" />
+<Bond a1="13" a2="6" />
+<Bond a1="15" a2="8" />
+</BondList>
+<RingList count="0" basetype="MVD.Model.Ring" />
+<Descriptors>C0=1;CO2minus=0;Cofactor (VdW)=-9.86658;Cofactor (elec)=0;Cofactor (hbond)=-7.49742;Csp2=2;Csp3=2;DOF=4;E-Inter (cofactor - ligand)=-45.7376;E-Inter (protein - ligand)=0;E-Inter (water - ligand)=0;E-Inter total=-45.7376;E-Intra (clash)=0;E-Intra (elec)=0;E-Intra (hbond)=-2.5;E-Intra (sp2-sp2)=0.198705;E-Intra (steric)=0.981649;E-Intra (tors)=0.490256;E-Intra (tors, ligand atoms)=-1.02809;E-Intra (vdw)=1.41609;E-Soft Constraint Penalty=0;E-Solvation=0;E-Total=-46.7657;Electro=0;ElectroLong=0;Energy=-46.7657;HBond=0;HeavyAtoms=10;LE1=-4.67657;LE3=-2.65821;Ligand=ketoglutaric_acid;MW=146.098;N=0;Name=ketoglutaric_acid;NoHBond90=0;Nplus=0;OH=0;OPO32minus=0;OS=0;PoseEnergy=-46.2933;RMSD=0;RerankScore=-26.5821;Run=0;SimilarityScore=0;Steric=0;Torsions=4;VdW (LJ12-6)=0;carbonyl=1;halogen=0</Descriptors>
+</Pose>
+</PoseList>
+<ConstraintList count="0" basetype="MVD.Model.Constraints.Constraint" />
+<SearchSpaceList count="0" basetype="MVD.Evaluation.Grid.GridBase" />
+<Cavities count="0" basetype="MVD.Model.Cavity" />
+<FlexibilityDescriptorList count="0" basetype="MVD.Model.SidechainFlexibilityDescriptor" />
+<ReceptorConformations count="0" basetype="MVD.Model.ReceptorConformation" />
+<SimilarityDefinitionList count="0" basetype="MVD.Model.SimilarityDefinition" />
+<WorkspaceNotes count="0" basetype="MVD.Model.KeyValueSerializer" />
+</Object>
